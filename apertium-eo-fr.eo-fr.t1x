@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<transfer>
+  <section-def-cats>
+    <def-cat n="quelques_catégories_de_mots">
+      <cat-item tags="mytag.*"/>
+    </def-cat>
+  </section-def-cats>
+  
+  <section-def-attrs>
+    <def-attr n="quelques_caractéristiques_d_un_mot">
+      <attr-item tags="macaractéristique"/>
+      <attr-item tags="mon_autre_caractéristique"/>
+    </def-attr>
+  </section-def-attrs>
+  
+  <section-def-vars>
+    <def-var n="blank"/>
+  </section-def-vars>  
+  
+  <section-rules>
+    <rule>
+      <pattern>
+        <pattern-item n="quelques_catégories_de_mots"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="quelques_caractéristiques_d_un_mot"/><lit-tag v="mon_autre_caractéristique"/></let>
+        <out>
+          <lu><clip pos="1" side="tl" part="whole"/></lu>
+        </out>
+      </action>
+    </rule>
+  </section-rules>
+</transfer>
+

@@ -1,0 +1,7 @@
+* text=auto !eol
+/Makefile.am -text
+/README2 -text
+/apertium-eo-fr.eo-fr.dix -text
+/apertium-eo-fr.eo-fr.t1x -text
+/eo-fr.prob -text
+/modes.xml -text
