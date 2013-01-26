@@ -395,7 +395,9 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>elle</l>      <r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>nous</l>      <r>prpers<s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>vous</l>      <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>vous</l>      <r>prpers<s n="prn"/><s n="p2"/><s n="mf"/><s n="sp"/></r></p></e>
   <e>       <p><l>ils</l>       <r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ils</l>       <r>prpers<s n="prn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>elles</l>     <r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
