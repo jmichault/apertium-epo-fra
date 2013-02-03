@@ -18,14 +18,11 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 
   <alphabet>·ÀÁÂÄÃÇÈÉÊËÌÍÎÏÑÒÓÔÖÕŒÙÚÛÜàáâäãçèéêëìíîïñòóôöõœøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZĈĜĤĴŜŬabcdefghijklmnopqrstuvwxyzĉĝĥĵŝŭąĄčČćĆđĐęĘłŁŀĿńŃőŐřšŠśŚžŽźŹżŻÆæØøÅåăĂşșȘțȚıİğĞ</alphabet>
   <sdefs>
-    <sdef n="aa" /> 
     <sdef n="acr" /> 
     <sdef n="adj" /> 
     <sdef n="adv" /> 
     <sdef n="al" /> 
-    <sdef n="an" /> 
     <sdef n="ant" /> 
-    <sdef n="atn" /> 
     <sdef n="cm" /> 
     <sdef n="cit" /> 
     <sdef n="cni" /> 
@@ -39,8 +36,6 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
     <sdef n="enc" /> 
     <sdef n="f" /> 
     <sdef n="fti" /> 
-    <sdef n="fts" /> 
-    <sdef n="gen" /> 
     <sdef n="ger" /> 
     <sdef n="guio" /> 
     <sdef n="ifi" /> 
@@ -57,8 +52,6 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
     <sdef n="m" /> 
     <sdef n="mf" /> 
     <sdef n="n" /> 
-    <sdef n="nn" /> 
-    <sdef n="nom" /> 
     <sdef n="np" /> 
     <sdef n="nt" /> 
     <sdef n="num" /> 
@@ -88,14 +81,12 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
     <sdef n="sent" /> 
     <sdef n="sg" /> 
     <sdef n="sp" /> 
-    <sdef n="sup" /> 
     <sdef n="tn" /> 
-    <sdef n="vaux" /> 
     <sdef n="vbhaver" /> 
     <sdef n="vblex" /> 
     <sdef n="vbmod" /> 
     <sdef n="vbser" /> 
-    <sdef n="ND" /> 
+    <sdef n="ND" />
   </sdefs>
   <pardefs>
 <pardef n="ö">
