@@ -299,9 +299,9 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>t-on</l>      <r>on<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
 <pardef n="/un__det">
-  <e r="RL"><p><l>quelques</l>  <r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l>quelques</l>  <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l>quelques</l>  <r>un<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>des</l>       <r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>des</l>       <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>des</l>       <r>un<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>un</l>        <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>une</l>       <r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>

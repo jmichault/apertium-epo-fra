@@ -10,6 +10,10 @@
       <cat-item tags="n.*"/>
     </def-cat>
 
+    <def-cat n="nom_sujet">
+      <cat-item tags="n.*nom.*"/>
+    </def-cat>
+
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -139,7 +143,7 @@
           <when>    <!--  2ème personne toujours au pluriel : vi -> vous  -->
             <test>
                <equal>
-                  <clip pos="1" side="tl" part="personne"/>
+                  <clip pos="1" side="sl" part="personne"/>
                   <lit-tag v="p2"/>
                 </equal>
             </test>
@@ -152,11 +156,11 @@
             <test>
                <and>
                <equal>
-                  <clip pos="1" side="tl" part="personne"/>
+                  <clip pos="1" side="sl" part="personne"/>
                   <lit-tag v="p3"/>
                 </equal>
                <equal>
-                  <clip pos="1" side="tl" part="nombre"/>
+                  <clip pos="1" side="sl" part="nombre"/>
                   <lit-tag v="pl"/>
                 </equal>
                 </and>
@@ -210,6 +214,128 @@
             <clip pos="2" side="tl" part="temps"/>
             <clip pos="1" side="tl" part="personne"/>
             <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="verbe"/>
+      </pattern>
+
+      <action>
+        <choose>    <!--  concordance des temps  -->
+          <when>
+            <test>
+               <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="pres"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="temps"/>
+              <lit-tag v="pri"/>
+            </let>
+          </when>
+          <when>
+            <test>
+               <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="temps"/>
+              <lit-tag v="pii"/>
+            </let>
+          </when>
+        </choose>
+
+        <out>
+          <lu>
+            <lit v="un"/>
+            <lit-tag v="det.ind"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="verbe"/>
+      </pattern>
+
+      <action>
+        <choose>    <!--  concordance des temps  -->
+          <when>
+            <test>
+               <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="pres"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="3" side="tl" part="temps"/>
+              <lit-tag v="pri"/>
+            </let>
+          </when>
+          <when>
+            <test>
+               <equal>
+                  <clip pos="3" side="sl" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="3" side="tl" part="temps"/>
+              <lit-tag v="pii"/>
+            </let>
+          </when>
+        </choose>
+
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="def"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="2" side="tl" part="nombre"/>
           </lu>
         </out>
       </action>
