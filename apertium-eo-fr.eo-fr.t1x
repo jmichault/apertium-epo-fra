@@ -14,6 +14,10 @@
       <cat-item tags="adj.*"/>
     </def-cat>
 
+    <def-cat n="prn">
+      <cat-item tags="prn.*"/>
+    </def-cat>
+
     <def-cat n="verbe">
       <cat-item tags="vbser.*"/>
       <cat-item tags="vblex.*"/>
@@ -28,16 +32,20 @@
     <def-attr n="type_mot">
       <attr-item tags="n"/>
       <attr-item tags="det"/>
+      <attr-item tags="prn"/>
+      <attr-item tags="vblex"/>
     </def-attr>
 
     <def-attr n="genre">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
+      <attr-item tags="mf"/>
     </def-attr>
 
     <def-attr n="nombre">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
+      <attr-item tags="sp"/>
     </def-attr>
 
     <def-attr n="personne">
@@ -54,6 +62,14 @@
     <def-attr n="type_det">
       <attr-item tags="def"/>
       <attr-item tags="ind"/>
+    </def-attr>
+
+    <def-attr n="temps">
+      <attr-item tags="pres"/>
+      <attr-item tags="past"/>
+      <attr-item tags="pri"/>
+      <attr-item tags="pii"/>
+      <attr-item tags="fti"/>
     </def-attr>
   </section-def-attrs>
 
@@ -111,6 +127,94 @@
         </out>
       </action>
     </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="prn"/>
+        <pattern-item n="verbe"/>
+      </pattern>
+
+      <action>
+        <choose>    <!--  cas particuliers de transferts des pronoms  -->
+          <when>    <!--  2ème personne toujours au pluriel : vi -> vous  -->
+            <test>
+               <equal>
+                  <clip pos="1" side="tl" part="personne"/>
+                  <lit-tag v="p2"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nombre"/>
+              <lit-tag v="pl"/>
+            </let>
+          </when>
+          <when>    <!--  3ème personne du pluriel toujours au masculin : ili -> ils  -->
+            <test>
+               <and>
+               <equal>
+                  <clip pos="1" side="tl" part="personne"/>
+                  <lit-tag v="p3"/>
+                </equal>
+               <equal>
+                  <clip pos="1" side="tl" part="nombre"/>
+                  <lit-tag v="pl"/>
+                </equal>
+                </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="genre"/>
+              <lit-tag v="m"/>
+            </let>
+          </when>
+        </choose>
+
+        <choose>    <!--  concordance des temps  -->
+          <when>
+            <test>
+               <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="pres"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="temps"/>
+              <lit-tag v="pri"/>
+            </let>
+          </when>
+          <when>
+            <test>
+               <equal>
+                  <clip pos="2" side="sl" part="temps"/>
+                  <lit-tag v="past"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="temps"/>
+              <lit-tag v="pii"/>
+            </let>
+          </when>
+        </choose>
+
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="personne"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="personne"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
   </section-rules>
 </transfer>
 
