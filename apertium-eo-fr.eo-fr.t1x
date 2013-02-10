@@ -11,7 +11,7 @@
     </def-cat>
 
     <def-cat n="nom_sujet">
-      <cat-item tags="n.*nom.*"/>
+      <cat-item tags="n.*.nom"/>
     </def-cat>
 
     <def-cat n="adj">
@@ -82,7 +82,39 @@
     <def-var n="aucune_variable"/>
   </section-def-vars>
 
-  
+
+  <section-def-macros>
+    <def-macro n="set_temps" npar="1">    <!--  concordance des temps  -->
+      <choose>
+        <when>
+          <test>
+             <equal>
+                <clip pos="1" side="sl" part="temps"/>
+                <lit-tag v="pres"/>
+              </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="temps"/>
+            <lit-tag v="pri"/>
+          </let>
+        </when>
+        <when>
+          <test>
+             <equal>
+                <clip pos="1" side="sl" part="temps"/>
+                <lit-tag v="past"/>
+              </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="temps"/>
+            <lit-tag v="pii"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+  </section-def-macros>
+
+
   <section-rules>
     <rule>
       <pattern>
@@ -139,6 +171,11 @@
       </pattern>
 
       <action>
+
+        <call-macro n="set_temps">
+          <with-param pos="3"/>
+        </call-macro>
+
         <choose>    <!--  cas particuliers de transferts des pronoms  -->
           <when>    <!--  2ème personne toujours au pluriel : vi -> vous  -->
             <test>
@@ -171,33 +208,10 @@
             </let>
           </when>
         </choose>
-
-        <choose>    <!--  concordance des temps  -->
-          <when>
-            <test>
-               <equal>
-                  <clip pos="2" side="sl" part="temps"/>
-                  <lit-tag v="pres"/>
-                </equal>
-            </test>
-            <let>
-              <clip pos="2" side="tl" part="temps"/>
-              <lit-tag v="pri"/>
-            </let>
-          </when>
-          <when>
-            <test>
-               <equal>
-                  <clip pos="2" side="sl" part="temps"/>
-                  <lit-tag v="past"/>
-                </equal>
-            </test>
-            <let>
-              <clip pos="2" side="tl" part="temps"/>
-              <lit-tag v="pii"/>
-            </let>
-          </when>
-        </choose>
+        
+        <call-macro n="set_temps">
+          <with-param pos="3"/>
+        </call-macro>
 
         <out>
           <lu>
@@ -221,37 +235,14 @@
 
     <rule>
       <pattern>
-        <pattern-item n="nom_commun"/>
+        <pattern-item n="nom_sujet"/>
         <pattern-item n="verbe"/>
       </pattern>
 
-      <action>
-        <choose>    <!--  concordance des temps  -->
-          <when>
-            <test>
-               <equal>
-                  <clip pos="2" side="sl" part="temps"/>
-                  <lit-tag v="pres"/>
-                </equal>
-            </test>
-            <let>
-              <clip pos="2" side="tl" part="temps"/>
-              <lit-tag v="pri"/>
-            </let>
-          </when>
-          <when>
-            <test>
-               <equal>
-                  <clip pos="2" side="sl" part="temps"/>
-                  <lit-tag v="past"/>
-                </equal>
-            </test>
-            <let>
-              <clip pos="2" side="tl" part="temps"/>
-              <lit-tag v="pii"/>
-            </let>
-          </when>
-        </choose>
+      <action>        
+        <call-macro n="set_temps">
+          <with-param pos="2"/>
+        </call-macro>
 
         <out>
           <lu>
@@ -282,37 +273,14 @@
     <rule>
       <pattern>
         <pattern-item n="det"/>
-        <pattern-item n="nom_commun"/>
+        <pattern-item n="nom_sujet"/>
         <pattern-item n="verbe"/>
       </pattern>
 
-      <action>
-        <choose>    <!--  concordance des temps  -->
-          <when>
-            <test>
-               <equal>
-                  <clip pos="3" side="sl" part="temps"/>
-                  <lit-tag v="pres"/>
-                </equal>
-            </test>
-            <let>
-              <clip pos="3" side="tl" part="temps"/>
-              <lit-tag v="pri"/>
-            </let>
-          </when>
-          <when>
-            <test>
-               <equal>
-                  <clip pos="3" side="sl" part="temps"/>
-                  <lit-tag v="past"/>
-                </equal>
-            </test>
-            <let>
-              <clip pos="3" side="tl" part="temps"/>
-              <lit-tag v="pii"/>
-            </let>
-          </when>
-        </choose>
+      <action>        
+        <call-macro n="set_temps">
+          <with-param pos="3"/>
+        </call-macro>
 
         <out>
           <lu>
