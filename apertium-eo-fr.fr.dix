@@ -4691,6 +4691,13 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>x</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
+    <pardef n="lou/p__n">
+      <e><p><l>p</l><r>p<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>ps</l><r>p<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ve</l><r>p<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ves</l><r>p<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
 <pardef n="bateau__n" c="autoconcord:m,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>x</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -7781,7 +7788,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="aboutissant">     <i>aboutissant</i><par n="abaissant__adj"/></e>
 <e lm="aboutissant">     <i>aboutissant</i><par n="accessoire__n"/></e>
 <e lm="aboutissement" a="revo"><i>aboutissement</i><par n="accessoire__n"/></e>
-<e lm="aboyer">          <i>aboy</i><par n="abaiss/er__vblex"/></e>
+<e lm="aboyer">          <i>abo</i><par n="bala/yer__vblex"/></e>
 <e lm="abréger" a="eleka"><i>abr</i><par n="abr/é[G]er__vblex__g"/></e>
 <e lm="abracadabra">     <i>abracadabra</i><par n="accessoire__n"/></e>
 <e lm="Abraham">         <i>Abraham</i><par n="Abraham__np"/></e>
@@ -31004,7 +31011,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="Loukas" a="sans accents"><i>Loukas</i><par n="Abraham__np"/></e>
 <e lm="loukoum" a="revo"><i>loukoum</i><par n="accessoire__n"/></e>
 <e lm="Louna" a="sans accents"><i>Louna</i><par n="Marie__np"/></e>
-<e lm="loup">            <i>loup</i><par n="accessoire__n"/></e>
+<e lm="loup">            <i>lou</i><par n="lou/p__n"/></e>
 <e lm="loup marsupial">  <p><l>loup<b/>marsupial</l><r>loup<b/>marsupial<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="loupe" a="webform"><i>loupe</i><par n="abeille__n"/></e>
 <e lm="loup marsupial">  <p><l>loups<b/>marsupiaux</l><r>loup<b/>marsupial<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
