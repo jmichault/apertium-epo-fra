@@ -172,10 +172,6 @@
 
       <action>
 
-        <call-macro n="set_temps">
-          <with-param pos="3"/>
-        </call-macro>
-
         <choose>    <!--  cas particuliers de transferts des pronoms  -->
           <when>    <!--  2ème personne toujours au pluriel : vi -> vous  -->
             <test>
@@ -210,7 +206,7 @@
         </choose>
         
         <call-macro n="set_temps">
-          <with-param pos="3"/>
+          <with-param pos="2"/>
         </call-macro>
 
         <out>
