@@ -36,6 +36,7 @@
     <def-attr n="type_mot">
       <attr-item tags="n"/>
       <attr-item tags="det"/>
+      <attr-item tags="adj"/>
       <attr-item tags="prn"/>
       <attr-item tags="vblex"/>
     </def-attr>
@@ -61,11 +62,6 @@
     <def-attr n="nom_acc">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
-    </def-attr>
-
-    <def-attr n="type_det">
-      <attr-item tags="def"/>
-      <attr-item tags="ind"/>
     </def-attr>
 
     <def-attr n="temps">
@@ -305,6 +301,337 @@
       </action>
     </rule>
 
+    <rule>
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="m"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom_commun"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="def"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom_commun"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <lit v="un"/>
+            <lit-tag v="det.ind"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="adj"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="def"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="adj"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <lit v="un"/>
+            <lit-tag v="det.ind"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="verbe"/>
+      </pattern>
+
+      <action>
+        <call-macro n="set_temps">
+          <with-param pos="4"/>
+        </call-macro>
+
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="def"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="type_mot"/>
+            <clip pos="4" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="verbe"/>
+      </pattern>
+
+      <action>
+        <call-macro n="set_temps">
+          <with-param pos="3"/>
+        </call-macro>
+
+        <out>
+          <lu>
+            <lit v="un"/>
+            <lit-tag v="det.ind"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe"/>
+      </pattern>
+
+      <action>
+        <call-macro n="set_temps">
+          <with-param pos="4"/>
+        </call-macro>
+
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="def"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="type_mot"/>
+            <clip pos="4" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe"/>
+      </pattern>
+
+      <action>
+        <call-macro n="set_temps">
+          <with-param pos="3"/>
+        </call-macro>
+
+        <out>
+          <lu>
+            <lit v="un"/>
+            <lit-tag v="det.ind"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
   </section-rules>
 </transfer>
 
