@@ -28,10 +28,10 @@
       <cat-item tags="vbtr.*"/>
       <cat-item tags="vbntr.*"/>
       <cat-item tags="vbtr_ntr.*"/>
-    </def-cat>    
+    </def-cat>
   </section-def-cats>
 
-  
+
   <section-def-attrs>
     <def-attr n="type_mot">
       <attr-item tags="n"/>
@@ -77,7 +77,7 @@
     </def-attr>
   </section-def-attrs>
 
-  
+
   <section-def-vars>
     <def-var n="aucune_variable"/>
   </section-def-vars>
@@ -188,14 +188,14 @@
           <when>    <!--  3ème personne du pluriel toujours au masculin : ili -> ils  -->
             <test>
                <and>
-               <equal>
-                  <clip pos="1" side="sl" part="personne"/>
-                  <lit-tag v="p3"/>
-                </equal>
-               <equal>
-                  <clip pos="1" side="sl" part="nombre"/>
-                  <lit-tag v="pl"/>
-                </equal>
+                 <equal>
+                    <clip pos="1" side="sl" part="personne"/>
+                    <lit-tag v="p3"/>
+                  </equal>
+                 <equal>
+                    <clip pos="1" side="sl" part="nombre"/>
+                    <lit-tag v="pl"/>
+                  </equal>
                 </and>
             </test>
             <let>
@@ -204,7 +204,7 @@
             </let>
           </when>
         </choose>
-        
+
         <call-macro n="set_temps">
           <with-param pos="2"/>
         </call-macro>
@@ -235,7 +235,7 @@
         <pattern-item n="verbe"/>
       </pattern>
 
-      <action>        
+      <action>
         <call-macro n="set_temps">
           <with-param pos="2"/>
         </call-macro>
@@ -273,7 +273,7 @@
         <pattern-item n="verbe"/>
       </pattern>
 
-      <action>        
+      <action>
         <call-macro n="set_temps">
           <with-param pos="3"/>
         </call-macro>
