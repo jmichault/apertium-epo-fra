@@ -19,6 +19,9 @@
       <program name="lt-proc -g">
         <file name="eo-fr.autogen.bin"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="eo-fr.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
 

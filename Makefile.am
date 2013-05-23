@@ -12,7 +12,7 @@ TARGETS_COMMON = $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin $(PREFIX2).autog
 	$(PREFIX2).antaux3_t2x.bin $(PREFIX2).antaux4_t2x.bin $(PREFIX2).t2x.bin \
 	$(PREFIX2).post_t2x.bin $(PREFIX2).t3x.bin modes $(PREFIX2).mode \
 	$(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
-	$(PREFIX1).t1x.bin \
+	$(PREFIX1).t1x.bin $(PREFIX1).autopgen.bin \
 	$(PREFIX1).mode
 
 TARGETS = $(TARGETS_COMMON)
@@ -79,6 +79,10 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-validate-postchunk $(BASENAME).$(PREFIX2).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
 
+$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG2).dix
+	apertium-validate-dictionary $(BASENAME).post-$(LANG2).dix
+	lt-comp lr $(BASENAME).post-$(LANG2).dix $@
+
 EXTRA_DIST= \
 	$(BASENAME).$(LANG1).dix $(BILNAME) \
 	$(BASENAME).post-$(LANG1).dix \
@@ -120,6 +124,7 @@ apertium_eo_fr_DATA= \
 	$(PREFIX1).automorf.bin \
 	$(PREFIX1).autobil.bin \
 	$(PREFIX1).autogen.bin \
+	$(PREFIX1).autopgen.bin \
 	$(PREFIX1).prob \
 	$(PREFIX1).t1x.bin \
 	$(PREFIX1).mode

@@ -27449,7 +27449,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="infatigable">     <i>infatigable</i><par n="académique__adjadv"/></e>
 <e lm="infatuer" a="revo"><i>infatu</i><par n="abaiss/er__vblex"/></e>
 <e lm="infecter" a="revo"><i>infect</i><par n="abaiss/er__vblex"/></e>
-<e lm="infecte" a="revo"><i>infecte</i><par n="académique__adj"/></e>
+<e lm="infect" a="revo"> <i>infect</i><par n="abaissant__adj"/></e>
 <e lm="infectieux" a="eleka"><i>infectieu</i><par n="affectueu/x__adjadv"/></e>
 <e lm="infection" a="webform"><i>infection</i><par n="abeille__n"/></e>
 <e lm="infernal">        <i>inferna</i><par n="amica/l__adj"/></e>
