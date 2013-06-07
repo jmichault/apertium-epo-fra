@@ -22,12 +22,48 @@
       <cat-item tags="prn.*"/>
     </def-cat>
 
-    <def-cat n="verbe">
-      <cat-item tags="vbser.*"/>
-      <cat-item tags="vblex.*"/>
-      <cat-item tags="vbtr.*"/>
-      <cat-item tags="vbntr.*"/>
-      <cat-item tags="vbtr_ntr.*"/>
+    <def-cat n="verbe_conj">
+      <cat-item tags="vbser.pres"/>
+      <cat-item tags="vblex.pres"/>
+      <cat-item tags="vbtr.pres"/>
+      <cat-item tags="vbntr.pres"/>
+      <cat-item tags="vbtr_ntr.pres"/>
+      <cat-item tags="vbser.past"/>
+      <cat-item tags="vblex.past"/>
+      <cat-item tags="vbtr.past"/>
+      <cat-item tags="vbntr.past"/>
+      <cat-item tags="vbtr_ntr.past"/>
+      <cat-item tags="vbser.fti"/>
+      <cat-item tags="vblex.fti"/>
+      <cat-item tags="vbtr.fti"/>
+      <cat-item tags="vbntr.fti"/>
+      <cat-item tags="vbtr_ntr.fti"/>
+    </def-cat>
+
+    <def-cat n="etre_conj">
+      <cat-item tags="vbser.pres"/>
+      <cat-item tags="vbser.past"/>
+      <cat-item tags="vbser.fti"/>
+    </def-cat>
+
+    <def-cat n="verbe_inf">
+      <cat-item tags="vbser.inf.*"/>
+      <cat-item tags="vblex.inf.*"/>
+      <cat-item tags="vbtr.inf.*"/>
+      <cat-item tags="vbntr.inf.*"/>
+      <cat-item tags="vbtr_ntr.inf.*"/>
+    </def-cat>
+
+    <def-cat n="verbe_pp">
+      <cat-item tags="vbser.pp.*"/>
+      <cat-item tags="vblex.pp.*"/>
+      <cat-item tags="vbtr.pp.*"/>
+      <cat-item tags="vbntr.pp.*"/>
+      <cat-item tags="vbtr_ntr.pp.*"/>
+    </def-cat>
+
+    <def-cat n="inconnu">
+      <cat-item tags="cm.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -39,6 +75,7 @@
       <attr-item tags="adj"/>
       <attr-item tags="prn"/>
       <attr-item tags="vblex"/>
+      <attr-item tags="vbser"/>
     </def-attr>
 
     <def-attr n="genre">
@@ -75,7 +112,7 @@
 
 
   <section-def-vars>
-    <def-var n="aucune_variable"/>
+    <def-var n="genre_pp"/>
   </section-def-vars>
 
 
@@ -108,10 +145,47 @@
         </when>
       </choose>
     </def-macro>
+
+    <def-macro n="type_verbe" npar="1">    <!--  vblex, vbser etc...  -->
+      <choose>
+        <when>
+          <test>
+             <equal>
+                <clip pos="1" side="sl" part="type_mot"/>
+                <lit-tag v="vbser"/>
+              </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="vbser"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="vblex"/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
   </section-def-macros>
 
 
   <section-rules>
+    <rule>
+      <pattern>
+        <pattern-item n="inconnu"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
     <rule>
       <pattern>
         <pattern-item n="det"/>
@@ -162,8 +236,39 @@
 
     <rule>
       <pattern>
+        <pattern-item n="verbe_inf"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="inf"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="verbe_pp"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="pp.m"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
         <pattern-item n="prn"/>
-        <pattern-item n="verbe"/>
+        <pattern-item n="verbe_conj"/>
       </pattern>
 
       <action>
@@ -205,6 +310,10 @@
           <with-param pos="2"/>
         </call-macro>
 
+        <call-macro n="type_verbe">
+          <with-param pos="2"/>
+        </call-macro>
+
         <out>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
@@ -227,12 +336,154 @@
 
     <rule>
       <pattern>
+        <pattern-item n="prn"/>
+        <pattern-item n="etre_conj"/>
+        <pattern-item n="verbe_pp"/>
+      </pattern>
+
+      <action>
+
+        <choose>    <!--  cas particuliers de transferts des pronoms  -->
+          <when>    <!--  2ème personne toujours au pluriel : vi -> vous  -->
+            <test>
+               <equal>
+                  <clip pos="1" side="sl" part="personne"/>
+                  <lit-tag v="p2"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nombre"/>
+              <lit-tag v="pl"/>
+            </let>
+          </when>
+          <when>    <!--  3ème personne du pluriel toujours au masculin : ili -> ils  -->
+            <test>
+               <and>
+                 <equal>
+                    <clip pos="1" side="sl" part="personne"/>
+                    <lit-tag v="p3"/>
+                  </equal>
+                 <equal>
+                    <clip pos="1" side="sl" part="nombre"/>
+                    <lit-tag v="pl"/>
+                  </equal>
+                </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="genre"/>
+              <lit-tag v="m"/>
+            </let>
+          </when>
+        </choose>
+
+        <choose>    <!--  si le genre du pronom est mf, celui du participe passé sera m  -->
+          <when>
+            <test>
+               <equal>
+                  <clip pos="1" side="tl" part="genre"/>
+                  <lit-tag v="mf"/>
+                </equal>
+            </test>
+            <let>
+              <var n="genre_pp"/>
+              <lit-tag v="m"/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="genre_pp"/>
+              <clip pos="1" side="tl" part="genre"/>
+            </let>
+          </otherwise>
+        </choose>
+
+        <call-macro n="set_temps">
+          <with-param pos="2"/>
+        </call-macro>
+
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="personne"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <lit-tag v="vbser"/>
+            <clip pos="2" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="personne"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <lit-tag v="pp"/>
+            <var n="genre_pp"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
         <pattern-item n="nom_sujet"/>
-        <pattern-item n="verbe"/>
+        <pattern-item n="verbe_conj"/>
       </pattern>
 
       <action>
         <call-macro n="set_temps">
+          <with-param pos="3"/>
+        </call-macro>
+
+       <call-macro n="type_verbe">
+          <with-param pos="3"/>
+        </call-macro>
+
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="def"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="temps"/>
+            <lit-tag v="p3"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+
+      <action>
+        <call-macro n="set_temps">
+          <with-param pos="2"/>
+        </call-macro>
+
+        <call-macro n="type_verbe">
           <with-param pos="2"/>
         </call-macro>
 
@@ -266,14 +517,10 @@
       <pattern>
         <pattern-item n="det"/>
         <pattern-item n="nom_sujet"/>
-        <pattern-item n="verbe"/>
+        <pattern-item n="verbe_pp"/>
       </pattern>
 
       <action>
-        <call-macro n="set_temps">
-          <with-param pos="3"/>
-        </call-macro>
-
         <out>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
@@ -293,9 +540,42 @@
           <lu>
             <clip pos="3" side="tl" part="lem"/>
             <clip pos="3" side="tl" part="type_mot"/>
-            <clip pos="3" side="tl" part="temps"/>
-            <lit-tag v="p3"/>
+            <lit-tag v="pp"/>
+            <clip pos="2" side="tl" part="genre"/>
             <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="verbe_pp"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <lit v="un"/>
+            <lit-tag v="det.ind"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <lit-tag v="pp"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
           </lu>
         </out>
       </action>
@@ -454,11 +734,15 @@
         <pattern-item n="det"/>
         <pattern-item n="adj"/>
         <pattern-item n="nom_sujet"/>
-        <pattern-item n="verbe"/>
+        <pattern-item n="verbe_conj"/>
       </pattern>
 
       <action>
         <call-macro n="set_temps">
+          <with-param pos="4"/>
+        </call-macro>
+
+        <call-macro n="type_verbe">
           <with-param pos="4"/>
         </call-macro>
 
@@ -500,11 +784,15 @@
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="nom_sujet"/>
-        <pattern-item n="verbe"/>
+        <pattern-item n="verbe_conj"/>
       </pattern>
 
       <action>
         <call-macro n="set_temps">
+          <with-param pos="3"/>
+        </call-macro>
+
+        <call-macro n="type_verbe">
           <with-param pos="3"/>
         </call-macro>
 
@@ -546,11 +834,15 @@
         <pattern-item n="det"/>
         <pattern-item n="nom_sujet"/>
         <pattern-item n="adj"/>
-        <pattern-item n="verbe"/>
+        <pattern-item n="verbe_conj"/>
       </pattern>
 
       <action>
         <call-macro n="set_temps">
+          <with-param pos="4"/>
+        </call-macro>
+
+        <call-macro n="type_verbe">
           <with-param pos="4"/>
         </call-macro>
 
@@ -592,11 +884,15 @@
       <pattern>
         <pattern-item n="nom_sujet"/>
         <pattern-item n="adj"/>
-        <pattern-item n="verbe"/>
+        <pattern-item n="verbe_conj"/>
       </pattern>
 
       <action>
         <call-macro n="set_temps">
+          <with-param pos="3"/>
+        </call-macro>
+
+        <call-macro n="type_verbe">
           <with-param pos="3"/>
         </call-macro>
 
@@ -632,6 +928,174 @@
         </out>
       </action>
     </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="verbe_pp"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="def"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="type_mot"/>
+            <lit-tag v="pp"/>
+            <clip pos="3" side="tl" part="genre"/>
+            <clip pos="3" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="verbe_pp"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <lit v="un"/>
+            <lit-tag v="det.ind"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <lit-tag v="pp"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe_pp"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <lit-tag v="def"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="type_mot"/>
+            <lit-tag v="pp"/>
+            <clip pos="2" side="tl" part="genre"/>
+            <clip pos="2" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe_pp"/>
+      </pattern>
+
+      <action>
+        <out>
+          <lu>
+            <lit v="un"/>
+            <lit-tag v="det.ind"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="tl" part="lem"/>
+            <clip pos="3" side="tl" part="type_mot"/>
+            <lit-tag v="pp"/>
+            <clip pos="1" side="tl" part="genre"/>
+            <clip pos="1" side="tl" part="nombre"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
   </section-rules>
 </transfer>
-
