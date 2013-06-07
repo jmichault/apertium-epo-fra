@@ -103,6 +103,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ü</l>         <r>ü</r></p></e>
   <e r="LR"><p><l>ue</l>        <r>ü</r></p></e>
 </pardef>
+
 <pardef n="ordinales">
 <!-- ne marche pas: 22e est juste et non pas 22nd
   <e>       <re>([0-9]*[02-9]1|1)</re><p><l>er</l><r>e<s n="num"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
@@ -167,6 +168,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>2nds</l>      <r>2e<s n="num"/><s n="ord"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>2ndes</l>     <r>2e<s n="num"/><s n="ord"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="urls">
   <e>       <re>(((www.)|(http://))[a-z0-9\-]+([.][a-z]+)+(/[a-z0-9_]+)*([.][a-z]+)*)</re><p><l></l><r><s n="num"/></r></p></e>
 <!--
@@ -178,33 +180,40 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <re>(((www.)|(http:\\\\)|(https:\\\\))[a-z0-9\-]+([.][a-z]+)+(\\[a-z0-9_]+)*([.][a-z]+)*)</re><p><l></l><r><s n="np"/><s n="loc"/><s n="mf"/><s n="sg"/></r></p></e>
 -->
 </pardef>
+
 <pardef n="emails">
   <e>       <re>[a-z0-9._\-]+@[a-z0-9._\-]+</re><p><l></l><r><s n="np"/><s n="loc"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="det2loc__np">
   <e r="LR"><p><l></l>          <r></r></p></e>
   <e r="RL"><p><l><a/>le<b/></l><r></r></p></e>
 </pardef>
+
 <pardef n="det3loc__np">
   <e r="LR"><p><l></l>          <r></r></p></e>
   <e r="RL"><p><l><a/>la<b/></l><r></r></p></e>
 </pardef>
+
 <pardef n="det4loc__np">
   <e r="LR"><p><l></l>          <r></r></p></e>
   <e r="RL"><p><l>les<b/></l>   <r></r></p></e>
 </pardef>
+
 <pardef n="d/uquel__rel">
   <e>       <p><l>uquel</l>     <r>e<s n="pr"/><j/>lequel<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>esquels</l>   <r>e<s n="pr"/><j/>lequel<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>e<b/>laquelle</l><r>e<s n="pr"/><j/>lequel<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>esquelles</l> <r>e<s n="pr"/><j/>lequel<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/auquel__rel">
   <e>       <p><l>auquel</l>    <r>à<s n="pr"/><j/>lequel<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>auxquels</l>  <r>à<s n="pr"/><j/>lequel<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>à<b/>laquelle</l><r>à<s n="pr"/><j/>lequel<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>auxquelles</l><r>à<s n="pr"/><j/>lequel<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/avoir__vbhaver">
   <e>       <p><l>a</l>         <r>avoir<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ai</l>        <r>avoir<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -254,6 +263,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>eûtes</l>     <r>avoir<s n="vbhaver"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>ont</l>       <r>avoir<s n="vbhaver"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/y_avoir__vblex">
   <e>       <p><l>il<b/>y<b/>a</l><r>y<b/>avoir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>il<b/>y<b/>ait</l><r>y<b/>avoir<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -284,9 +294,11 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>il<b/>en<b/>exista</l><r>y<b/>avoir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>il<b/>en<b/>existât</l><r>y<b/>avoir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="je__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="/il__prn">
   <e>       <p><l>elle</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>elles</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
@@ -298,6 +310,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>t-ils</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>t-on</l>      <r>on<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="/un__det">
   <e>       <p><l>des</l>       <r>un<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>des</l>       <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
@@ -305,53 +318,69 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>un</l>        <r>un<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>une</l>       <r>un<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="/un_autre__det">
   <e>       <p><l>autres</l>    <r>un<b/>autre<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>un<b/>autre</l><r>un<b/>autre<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>une<b/>autre</l><r>un<b/>autre<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="le__detnt">
   <e>       <p><l></l>          <r><s n="detnt"/></r></p></e>
 </pardef>
+
 <pardef n="Abraham__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="Marie__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="Smith__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="Andorre__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="Baléares__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ATS__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="BBC__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="OPA__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="f"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="BBVA__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="MM__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="Mmes__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="IRPF__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="acr"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="Carrefour__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="Pâques__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
@@ -405,6 +434,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>-ils</l>      <r>ils<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>-elles</l>    <r>elles<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="S__encimp">
   <e>       <p><l>-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
@@ -420,6 +450,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="abaiss/er__vblex">
   <e>       <p><l>a</l>         <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ai</l>        <r>er<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -477,6 +508,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="rest/er__vbser">
   <e>       <p><l>a</l>         <r>er<s n="vbser"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ai</l>        <r>er<s n="vbser"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -534,22 +566,26 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vbser"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vbser"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="abaissant__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="aigu__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ë</l>         <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ës</l>        <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="anastigmat__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="mali/n__adj">
   <e>       <p><l>n</l>         <r>n<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ns</l>        <r>n<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -558,24 +594,28 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>gnes</l>      <r>n<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>nes</l>       <r>n<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="s/ec__adj">
   <e>       <p><l>ec</l>        <r>ec<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>èche</l>      <r>ec<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>èches</l>     <r>ec<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ecs</l>       <r>ec<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ambigu__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ë</l>         <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ës</l>        <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="sujet__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>tes</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="bêta__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -584,6 +624,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>ate</l>       <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ates</l>      <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="dép/ecer__vblex">
   <e>       <p><l>èce</l>       <r>ecer<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>èces</l>      <r>ecer<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -704,39 +745,46 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>tît</l>       <r>tre<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>tîtes</l>     <r>tre<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="abeille__n" c="autoconcord:f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="maire__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>sses</l>      <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>sse</l>       <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="cadet__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>tes</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>te</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="beur__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>ettes</l>     <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ette</l>      <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="speaker__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>ines</l>      <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ine</l>       <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="incognito__n" c="autoconcord:m,sgpl">
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="abouti/r__vblex">
   <e>       <p><l></l>          <r>r<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>r<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -791,11 +839,13 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>t</l>         <r>r<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r>r<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="aboutî/mes__vblex">
   <e>       <p><l>mes</l>       <r>r<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>t</l>         <r>r<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>tes</l>       <r>r<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="abrèg/e__vblex">
   <e>       <p><l>e</l>         <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -808,6 +858,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>es</l>        <r>er<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>er<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="abrég/er__vblex">
   <e>       <p><l>ea</l>        <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>eai</l>       <r>er<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -855,15 +906,22 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="académique__adj">
-  <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>s</l>         <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="académique__adjadv">
   <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>ment</l>      <r>ment<s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="accour/ir__vblex">
   <e>       <p><l>aient</l>     <r>ir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ais</l>       <r>ir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -921,6 +979,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>ir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>ir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="accr/oître__vblex">
   <e>       <p><l>ois</l>       <r>oître<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>ois</l>       <r>oître<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -992,6 +1051,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>oître<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>oître<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="accueill/ir__vblex">
   <e>       <p><l>aient</l>     <r>ir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ais</l>       <r>ir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1049,6 +1109,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>ir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>ir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="accélér/er__vblex">
   <e>       <p><l>a</l>         <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ai</l>        <r>er<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1096,6 +1157,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="achet/er__vblex">
   <e>       <p><l>a</l>         <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ai</l>        <r>er<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1131,6 +1193,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="achèt/e__vblex">
   <e>       <p><l>e</l>         <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -1155,6 +1218,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>es</l>        <r>er<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>er<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="acqu/érir__vblex">
   <e>       <p><l>erra</l>      <r>érir<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>errai</l>     <r>érir<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1211,6 +1275,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>érir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>érir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="adm/ettre__vblex">
   <e>       <p><l>et</l>        <r>ettre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ets</l>       <r>ettre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1267,23 +1332,27 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>ettre<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>ettre<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="support/er__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>er</l>        <r>er<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ers</l>       <r>er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>rice</l>      <r>er<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>rices</l>     <r>er<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="acquére/ur__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>ur</l>        <r>ur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>urs</l>       <r>ur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>sse</l>       <r>ur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>sses</l>      <r>ur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/oeil__n" c="autoconcord:m,sgpl">
   <e r="LR"><p><l>oeils</l>     <r>oeil<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>oeil</l>      <r>oeil<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>yeux</l>      <r>oeil<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/œil__n" c="autoconcord:m,sgpl">
   <e r="LR"><p><l>œils</l>      <r>œil<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>œil</l>       <r>œil<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -1291,24 +1360,28 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>oeil</l>      <r>œil<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>yeux</l>      <r>œil<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="butor__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>de</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>des</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="can/ard__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>ard</l>       <r>ard<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ards</l>      <r>ard<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ane</l>       <r>ard<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>anes</l>      <r>ard<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="devin__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>eresse</l>    <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>eresses</l>   <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/empereur__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>empereur</l>  <r>empereur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>empereurs</l> <r>empereur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1317,18 +1390,21 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>emperesse</l> <r>empereur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>emperesses</l><r>empereur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="administrat/eur__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>eur</l>       <r>eur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>eurs</l>      <r>eur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>rice</l>      <r>eur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>rices</l>     <r>eur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="doct/eur__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>eur</l>       <r>eur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>eurs</l>      <r>eur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>oresse</l>    <r>eur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>oresses</l>   <r>eur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="admis__n" c="sans autoconcord">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1338,6 +1414,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="RL"><p><l></l>          <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 -->
 </pardef>
+
 <pardef n="affectueu/x__adj">
   <e>       <p><l>se</l>        <r>x<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r>x<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1345,6 +1422,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="affectueu/x__adjadv">
   <e>       <p><l>se</l>        <r>x<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r>x<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1353,6 +1431,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>sement</l>    <r>sement<s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="dou/x__adj">
   <e>       <p><l>ce</l>        <r>x<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ces</l>       <r>x<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1360,6 +1439,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fau/x__adj">
   <e>       <p><l>sse</l>       <r>x<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>sses</l>      <r>x<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1367,24 +1447,28 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="africain__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="duc__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>hesse</l>     <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>hesses</l>    <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="affirmati/f__adj">
   <e>       <p><l>ve</l>        <r>f<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ves</l>       <r>f<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>f</l>         <r>f<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>fs</l>        <r>f<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="affirmati/f__adjadv">
   <e>       <p><l>ve</l>        <r>f<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ves</l>       <r>f<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1392,12 +1476,15 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>fs</l>        <r>f<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>vement</l>    <r>vement<s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="afin_que__cnjadv">
   <e>       <p><l></l>          <r><s n="cnjadv"/></r></p></e>
 </pardef>
+
 <pardef n="ah__ij">
   <e>       <p><l></l>          <r><s n="ij"/></r></p></e>
 </pardef>
+
 <pardef n="allong/er__vblex">
   <e>       <p><l>e</l>         <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>er<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -1455,12 +1542,14 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="amica/l__adj">
   <e>       <p><l>l</l>         <r>l<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r>l<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>les</l>       <r>l<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ux</l>        <r>l<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="amica/l__adjadv">
   <e>       <p><l>l</l>         <r>l<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r>l<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1468,12 +1557,14 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ux</l>        <r>l<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>lement</l>    <r>lement<s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="ancien__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ne</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>nes</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ancien__adjadv">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ne</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1481,24 +1572,28 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>nement</l>    <r>nement<s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="ancien__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ne</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>nes</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="esquimau__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>de</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>des</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>x</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="esquimau__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>de</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>des</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>x</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="anglais__adj">
   <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -1507,19 +1602,23 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>es</l>        <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l>e</l>         <r><s n="adj"/><s n="f"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="anima/l__adj">
   <e>       <p><l>l</l>         <r>l<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux</l>        <r>l<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="anima/l__n" c="autoconcord:m,sgpl">
   <e>       <p><l>l</l>         <r>l<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux</l>        <r>l<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="liste/l__n" c="autoconcord:m,sgpl">
   <e>       <p><l>l</l>         <r>l<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ls</l>        <r>l<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>aux</l>       <r>l<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="annon/cer__vblex">
   <e>       <p><l>ce</l>        <r>cer<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>ce</l>        <r>cer<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -1577,12 +1676,14 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>çât</l>       <r>cer<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>çâtes</l>     <r>cer<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="annuel__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>les</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="annuel__adjadv">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1590,6 +1691,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>lement</l>    <r>lement<s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="aper/cevoir__vblex">
   <e>       <p><l>cevaient</l>  <r>cevoir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>cevais</l>    <r>cevoir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1647,6 +1749,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>çût</l>       <r>cevoir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>çûtes</l>     <r>cevoir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="appar/aître__vblex">
   <e>       <p><l>ais</l>       <r>aître<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>ais</l>       <r>aître<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -1718,6 +1821,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>aitrons</l>   <r>aître<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>aitront</l>   <r>aître<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="appart/enir__vblex">
   <e>       <p><l>enaient</l>   <r>enir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>enais</l>     <r>enir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1775,6 +1879,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>înt</l>       <r>enir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>întes</l>     <r>enir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="appel/er__vblex">
   <e>       <p><l>a</l>         <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ai</l>        <r>er<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1832,6 +1937,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="appr/endre__vblex">
   <e>       <p><l>enaient</l>   <r>endre<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>enais</l>     <r>endre<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -1888,19 +1994,24 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>endre<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>endre<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="argent__n" c="autoconcord:m,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="arrière__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="ex-__adj"> <!-- prefix -->
   <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="XXème__adj">
   <e r="LR"><p><l>ème</l>       <r>ème<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
   <e>       <p><l>e</l>         <r>ème<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="artiste__n" c="autoconcord:mf,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -1911,6 +2022,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="RL"><p><l>s</l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 -->
 </pardef>
+
 <pardef n="attend/re__vblex">
   <e>       <p><l></l>          <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>aient</l>     <r>re<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -1968,19 +2080,23 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>re<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>re<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="attendu__pr">
   <e>       <p><l></l>          <r><s n="pr"/></r></p></e>
 </pardef>
+
 <pardef n="aucun__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="quel/_que_soit__prn">
   <e>       <p><l><b/>que<b/>soit</l><r><b/>que<b/>soit<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le<b/>que<b/>soit</l><r><b/>que<b/>soit<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>que<b/>soient</l><r><b/>que<b/>soit<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>lles<b/>que<b/>soient</l><r><b/>que<b/>soit<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="b/oire__vblex">
   <e>       <p><l>oira</l>      <r>oire<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>oirai</l>     <r>oire<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2038,6 +2154,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>oire<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>oire<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="bala/yer__vblex">
   <e r="LR"><p><l>iera</l>      <r>yer<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ierai</l>     <r>yer<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2117,47 +2234,55 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>yées</l>      <r>yer<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>yés</l>       <r>yer<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="bas__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>se</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="andalou__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>se</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="andalou__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>se</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="be/au__adj">
   <e>       <p><l>au</l>        <r>au<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>aux</l>       <r>au<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>lle</l>       <r>au<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles</l>      <r>au<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="be/l__adj">
   <e>       <p><l>aux</l>       <r>l<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>l</l>         <r>l<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>lle</l>       <r>l<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles</l>      <r>l<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="blanc__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>he</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>hes</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="blanc__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>he</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>hes</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="bou/illir__vblex">
   <e>       <p><l>illaient</l>  <r>illir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>illais</l>    <r>illir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2215,39 +2340,46 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>s</l>         <r>illir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r>illir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="bouch/er__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>er</l>        <r>er<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ers</l>       <r>er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ère</l>       <r>er<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ères</l>      <r>er<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="boucle/_d'oreille__n" c="autoconcord:f,sgpl">
   <e>       <p><l><b/>d'oreille</l><r><b/>d'oreille<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>d'oreille</l><r><b/>d'oreille<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="br/ef__adj">
   <e>       <p><l>ef</l>        <r>ef<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>efs</l>       <r>ef<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ève</l>       <r>ef<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>èves</l>      <r>ef<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="brand/y__n" c="autoconcord:m,sgpl">
   <e>       <p><l>ies</l>       <r>y<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>ys</l>        <r>y<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>y</l>         <r>y<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="diable__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>sse</l>       <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>sses</l>      <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="quaker__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>esse</l>      <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>esses</l>     <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="cachet/er__vblex">
   <e>       <p><l>a</l>         <r>er<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ai</l>        <r>er<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2305,36 +2437,42 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="causeu/r__adj">
   <e>       <p><l>r</l>         <r>r<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>rs</l>        <r>r<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>se</l>        <r>r<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r>r<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="causeu/r__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>r</l>         <r>r<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>rs</l>        <r>r<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>se</l>        <r>r<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r>r<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ce/lui-ci__prn">
   <e>       <p><l>lle-ci</l>    <r>lui-ci<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles-ci</l>   <r>lui-ci<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>lui-ci</l>    <r>lui-ci<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux-ci</l>     <r>lui-ci<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ce/lui-là__prn">
   <e>       <p><l>lle-là</l>    <r>lui-là<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles-là</l>   <r>lui-là<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>lui-là</l>    <r>lui-là<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux-là</l>     <r>lui-là<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ce/lui__prn">
   <e>       <p><l>lle</l>       <r>lui<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles</l>      <r>lui<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>lui</l>       <r>lui<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux</l>        <r>lui<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ce__det">
   <e r="LR"><p><l>t</l>         <r><s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l></l>          <r><s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2343,6 +2481,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="RL"><p><l>s</l>         <r><s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>tte</l>       <r><s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t_ce__det">
   <e r="LR"><p><l>t<b/>cet</l>  <r>t<b/>ce<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>t<b/>ce</l>   <r>t<b/>ce<s n="det"/><s n="dem"/><s n="m"/><s n="sg"/></r></p></e>
@@ -2350,9 +2489,11 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>te<b/>cette</l><r>t<b/>ce<s n="det"/><s n="dem"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>tes<b/>ces</l><r>t<b/>ce<s n="det"/><s n="dem"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ceci__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="cei/ndre__vblex">
   <e>       <p><l>gnaient</l>   <r>ndre<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>gnais</l>     <r>ndre<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2410,33 +2551,40 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ntes</l>      <r>ndre<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>nts</l>       <r>ndre<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="cent__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>s</l>         <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="zéro__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="certain/s__prn">
   <e>       <p><l>es</l>        <r>s<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r>s<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="certain__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="un/_certain__det">
   <e>       <p><l><b/>certain</l><r><b/>certain<s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e<b/>certaine</l><r><b/>certain<s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="ch/er__adj">
   <e>       <p><l>er</l>        <r>er<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ers</l>       <r>er<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ère</l>       <r>er<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ères</l>      <r>er<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ch/oir__vblex">
   <e>       <p><l>erra</l>      <r>oir<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>errai</l>     <r>oir<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2479,6 +2627,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>oir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>oir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ass/eoir__vblex">
   <e>       <p><l>it</l>        <r>eoir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>is</l>        <r>eoir<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2573,23 +2722,28 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ise</l>       <r>eoir<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ises</l>      <r>eoir<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="chaque__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="chat__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>te</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>tes</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="cie/l__n" c="autoconcord:m,sgpl">
   <e r="LR"><p><l>ux</l>        <r>l<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>l</l>         <r>l<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ls</l>        <r>l<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="cinq__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="vingt__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-et-un</l>    <r>-et-un<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
@@ -2605,6 +2759,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>-huit</l>     <r>-huit<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-neuf</l>     <r>-neuf<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="soixante__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-et-un</l>    <r>-et-un<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
@@ -2631,6 +2786,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>-dix-huit</l> <r>-dix-huit<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-dix-neuf</l> <r>-dix-neuf<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="quatre-vingt/s__num">
   <e>       <p><l>s</l>         <r>s<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-un</l>       <r>-un<s n="num"/><s n="m"/><s n="pl"/></r></p></e>
@@ -2656,43 +2812,53 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>-dix-huit</l> <r>-dix-huit<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-dix-neuf</l> <r>-dix-neuf<s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="I__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="/un__num">
   <e>       <p><l>un</l>        <r>un<s n="num"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="baron__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>esse</l>      <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>esses</l>     <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="colonel__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>les</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="guionet">
   <e>       <p><l>-</l>         <r>-<s n="guio"/></r></p></e>
 </pardef>
+
 <pardef n="coma">
   <e>       <re>,</re><p><l></l><r><s n="cm"/></r></p></e>
   <e>       <p><l>&quot;</l>    <r>&quot;<s n="cit"/></r></p></e>
 </pardef>
+
 <pardef n="combien__rel">
   <e>       <p><l></l>          <r><s n="rel"/><s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="comme__adv">
   <e>       <p><l></l>          <r><s n="adv"/><s n="itg"/></r></p></e>
 </pardef>
+
 <pardef n="commercia/l__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>l</l>         <r>l<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r>l<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>les</l>       <r>l<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ux</l>        <r>l<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="compl/aire__vblex">
   <e>       <p><l>aira</l>      <r>aire<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>airai</l>     <r>aire<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2748,10 +2914,12 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>aire<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>aire<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="compte/_rendu__n" c="autoconcord:m,sgpl">
   <e>       <p><l><b/>rendu</l> <r><b/>rendu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>rendus</l><r><b/>rendu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="conclu/re__vblex">
   <e>       <p><l></l>          <r>re<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>aient</l>     <r>re<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -2806,6 +2974,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="inclu/re__vblex">
   <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="pp"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>aient</l>     <r>re<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -2859,12 +3028,14 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="conduct/eur__adj">
   <e>       <p><l>eur</l>       <r>eur<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>eurs</l>      <r>eur<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>rice</l>      <r>eur<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>rices</l>     <r>eur<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="condui/re__vblex">
   <e>       <p><l>ra</l>        <r>re<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>rai</l>       <r>re<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2922,6 +3093,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>tes</l>       <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ts</l>        <r>re<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="circonc/ire__vblex">
   <e>       <p><l>ira</l>       <r>ire<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>irai</l>      <r>ire<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -2978,6 +3150,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ise</l>       <r>ire<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ises</l>      <r>ire<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="consen/tir__vblex">
   <e>       <p><l>s</l>         <r>tir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r>tir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -3035,22 +3208,26 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>tît</l>       <r>tir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>tîtes</l>     <r>tir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="conta__pr">
   <e r="LR"><p><l>au</l>        <r>à<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>aux</l>       <r>à<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>à</l>         <r>à<s n="pr"/></r></p></e>
   <e r="RL"><p><l><a/>à</l>     <r>à<s n="pr"/></r></p></e>
 </pardef>
+
 <pardef n="contde__pr">
   <e r="LR"><p><l>de</l>        <r>de<s n="pr"/></r></p></e>
   <e r="LR"><p><l>des</l>       <r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>du</l>        <r>de<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l><a/>de</l>    <r>de<s n="pr"/></r></p></e>
 </pardef>
+
 <pardef n="postgen_que__cnjadv">
   <e r="LR"><p><l>que</l>       <r>que<s n="cnjadv"/></r></p></e>
   <e r="RL"><p><l><a/>que</l>   <r>que<s n="cnjadv"/></r></p></e>
 </pardef>
+
 <pardef n="contredi/re__vblex">
   <e>       <p><l>ra</l>        <r>re<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>rai</l>       <r>re<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -3105,6 +3282,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>tes</l>       <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ts</l>        <r>re<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="convain/cre__vblex">
   <e>       <p><l>c</l>         <r>cre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>cra</l>       <r>cre<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3162,6 +3340,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>quît</l>      <r>cre<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>quîtes</l>    <r>cre<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="cou/dre__vblex">
   <e>       <p><l>d</l>         <r>dre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>dra</l>       <r>dre<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3219,6 +3398,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>sît</l>       <r>dre<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>sîtes</l>     <r>dre<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="couv/rir__vblex">
   <e>       <p><l>ert</l>       <r>rir<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>erte</l>      <r>rir<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -3276,6 +3456,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>rît</l>       <r>rir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>rîtes</l>     <r>rir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="cr/oire__vblex">
   <e>       <p><l>oie</l>       <r>oire<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>oie</l>       <r>oire<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3333,6 +3514,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>oire<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>oire<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="cr/oître__vblex">
   <e>       <p><l>oissaient</l> <r>oître<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>oissais</l>   <r>oître<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -3410,6 +3592,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>oître<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>oître<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="côto/yer__vblex">
   <e>       <p><l>ie</l>        <r>yer<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>ie</l>        <r>yer<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -3467,6 +3650,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>yées</l>      <r>yer<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>yés</l>       <r>yer<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="d/evoir__vblex">
   <e>       <p><l>evaient</l>   <r>evoir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>evais</l>     <r>evoir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -3524,6 +3708,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>evoir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>evoir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="d/evoir__vbmod">
   <e>       <p><l>evaient</l>   <r>evoir<s n="vbmod"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>evais</l>     <r>evoir<s n="vbmod"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -3575,12 +3760,14 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>evoir<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>evoir<s n="vbmod"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="d/ieu__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>ieu</l>       <r>ieu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ieux</l>      <r>ieu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>éesse</l>     <r>ieu<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>éesses</l>    <r>ieu<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ce/lui_que__rel">
   <e>       <p><l>lle<b/>que</l><r>lui<b/>que<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles<b/>que</l><r>lui<b/>que<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
@@ -3588,9 +3775,11 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ux<b/>que</l> <r>lui<b/>que<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l><b/>que</l>   <r>lui<b/>que<s n="prn"/><s n="rel"/><s n="nt"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="ce/_que__rel">
   <e>       <p><l><b/>que</l>   <r>lui<b/>que<s n="prn"/><s n="rel"/><s n="nt"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="ce/_dont__rel">
   <e>       <p><l><b/>dont</l>  <r>lui<b/>dont<s n="prn"/><s n="rel"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>lui<b/>dont</l><r>lui<b/>dont<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
@@ -3598,6 +3787,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>lle<b/>dont</l><r>lui<b/>dont<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles<b/>dont</l><r>lui<b/>dont<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ce/lui_qui__rel">
   <e>       <p><l>lle<b/>qui</l><r>lui<b/>qui<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles<b/>qui</l><r>lui<b/>qui<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
@@ -3605,6 +3795,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ux<b/>qui</l> <r>lui<b/>qui<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l><b/>qui</l>   <r>lui<b/>qui<s n="prn"/><s n="rel"/><s n="nt"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="di/re__vblex">
   <e>       <p><l>ra</l>        <r>re<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>rai</l>       <r>re<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -3659,6 +3850,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>tes</l>       <r>re<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>ts</l>        <r>re<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="distra/ire__vblex">
   <e>       <p><l>ie</l>        <r>ire<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>ie</l>        <r>ire<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3716,13 +3908,16 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>ire<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>ire<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="diver/s__det">
   <e>       <p><l>s</l>         <r>s<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>se</l>        <r>s<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="dont__rel">
   <e>       <p><l></l>          <r><s n="prn"/><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="dor/mir__vblex">
   <e>       <p><l>maient</l>    <r>mir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>mais</l>      <r>mir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -3780,6 +3975,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>s</l>         <r>mir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r>mir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="débit/eur__n" c="autoconcord:m_f,sgpl">
   <e r="LR"><p><l>rice</l>      <r>eur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>rices</l>     <r>eur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -3788,6 +3984,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>euse</l>      <r>eur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>euses</l>     <r>eur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="décri/re__vblex">
   <e>       <p><l>ra</l>        <r>re<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>rai</l>       <r>re<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -3845,6 +4042,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>vît</l>       <r>re<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>vîtes</l>     <r>re<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="déf/aire__vblex">
   <e>       <p><l>aire</l>      <r>aire<s n="vblex"/><s n="inf"/></r></p></e>
   <e>       <p><l>ais</l>       <r>aire<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -3902,6 +4100,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>aire<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>aire<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="dépourv/oir__vblex">
   <e>       <p><l>oie</l>       <r>oir<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>oie</l>       <r>oir<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -3959,24 +4158,29 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>oir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>oir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="dî/mes__vblex">
   <e>       <p><l>mes</l>       <r>re<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>tes</l>       <r>re<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="eau__n" c="autoconcord:f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>x</l>         <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="bede/au__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>au</l>        <r>au<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>aux</l>       <r>au<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>lle</l>       <r>au<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles</l>      <r>au<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="en__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="entrev/oir__vblex">
   <e>       <p><l>erra</l>      <r>oir<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>errai</l>     <r>oir<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4034,6 +4238,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>oir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>oir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="pourv/oir__vblex">
   <e>       <p><l>oirra</l>     <r>oir<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>oirrai</l>    <r>oir<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4091,6 +4296,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>oir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>oir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="env/oyer__vblex">
   <e>       <p><l>erra</l>      <r>oyer<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>errai</l>     <r>oyer<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4148,21 +4354,27 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>oyées</l>     <r>oyer<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>oyés</l>      <r>oyer<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="et__cnjcoo">
   <e>       <p><l></l>          <r><s n="cnjcoo"/></r></p></e>
 </pardef>
+
 <pardef n="eux__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ex__n" c="autoconcord:mf,sp">
   <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="mf_sg__n" c="autoconcord:mf,sg">
   <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="mf_pl__n" c="autoconcord:mf,pl">
   <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fa/illir__vblex">
   <e r="LR"><p><l>illissaient</l><r>illir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>illissais</l> <r>illir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4196,6 +4408,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>ux</l>        <r>illir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>ux</l>        <r>illir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="fa/illir__vblex">
   <e r="LR"><p><l>illissaient</l><r>illir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>illissais</l> <r>illir<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4284,6 +4497,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>illît</l>     <r>illir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>illîtes</l>   <r>illir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fa/lloir__vbmod">
   <e>       <p><l>ille</l>      <r>lloir<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>illent</l>    <r>lloir<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -4302,42 +4516,50 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>udront</l>    <r>lloir<s n="vbmod"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ut</l>        <r>lloir<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="favori__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>te</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>tes</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fil/s__n" c="sans autoconcord">
   <e>       <p><l>le</l>        <r>s<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>les</l>       <r>s<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r>s<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="fo/u__adj">
   <e>       <p><l>lle</l>       <r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles</l>      <r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>u</l>         <r>u<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>us</l>        <r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fois__n" c="autoconcord:f,sp">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="fra/is__adj">
   <e>       <p><l>is</l>        <r>is<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>îche</l>      <r>is<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>îches</l>     <r>is<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fra/is__n" c="autoconcord:m_f,sp">
   <e>       <p><l>is</l>        <r>is<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>îche</l>      <r>is<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>îches</l>     <r>is<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fran/c__adj">
   <e>       <p><l>c</l>         <r>c<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>che</l>       <r>c<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ches</l>      <r>c<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>cs</l>        <r>c<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fu/ir__vblex">
   <e>       <p><l>i</l>         <r>ir<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>i</l>         <r>ir<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -4395,6 +4617,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>ir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>ir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="g/ésir__vblex">
   <e>       <p><l>erra</l>      <r>ésir<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>errai</l>     <r>ésir<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4452,29 +4675,35 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>ésir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ût</l>        <r>ésir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="grec__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>que</l>       <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ques</l>      <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="grec__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>que</l>       <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ques</l>      <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="hier__adv">
   <e>       <p><l></l>          <r><s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="ex-__adv">
   <e>       <p><l></l>          <r><s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="héro/s__n" c="sen autoconcord">
   <e>       <p><l>s</l>         <r>s<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>ïne</l>       <r>s<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ïnes</l>      <r>s<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="interromp/re__vblex">
   <e>       <p><l>aient</l>     <r>re<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ais</l>       <r>re<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4532,12 +4761,14 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>re<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>re<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="jui/f__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>f</l>         <r>f<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>fs</l>        <r>f<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ve</l>        <r>f<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ves</l>       <r>f<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="l/e__det">
   <e>       <p><l>a</l>         <r>e<s n="det"/><s n="def"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>e<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4545,6 +4776,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="RL"><p><l>es</l>        <r>e<s n="det"/><s n="def"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="RL"><p><l>es</l>        <r>e<s n="det"/><s n="def"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="l/e__prn">
   <e r="LR"><p><l>a</l>         <r>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>e</l>         <r>e<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4558,23 +4790,27 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>es<b/>miennes</l><r>e<b/>mien<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>es<b/>miens</l><r>e<b/>mien<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="l/e_nôtre__prn">
   <e>       <p><l>a<b/>nôtre</l><r>e<b/>nôtre<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>e<b/>nôtre</l><r>e<b/>nôtre<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>es<b/>nôtres</l><r>e<b/>nôtre<s n="prn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="l/e_sien__prn">
   <e>       <p><l>a<b/>sienne</l><r>e<b/>sien<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>e<b/>sien</l> <r>e<b/>sien<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>es<b/>siennes</l><r>e<b/>sien<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>es<b/>siens</l><r>e<b/>sien<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="l/e_tien__prn">
   <e>       <p><l>a<b/>tienne</l><r>e<b/>tien<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>e<b/>tien</l> <r>e<b/>tien<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>es<b/>tiennes</l><r>e<b/>tien<s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>es<b/>tiens</l><r>e<b/>tien<s n="prn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="l/e_vôtre__prn">
   <e>       <p><l>a<b/>vôtre</l><r>e<b/>vôtre<s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>e<b/>vôtre</l><r>e<b/>vôtre<s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
@@ -4587,17 +4823,20 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ne</l>        <r><s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>nes</l>       <r><s n="prn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="nôtre__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l></l>          <r><s n="prn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="prn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="l/equel__rel">
   <e>       <p><l>aquelle</l>   <r>equel<s n="prn"/><s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>equel</l>     <r>equel<s n="prn"/><s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>esquelles</l> <r>equel<s n="prn"/><s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>esquels</l>   <r>equel<s n="prn"/><s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="l/ire__vblex">
   <e>       <p><l>ira</l>       <r>ire<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>irai</l>      <r>ire<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4655,6 +4894,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>ire<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>ire<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fri/re__vblex">
 	
   <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4679,13 +4919,16 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <!--  <e>       <p><l>sant</l>      <r>re<s n="vblex"/><s n="ppres"/><s n="p3"/><s n="ND"/></r></p></e> -->
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pp"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="leur__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="leur__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="lieu__n" c="autoconcord:m,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>x</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -4698,24 +4941,29 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
       <e><p><l>ve</l><r>p<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>ves</l><r>p<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
+
 <pardef n="bateau__n" c="autoconcord:m,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>x</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/monseigneur__n" c="autoconcord:m,sgpl">
   <e>       <p><l>monseigneur</l><r>monseigneur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>messeigneurs</l><r>monseigneur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>nosseigneurs</l><r>monseigneur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="accessoire__n" c="autoconcord:m,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="matéri/el__n" c="autoconcord:m,sgpl">
   <e>       <p><l>el</l>        <r>el<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>els</l>       <r>el<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>aux</l>       <r>el<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="business/man__n" c="autoconcord:mf,sgpl">
   <e>       <p><l>man</l>       <r>man<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>mans</l>      <r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -4724,17 +4972,20 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>womans</l>    <r>man<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>women</l>     <r>man<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="flash__n" c="autoconcord:m,sgpl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="long__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ue</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ues</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="lui/re__vblex">
   <e r="LR"><p><l>rent</l>      <r>re<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>s</l>         <r>re<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -4796,9 +5047,11 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>sîtes</l>     <r>re<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="lui__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="prn-même__prn">
   <e>       <p><l>moi-même</l>  <r>moi-même<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>toi-même</l>  <r>toi-même<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -4826,61 +5079,72 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR" lm="eux-mêmes ils"><p><l>eux-mêmes<b/>ils</l><r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR" lm="elles-mêmes elles"><p><l>elles-mêmes<b/>elles</l><r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="prn-emphat__prn">
   <e r="LR" lm="moi je"><p><l>moi<b/>je</l><r>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
   <e r="LR" lm="toi je"><p><l>toi<b/>je</l><r>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
   <e r="LR" lm="lui il"><p><l>lui<b/>il</l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR" lm="eux ils"><p><l>eux<b/>ils</l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="luî/mes__vblex">
   <e r="LR"><p><l>mes</l>       <r>re<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>tes</l>       <r>re<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="m/on__det">
   <e>       <p><l>on</l>        <r>on<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>a</l>         <r>on<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>on<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t_mon__det">
   <e>       <p><l>r<b/>mon</l>  <r>t<b/>mon<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te<b/>ma</l>  <r>t<b/>mon<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>mes</l>  <r>t<b/>mon<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>tes<b/>mes</l><r>t<b/>mon<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t_ton__det">
   <e>       <p><l>r<b/>ton</l>  <r>t<b/>ton<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te<b/>ta</l>  <r>t<b/>ton<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>tes</l>  <r>t<b/>ton<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>tes<b/>tes</l><r>t<b/>ton<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t_son__det">
   <e>       <p><l>r<b/>son</l>  <r>t<b/>son<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te<b/>sa</l>  <r>t<b/>son<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>ses</l>  <r>t<b/>son<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>tes<b/>ses</l><r>t<b/>son<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t_notre__det">
   <e>       <p><l>t<b/>notre</l><r>t<b/>notre<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te<b/>notre</l><r>t<b/>notre<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>nos</l>  <r>t<b/>notre<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>tes<b/>nos</l><r>t<b/>notre<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t_votre__det">
   <e>       <p><l>t<b/>votre</l><r>t<b/>votre<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te<b/>votre</l><r>t<b/>votre<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>vos</l>  <r>t<b/>votre<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>tes<b/>vos</l><r>t<b/>votre<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t_leur__det">
   <e>       <p><l>t<b/>leur</l> <r>t<b/>leur<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te<b/>leur</l><r>t<b/>leur<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>leurs</l><r>t<b/>leur<s n="det"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>tes<b/>leurs</l><r>t<b/>leur<s n="det"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="m/onsieur__n" c="autoconcord:m,sgpl">
   <e>       <p><l>essieurs</l>  <r>onsieur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>onsieur</l>   <r>onsieur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="m/ourir__vblex">
   <e>       <p><l>eure</l>      <r>ourir<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>eure</l>      <r>ourir<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -4938,6 +5202,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ourût</l>     <r>ourir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ourûtes</l>   <r>ourir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="m/ouvoir__vblex">
   <e>       <p><l>eus</l>       <r>ouvoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>eus</l>       <r>ouvoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -4995,11 +5260,13 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>ouvoir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>ouvoir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="match__n" c="autoconcord:m,sgpl">
   <e r="LR"><p><l>es</l>        <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="maudi/re__vblex">
   <e>       <p><l>ra</l>        <r>re<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>rai</l>       <r>re<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -5054,16 +5321,20 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>tes</l>       <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ts</l>        <r>re<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="me__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="mil__num">
   <e>       <p><l></l>          <r><s n="num"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>le</l>        <r><s n="num"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="mois__n" c="autoconcord:m,sp">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="mou/dre__vblex">
   <e>       <p><l>d</l>         <r>dre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>dra</l>       <r>dre<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -5121,15 +5392,18 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>lût</l>       <r>dre<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>lûtes</l>     <r>dre<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="n'importe_quel__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>les</l>       <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="n'importe_qui__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="n/aître__vblex">
   <e>       <p><l>ais</l>       <r>aître<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>ais</l>       <r>aître<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -5204,6 +5478,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>aitrons</l>   <r>aître<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>aitront</l>   <r>aître<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="neig/er__vblex">
   <e>       <p><l>e</l>         <r>er<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>er<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -5220,6 +5495,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>er<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>és</l>        <r>er<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="commen/cer_def__vblex">
   <e>       <p><l>ce</l>        <r>cer<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ce</l>        <r>cer<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -5236,14 +5512,17 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ées</l>       <r>cer<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>cés</l>       <r>cer<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="no/tre__det">
   <e>       <p><l>s</l>         <r>tre<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>tre</l>       <r>tre<s n="det"/><s n="pos"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="nous__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="nouve/au__adj">
   <e>       <p><l>au</l>        <r>au<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>l</l>         <r>au<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -5251,6 +5530,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>lle</l>       <r>au<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles</l>      <r>au<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="nui/re__vblex">
   <e>       <p><l></l>          <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -5308,15 +5588,18 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>sîtes</l>     <r>re<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="nul__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r><s n="det"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="numeros">
   <e>       <re>[0-9]+([.,][0-9]+)*</re><p><l></l><r><s n="num"/><s n="ciph"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <re>[0-9]+([.,][0-9]+)*%</re><p><l></l><r><s n="num"/><s n="percent"/><s n="mf"/><s n="sp"/></r></p></e>
   <e>       <re>[0-9]+([.,][0-9]+)*</re><p><l><b/>fois</l><r><b/>fois<s n="adv"/></r></p></e>
 </pardef>
+
 <pardef n="o/uïr__vblex">
   <e>       <p><l>ie</l>        <r>uïr<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>ie</l>        <r>uïr<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -5410,12 +5693,15 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>yons</l>      <r>uïr<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__encimp"/></e>
   <e>       <p><l>yons</l>      <r>uïr<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="on__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="se__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="p/ouvoir__vbmod">
   <e>       <p><l>eut</l>       <r>ouvoir<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>euvent</l>    <r>ouvoir<s n="vbmod"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -5473,29 +5759,37 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>ouvoir<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>ouvoir<s n="vbmod"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="paresq">
   <e>       <re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
   <e>       <p><l>«</l>         <r>«<s n="lcit"/></r></p></e>
 </pardef>
+
 <pardef n="pardret">
   <e>       <re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
   <e>       <p><l>»</l>         <r>»<s n="rcit"/></r></p></e>
 </pardef>
+
 <pardef n="personne__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="personnel__n" c="autoconcord:m,sg">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="gens__n" c="autoconcord:m,pl">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="alma_mater__n" c="autoconcord:f,sg">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="vacances__n" c="autoconcord:f,pl">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="pl/euvoir__vblex">
   <e>       <p><l>eut</l>       <r>euvoir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>euvait</l>    <r>euvoir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -5512,15 +5806,18 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ut</l>        <r>euvoir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ût</l>        <r>euvoir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="plusieur/s__det">
   <e>       <p><l>s</l>         <r>s<s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="po/ète__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>ète</l>       <r>ète<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ètes</l>      <r>ète<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>étesse</l>    <r>ète<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>étesses</l>   <r>ète<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="poursui/vre__vblex">
   <e>       <p><l>s</l>         <r>vre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r>vre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -5578,6 +5875,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>vît</l>       <r>vre<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>vîtes</l>     <r>vre<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="prév/oir__vblex">
   <e>       <p><l>irent</l>     <r>oir<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>is</l>        <r>oir<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -5635,52 +5933,64 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>oir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>oir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="publi/c__adj">
   <e>       <p><l>c</l>         <r>c<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>cs</l>        <r>c<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>que</l>       <r>c<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ques</l>      <r>c<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="que__cnjsub">
   <e>       <p><l></l>          <r><s n="cnjsub"/></r></p></e>
 </pardef>
+
 <pardef n="que__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="que__rel">
   <e>       <p><l></l>          <r><s n="prn"/><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="quel__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r><s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>les</l>       <r><s n="adj"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="quel__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>le</l>        <r><s n="prn"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>les</l>       <r><s n="prn"/><s n="itg"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="prn"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="quelque__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="det"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="quelque_chose__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="qui__rel">
   <e>       <p><l></l>          <r><s n="prn"/><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="quérir__vblex">
   <e>       <p><l></l>          <r><s n="vblex"/><s n="inf"/></r></p></e>
 </pardef>
+
 <pardef n="r/oi__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>eine</l>      <r>oi<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>eines</l>     <r>oi<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>oi</l>        <r>oi<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ois</l>       <r>oi<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="rev/ivre__vblex">
   <e>       <p><l>is</l>        <r>ivre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>is</l>        <r>ivre<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -5738,6 +6048,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>écût</l>      <r>ivre<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>écûtes</l>    <r>ivre<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="revêt/ir__vblex">
   <e>       <p><l></l>          <r>ir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>aient</l>     <r>ir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -5795,6 +6106,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>ir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>ir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="ri/re__vblex">
   <e>       <p><l></l>          <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -5849,6 +6161,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="réso/udre__vblex">
   <e>       <p><l>lu</l>        <r>udre<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>lue</l>       <r>udre<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
@@ -5906,6 +6219,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>us</l>        <r>udre<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>ut</l>        <r>udre<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="s/avoir__vblex">
   <e>       <p><l>achant</l>    <r>avoir<s n="vblex"/><s n="ger"/></r></p></e>
 <!-- <e>       <p><l>achant</l>    <r>avoir<s n="vblex"/><s n="ppres"/><s n="p3"/><s n="ND"/></r></p></e> -->
@@ -5963,12 +6277,14 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>avoir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>avoir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="sa/uveur__adj">
   <e>       <p><l>lvatrice</l>  <r>uveur<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lvatrices</l> <r>uveur<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>uveur</l>     <r>uveur<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>uveurs</l>    <r>uveur<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="saill/ir__vblex">
   <e>       <p><l>aient</l>     <r>ir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ait</l>       <r>ir<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -6038,20 +6354,24 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ît</l>        <r>ir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>îtes</l>      <r>ir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="secr/et__adj">
   <e>       <p><l>et</l>        <r>et<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ets</l>       <r>et<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>ète</l>       <r>et<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ètes</l>      <r>et<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="separ">
   <e>       <re>¿</re><p><l></l><r><s n="lquest"/></r></p></e>
 </pardef>
+
 <pardef n="separa">
   <e r="LR"><re>[.\?;:!–—―•]</re><p><l></l><r><s n="sent"/></r></p></e> <!-- • estas uzata de Vikipedio kiel disigilo: necesas ĝin trakti kiel tia aŭ aperas verboj kaj akuzativoj pro analizo de disaj eroj -->
   <e>       <p><l>...</l>       <r>...<s n="sent"/></r></p></e> <!-- por eviti aŭtomatan majuskligon post tripunkto -->
   <e r="RL"><p><l><a/></l>      <r></r></p><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
 </pardef>
+
 <pardef n="ser/vir__vblex">
   <e>       <p><l>s</l>         <r>vir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r>vir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -6109,15 +6429,18 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>vît</l>       <r>vir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>vîtes</l>     <r>vir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="serv/iteur__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>ante</l>      <r>iteur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>antes</l>     <r>iteur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>iteur</l>     <r>iteur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>iteurs</l>    <r>iteur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="soi__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="t/aire__vblex">
   <e>       <p><l>aira</l>      <r>aire<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>airai</l>     <r>aire<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -6175,9 +6498,11 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>aire<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>aire<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="te__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="enclo/re__vblex">
   <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -6216,6 +6541,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>siez</l>      <r>re<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>sent</l>      <r>re<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="cl/ore__vblex">
   <e>       <p><l>os</l>        <r>ore<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>os</l>        <r>ore<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -6247,6 +6573,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>osiez</l>     <r>ore<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>osent</l>     <r>ore<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="écl/ore__vblex">
   <e>       <p><l>os</l>        <r>ore<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>os</l>        <r>ore<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -6278,12 +6605,15 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>osiez</l>     <r>ore<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>osent</l>     <r>ore<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="toi__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="avec_soi__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t__predet">
   <e>       <p><l>s</l>         <r>t<s n="predet"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>t</l>         <r>t<s n="predet"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6291,58 +6621,70 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>tes</l>       <r>t<s n="predet"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>t</l>         <r>t<s n="predet"/><s n="nt"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t__prn">
   <e>       <p><l>s</l>         <r>t<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>t</l>         <r>t<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te</l>        <r>t<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>tes</l>       <r>t<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tou/s_les_deux__prn">
   <e>       <p><l>s<b/>les<b/>deux</l><r>s<b/>les<b/>deux<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>tes<b/>les<b/>deux</l><r>s<b/>les<b/>deux<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="les_deux__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tou/t_le__det">
   <e>       <p><l>t<b/>le</l>   <r>t<b/>le<s n="det"/><s n="qnt"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>te<b/>la</l>  <r>t<b/>le<s n="det"/><s n="qnt"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>s<b/>les</l>  <r>t<b/>le<s n="det"/><s n="qnt"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>tes<b/>les</l><r>t<b/>le<s n="det"/><s n="qnt"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="tout_le_monde__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="trava/il__n" c="autoconcord:m,sgpl">
   <e r="LR"><p><l>ils</l>       <r>il<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>il</l>        <r>il<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux</l>        <r>il<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="très__predet">
   <e>       <p><l></l>          <r><s n="predet"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="très__preadv">
   <e>       <p><l></l>          <r><s n="preadv"/></r></p></e>
 </pardef>
+
 <pardef n="tur/c__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>c</l>         <r>c<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>cs</l>        <r>c<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>que</l>       <r>c<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ques</l>      <r>c<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="un__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r><s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="quelqu/'un__prn">
   <e>       <p><l>'un</l>       <r>'un<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>'une</l>      <r>'un<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es-uns</l>    <r>'un<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>es-unes</l>   <r>'un<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="v/ouloir__vblex">
   <e r="LR"><p><l>euille</l>    <r>ouloir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>euille</l>    <r>ouloir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -6406,6 +6748,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>oulût</l>     <r>ouloir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>oulûtes</l>   <r>ouloir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="v/ouloir__vbmod">
   <e r="LR"><p><l>euille</l>    <r>ouloir<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>euille</l>    <r>ouloir<s n="vbmod"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -6469,6 +6812,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>oulût</l>     <r>ouloir<s n="vbmod"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>oulûtes</l>   <r>ouloir<s n="vbmod"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="va/loir__vblex">
   <e>       <p><l>ille</l>      <r>loir<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>ille</l>      <r>loir<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -6526,6 +6870,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ux</l>        <r>loir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux</l>        <r>loir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
 </pardef>
+
 <pardef n="vende/ur__n" c="autoconcord:m_f,sgpl">
   <e r="LR"><p><l>resse</l>     <r>ur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>resses</l>    <r>ur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -6534,38 +6879,46 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>use</l>       <r>ur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>uses</l>      <r>ur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="vie/ux__adj">
   <e r="LR"><p><l>il</l>        <r>il<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ille</l>      <r>ux<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>illes</l>     <r>ux<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ux</l>        <r>ux<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="vie/ux__n" c="sans autoconcord">
   <e>       <p><l>ille</l>      <r>ux<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>illes</l>     <r>ux<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ux</l>        <r>ux<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="épou/x__n" c="sans autoconcord">
   <e>       <p><l>ses</l>       <r>x<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>se</l>        <r>x<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>x</l>         <r>x<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="vitra/il__n" c="autoconcord:m,sgpl">
   <e>       <p><l>il</l>        <r>il<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux</l>        <r>il<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="vous__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="~l__prn">
   <e>       <p><l>a</l>         <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
 </pardef>
+
 <pardef n="à_moi__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="ém/ouvoir__vblex">
   <e>       <p><l>eus</l>       <r>ouvoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>eus</l>       <r>ouvoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__encimp"/></e>
@@ -6623,22 +6976,26 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>ût</l>        <r>ouvoir<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ûtes</l>      <r>ouvoir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="épou/x__n" c="autoconcord:m_f,sp">
   <e>       <p><l>se</l>        <r>x<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r>x<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>x</l>         <r>x<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
+
 <pardef n="bas__n" c="ne autoconcord">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>se</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="fo/u__n" c="autoconcord:m_f,sgpl">
   <e>       <p><l>u</l>         <r>u<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>us</l>        <r>u<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>lle</l>       <r>u<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>lles</l>      <r>u<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/aller__vblex">
   <e>       <p><l>aille</l>     <r>aller<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>aille</l>     <r>aller<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -6696,6 +7053,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>vas</l>       <r>aller<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>vont</l>      <r>aller<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
 </pardef>
+
 <pardef n="/avoir__vblex">
   <e>       <p><l>a</l>         <r>avoir<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>ai</l>        <r>avoir<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -6857,6 +7215,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>Etes</l>      <r>Être<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>Etre</l>      <r>Être<s n="vblex"/><s n="inf"/></r></p></e>
 </pardef>
+
 <pardef n="/être__vbser">
   <e lm="soit"><p><l>soit</l>   <r>être<s n="vbser"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l>été</l>       <r>être<s n="vbser"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
@@ -6924,166 +7283,207 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e r="LR"><p><l>Etes</l>      <r>Être<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>Etre</l>      <r>Être<s n="vbser"/><s n="inf"/></r></p></e>
 </pardef>
+
 <pardef n="lu/i[]re__vblex">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="luî/mes__vblex"/></e>
   <e>       <i>i</i><par n="lui/re__vblex"/></e>
 </pardef>
+
 <pardef n="d/i[]re__vblex">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>i</i><par n="di/re__vblex"/></e>
 </pardef>
+
 <pardef n="r/i[]re__vblex">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>i</i><par n="ri/re__vblex"/></e>
 </pardef>
+
 <pardef n="concl/u[]re__vblex">
   <e>       <p><l>û</l>         <r>u</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>u</i><par n="conclu/re__vblex"/></e>
 </pardef>
+
 <pardef n="incl/u[]re__vblex">
   <e>       <p><l>û</l>         <r>u</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>u</i><par n="inclu/re__vblex"/></e>
 </pardef>
+
 <pardef n="maud/i[]re__vblex">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>i</i><par n="maudi/re__vblex"/></e>
 </pardef>
+
 <pardef n="contred/i[]re__vblex">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>i</i><par n="contredi/re__vblex"/></e>
 </pardef>
+
 <pardef n="about/[]ir__vblex">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="aboutî/mes__vblex"/></e>
   <e>       <i>i</i><par n="abouti/r__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex">
   <e>       <p><l>èr</l>        <r>ér</r></p><i></i><par n="abrèg/e__vblex"/></e>
   <e>       <i>ér</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__gr">
   <e>       <p><l>è</l>         <r>é</r></p><i>gr</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>égr</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="abr/é[G]er__vblex">
   <e>       <p><l>è</l>         <r>é</r></p><i></i><par n="abrèg/e__vblex"/></e>
   <e>       <i>é</i><par n="abrég/er__vblex"/></e>
 </pardef>
+
 <pardef n="ach/e[T]er__vblex">
   <e>       <p><l>è</l>         <r>e</r></p><i></i><par n="achèt/e__vblex"/></e>
   <e>       <i>e</i><par n="achet/er__vblex"/></e>
 </pardef>
+
 <pardef n="r/i[]re__vblex__">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>i</i><par n="ri/re__vblex"/></e>
 </pardef>
+
 <pardef n="maud/i[]re__vblex__">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>i</i><par n="maudi/re__vblex"/></e>
 </pardef>
+
 <pardef n="lu/i[]re__vblex__">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="luî/mes__vblex"/></e>
   <e>       <i>i</i><par n="lui/re__vblex"/></e>
 </pardef>
+
 <pardef n="d/i[]re__vblex__">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>i</i><par n="di/re__vblex"/></e>
 </pardef>
+
 <pardef n="contred/i[]re__vblex__">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>i</i><par n="contredi/re__vblex"/></e>
 </pardef>
+
 <pardef n="concl/u[]re__vblex__">
   <e>       <p><l>û</l>         <r>u</r></p><i></i><par n="dî/mes__vblex"/></e>
   <e>       <i>u</i><par n="conclu/re__vblex"/></e>
 </pardef>
+
 <pardef n="ach/e[T]er__vblex__v">
   <e>       <p><l>è</l>         <r>e</r></p><i>v</i><par n="achèt/e__vblex"/></e>
   <e>       <i>ev</i><par n="achet/er__vblex"/></e>
 </pardef>
+
 <pardef n="ach/e[T]er__vblex__t">
   <e>       <p><l>è</l>         <r>e</r></p><i>t</i><par n="achèt/e__vblex"/></e>
   <e>       <i>et</i><par n="achet/er__vblex"/></e>
 </pardef>
+
 <pardef n="ach/e[T]er__vblex__s">
   <e>       <p><l>è</l>         <r>e</r></p><i>s</i><par n="achèt/e__vblex"/></e>
   <e>       <i>es</i><par n="achet/er__vblex"/></e>
 </pardef>
+
 <pardef n="ach/e[T]er__vblex__n">
   <e>       <p><l>è</l>         <r>e</r></p><i>n</i><par n="achèt/e__vblex"/></e>
   <e>       <i>en</i><par n="achet/er__vblex"/></e>
 </pardef>
+
 <pardef n="ach/e[T]er__vblex__m">
   <e>       <p><l>è</l>         <r>e</r></p><i>m</i><par n="achèt/e__vblex"/></e>
   <e>       <i>em</i><par n="achet/er__vblex"/></e>
 </pardef>
+
 <pardef n="ach/e[T]er__vblex__l">
   <e>       <p><l>è</l>         <r>e</r></p><i>l</i><par n="achèt/e__vblex"/></e>
   <e>       <i>el</i><par n="achet/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__cr">
   <e>       <p><l>è</l>         <r>é</r></p><i>cr</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>écr</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__tr">
   <e>       <p><l>è</l>         <r>é</r></p><i>tr</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>étr</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__m">
   <e>       <p><l>è</l>         <r>é</r></p><i>m</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>ém</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__t">
   <e>       <p><l>è</l>         <r>é</r></p><i>t</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>ét</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__s">
   <e>       <p><l>è</l>         <r>é</r></p><i>s</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>és</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__r">
   <e>       <p><l>è</l>         <r>é</r></p><i>r</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>ér</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__qu">
   <e>       <p><l>è</l>         <r>é</r></p><i>qu</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>équ</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__n">
   <e>       <p><l>è</l>         <r>é</r></p><i>n</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>én</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__l">
   <e>       <p><l>è</l>         <r>é</r></p><i>l</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>él</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__gu">
   <e>       <p><l>è</l>         <r>é</r></p><i>gu</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>égu</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__gn">
   <e>       <p><l>è</l>         <r>é</r></p><i>gn</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>égn</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__gl">
   <e>       <p><l>è</l>         <r>é</r></p><i>gl</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>égl</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__d">
   <e>       <p><l>è</l>         <r>é</r></p><i>d</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>éd</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__ch">
   <e>       <p><l>è</l>         <r>é</r></p><i>ch</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>éch</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="accél/é[R]er__vblex__br">
   <e>       <p><l>è</l>         <r>é</r></p><i>br</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>ébr</i><par n="accélér/er__vblex"/></e>
 </pardef>
+
 <pardef n="abr/é[G]er__vblex__g">
   <e>       <p><l>è</l>         <r>é</r></p><i>g</i><par n="abrèg/e__vblex"/></e>
   <e>       <i>ég</i><par n="abrég/er__vblex"/></e>
 </pardef>
+
 <pardef n="about/[]ir__vblex__">
   <e>       <p><l>î</l>         <r>i</r></p><i></i><par n="aboutî/mes__vblex"/></e>
   <e>       <i>i</i><par n="abouti/r__vblex"/></e>
