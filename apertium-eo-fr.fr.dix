@@ -4539,6 +4539,8 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 
 <pardef n="fois__n" c="autoconcord:f,sp">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="fra/is__adj">
