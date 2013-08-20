@@ -391,13 +391,13 @@ apertium-dixtools fix apertium-eo-fr.eo.dix.new2 apertium-eo-fr.eo.dix.new3
 
 
 <pardef n="quant__det">
-  <e r="LR"><p><l></l>          <r><s n="det"/><s n="qnt"/><s n="sp"/></r></p></e>
-  <e r="RL"><p><l></l>          <r><s n="det"/><s n="qnt"/><s n="sp"/><s n="nom"/></r></p></e>
-  <e r="RL"><p><l></l>          <r><s n="det"/><s n="qnt"/><s n="sp"/><s n="acc"/></r></p></e>
-  <e r="RL"><p><l></l>          <r><s n="det"/><s n="qnt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e r="RL"><p><l>j</l>         <r><s n="det"/><s n="qnt"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e r="RL"><p><l>n</l>         <r><s n="det"/><s n="qnt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e r="RL"><p><l>jn</l>        <r><s n="det"/><s n="qnt"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="qnt"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="qnt"/><s n="sp"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="qnt"/><s n="sp"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="qnt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>j</l>         <r><s n="det"/><s n="qnt"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>n</l>         <r><s n="det"/><s n="qnt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>jn</l>        <r><s n="det"/><s n="qnt"/><s n="pl"/><s n="acc"/></r></p></e>
 </pardef>
 
 <pardef n="i__vblex">
