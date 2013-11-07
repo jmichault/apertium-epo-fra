@@ -8105,9 +8105,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e r="RL" lm="les États-Unis"><p><l><a/>les<b/>États-Unis</l><r>les<b/>États-Unis</r></p><par n="Baléares__np"/></e>
 <e r="RL" lm="lorsque">  <p><l><a/>lorsque</l><r>lorsque<s n="cnjadv"/></r></p></e>
 <e r="RL" lm="mon">      <p><l><a/>m</l>     <r>m</r></p><par n="m/on__det"/></e>
-<e r="RL" lm="moins">    <p><l><a/>moins</l> <r>moins</r></p><par n="hier__adv"/></e>
 <e r="RL" lm="ne">       <p><l><a/>ne</l>    <r>ne</r></p><par n="hier__adv"/></e>
-<e r="RL" lm="plus">     <p><l><a/>plus</l>  <r>plus</r></p><par n="hier__adv"/></e>
 <e r="RL" lm="puisque">  <p><l><a/>puisque</l><r>puisque<s n="cnjadv"/></r></p></e>
 <e r="RL" lm="que">      <p><l><a/>que</l>   <r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="que">      <p><l><a/>que</l>   <r>que<s n="prn"/><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
