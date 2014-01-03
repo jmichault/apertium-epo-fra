@@ -9,16 +9,8 @@
       <cat-item tags="n.*"/>
     </def-cat>
 
-    <def-cat n="np">
-      <cat-item tags="np.*"/>
-    </def-cat>
-
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
-    </def-cat>
-
-    <def-cat n="prn">
-      <cat-item tags="prn.*"/>
     </def-cat>
 
     <def-cat n="verbe">
@@ -30,13 +22,19 @@
       <cat-item tags="vbtr_ntr.*"/>
     </def-cat>
 
-    <def-cat n="pr">
+    <def-cat n="autre-mot">
+      <cat-item tags="np.*"/>
+      <cat-item tags="num.*"/>
       <cat-item tags="pr"/>
       <cat-item tags="pr.*"/>
+      <cat-item tags="prn.*"/>
+      <cat-item tags="cnjadv"/>
+      <cat-item tags="cnjadv.*"/>
     </def-cat>
 
-    <def-cat n="num">
-      <cat-item tags="num.*"/>
+    <def-cat n="ponctuation">
+      <cat-item tags="cm"/>
+      <cat-item tags="sent"/>
     </def-cat>
 
     <def-cat n="inconnu">
@@ -238,10 +236,10 @@
         </out>
       </action>
     </rule>
- 
+
     <rule>
       <pattern>
-        <pattern-item n="prn"/>
+        <pattern-item n="autre-mot"/>
       </pattern>
       <action>
         <out>
@@ -254,33 +252,7 @@
 
     <rule>
       <pattern>
-        <pattern-item n="pr"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="sl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule>
-      <pattern>
-        <pattern-item n="np"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="sl" part="whole"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
-    <rule>
-      <pattern>
-        <pattern-item n="num"/>
+        <pattern-item n="ponctuation"/>
       </pattern>
       <action>
         <out>
