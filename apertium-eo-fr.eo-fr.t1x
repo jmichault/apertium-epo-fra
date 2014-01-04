@@ -391,6 +391,51 @@
     </def-macro>
 
 
+    <def-macro n="gen_det_nom_adj" npar="3">
+    <!--  génère article puis nom et adjectif dans le bon ordre -->
+    <!--  param1 : article, param2 : nom, param3 : adjectif -->
+      <out>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="type_mot"/>
+          <clip pos="1" side="tl" part="type_det"/>
+          <clip pos="2" side="tl" part="genre"/>
+          <clip pos="2" side="sl" part="nombre"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b />
+      </out>
+
+      <call-macro n="gen_nom_adj">
+        <with-param pos="2"/>
+        <with-param pos="3"/>
+      </call-macro>
+    </def-macro>
+
+
+    <def-macro n="gen_det_nom_2adj" npar="4">
+    <!--  génère article puis nom et 2 adjectifs dans le bon ordre -->
+    <!--  param1 : article, param2 : nom, param3 : adjectif, param4 : adjectif -->
+      <out>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="type_mot"/>
+          <clip pos="1" side="tl" part="type_det"/>
+          <clip pos="2" side="tl" part="genre"/>
+          <clip pos="2" side="sl" part="nombre"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b />
+      </out>
+
+      <call-macro n="gen_nom_2adj">
+        <with-param pos="2"/>
+        <with-param pos="3"/>
+        <with-param pos="4"/>
+      </call-macro>
+    </def-macro>
+
+      
     <def-macro n="maj_gen_pronom" npar="1">
     <!--  corrige si nécessaire la personne et le nombre d'un pronom -->
     <!--  puis génère celui-ci -->
@@ -443,7 +488,7 @@
     </def-macro>
 
 
-    <def-macro n="conjugue_verbe" npar="2">
+    <def-macro n="conj_verbe" npar="2">
     <!--  corrige si nécessaire la personne et le nombre d'un pronom -->
     <!--  puis génère celui-ci -->
     <!--  param1 : nom ou pronom, param2 : verbe -->
@@ -636,19 +681,8 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="type_mot"/>
-            <clip pos="1" side="tl" part="type_det"/>
-            <clip pos="2" side="tl" part="genre"/>
-            <clip pos="2" side="sl" part="nombre"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <b />
-        </out>
-
-        <call-macro n="gen_nom_adj">
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="1"/>
           <with-param pos="2"/>
           <with-param pos="3"/>
         </call-macro>
@@ -698,19 +732,8 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="type_mot"/>
-            <clip pos="1" side="tl" part="type_det"/>
-            <clip pos="2" side="tl" part="genre"/>
-            <clip pos="2" side="sl" part="nombre"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <b />
-        </out>
-
-        <call-macro n="gen_nom_2adj">
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="1"/>
           <with-param pos="2"/>
           <with-param pos="3"/>
           <with-param pos="4"/>
@@ -804,7 +827,7 @@
           <with-param pos="1"/>
         </call-macro>
 
-        <call-macro n="conjugue_verbe">
+        <call-macro n="conj_verbe">
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
@@ -828,7 +851,7 @@
           <b/>
         </out>
 
-        <call-macro n="conjugue_verbe">
+        <call-macro n="conj_verbe">
           <with-param pos="2"/>
           <with-param pos="3"/>
         </call-macro>
@@ -844,19 +867,8 @@
         <pattern-item n="verbe_conj"/>
       </pattern>
       <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="type_mot"/>
-            <clip pos="1" side="tl" part="type_det"/>
-            <clip pos="2" side="tl" part="genre"/>
-            <clip pos="2" side="sl" part="nombre"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <b />
-        </out>
-
-        <call-macro n="gen_nom_adj">
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="1"/>
           <with-param pos="2"/>
           <with-param pos="3"/>
         </call-macro>
@@ -865,7 +877,7 @@
           <b/>
         </out>
 
-        <call-macro n="conjugue_verbe">
+        <call-macro n="conj_verbe">
           <with-param pos="2"/>
           <with-param pos="4"/>
         </call-macro>
@@ -882,19 +894,8 @@
         <pattern-item n="verbe_conj"/>
       </pattern>
       <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="type_mot"/>
-            <clip pos="1" side="tl" part="type_det"/>
-            <clip pos="2" side="tl" part="genre"/>
-            <clip pos="2" side="sl" part="nombre"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <b />
-        </out>
-
-        <call-macro n="gen_nom_2adj">
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="1"/>
           <with-param pos="2"/>
           <with-param pos="3"/>
           <with-param pos="4"/>
@@ -904,9 +905,414 @@
           <b/>
         </out>
 
-        <call-macro n="conjugue_verbe">
+        <call-macro n="conj_verbe">
           <with-param pos="2"/>
           <with-param pos="5"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom">
+          <with-param pos="4"/>
+          <with-param pos="5"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="6"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom">
+          <with-param pos="5"/>
+          <with-param pos="6"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="7"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom">
+          <with-param pos="6"/>
+          <with-param pos="7"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="8"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="4"/>
+          <with-param pos="5"/>
+          <with-param pos="6"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="7"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="5"/>
+          <with-param pos="6"/>
+          <with-param pos="7"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="8"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="6"/>
+          <with-param pos="7"/>
+          <with-param pos="8"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="9"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="4"/>
+          <with-param pos="5"/>
+          <with-param pos="6"/>
+          <with-param pos="7"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="8"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="5"/>
+          <with-param pos="6"/>
+          <with-param pos="7"/>
+          <with-param pos="8"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="9"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_commun"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="6"/>
+          <with-param pos="7"/>
+          <with-param pos="8"/>
+          <with-param pos="9"/>
+        </call-macro>
+
+        <out>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="10"/>
         </call-macro>
       </action>
     </rule>
