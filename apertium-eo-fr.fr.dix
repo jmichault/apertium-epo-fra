@@ -6932,22 +6932,28 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 </pardef>
 
 <pardef n="vie/ux__adj">
-  <e r="LR"><p><l>il</l>        <r>il<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ux</l>        <r>ux<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ux</l>        <r>ux<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>il</l>        <r>ux<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>ux</l>        <r>ux<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>ille</l>      <r>ux<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>illes</l>     <r>ux<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ux</l>        <r>ux<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
 
 <pardef n="vie/ux__n" c="sans autoconcord">
+  <e r="RL"><p><l>ux</l>        <r>ux<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ux</l>        <r>ux<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ux</l>        <r>ux<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>ille</l>      <r>ux<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>illes</l>     <r>ux<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ux</l>        <r>ux<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 </pardef>
 
 <pardef n="épou/x__n" c="sans autoconcord">
-  <e>       <p><l>ses</l>       <r>x<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>x</l>         <r>x<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>x</l>         <r>x<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>x</l>         <r>x<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>se</l>        <r>x<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>x</l>         <r>x<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+  <e>       <p><l>ses</l>       <r>x<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="vitra/il__n" c="autoconcord:m,sgpl">
