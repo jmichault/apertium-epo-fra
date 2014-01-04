@@ -43598,6 +43598,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="satire">          <i>satire</i><par n="abeille__n"/></e>
 <e lm="satisfaction">    <i>satisfaction</i><par n="abeille__n"/></e>
 <e lm="satisfaire">      <i>satisf</i><par n="déf/aire__vblex"/></e>
+<e lm="satisfaisant">    <i>satisfaisant</i><par n="abaissant__adj"/></e>
 <e lm="satisfait">       <i>satisfait</i><par n="abaissant__adj"/></e>
 <e lm="satrape" a="revo"><i>satrape</i><par n="abeille__n"/></e>
 <e lm="saturation">      <i>saturation</i><par n="abeille__n"/></e>

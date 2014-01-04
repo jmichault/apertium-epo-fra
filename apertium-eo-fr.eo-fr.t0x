@@ -22,14 +22,19 @@
       <cat-item tags="vbtr_ntr.*"/>
     </def-cat>
 
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
+
     <def-cat n="autre-mot">
       <cat-item tags="np.*"/>
-      <cat-item tags="num.*"/>
       <cat-item tags="pr"/>
       <cat-item tags="pr.*"/>
       <cat-item tags="prn.*"/>
+      <cat-item tags="adv"/>
       <cat-item tags="cnjadv"/>
-      <cat-item tags="cnjadv.*"/>
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjsub"/>
     </def-cat>
 
     <def-cat n="ponctuation">
@@ -197,6 +202,123 @@
       </action>
     </rule>
 
+    <rule>
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="4" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <!-- cas dégradé, le mot inconnu est supposé être un adjectif -->
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="inconnu"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <!-- cas dégradé, le mot inconnu est supposé être un nom -->
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="inconnu"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="3" side="sl" part="whole"/>
+          </lu>
+          <b />
+          <lu>
+            <clip pos="2" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
     <!--  règles pour reproduire à l'identique les mots isolés -->
     <rule>
       <pattern>
@@ -227,6 +349,19 @@
     <rule>
       <pattern>
         <pattern-item n="verbe"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="sl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule>
+      <pattern>
+        <pattern-item n="num"/>
       </pattern>
       <action>
         <out>
