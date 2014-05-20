@@ -19216,6 +19216,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="détecter" a="webform"><i>détect</i><par n="abaiss/er__vblex"/></e>
 <e lm="détecteur">       <i>détecteur</i><par n="accessoire__n"/></e>
 <e lm="détecteur">       <i>détect</i><par n="conduct/eur__adj"/></e>
+<e lm="détection">       <i>détection</i><par n="abeille__n"/></e>
 <e lm="détective">       <i>détective</i><par n="artiste__n"/></e>
 <e lm="dételer" a="revo"><i>détel</i><par n="appel/er__vblex"/></e>
 <e lm="de telle manière"><i>de<b/>telle<b/>manière</i><par n="hier__adv"/></e>
@@ -29617,6 +29618,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="intéresser">      <i>intéress</i><par n="abaiss/er__vblex"/></e>
 <e lm="intérêt">         <i>intérêt</i><par n="accessoire__n"/></e>
 <e lm="interface" a="eleka"><i>interface</i><par n="abeille__n"/></e>
+<e lm="interfacer" a="bech"><i>interfa</i><par n="annon/cer__vblex"/></e>
 <e lm="interférence">    <i>interférence</i><par n="abeille__n"/></e>
 <e lm="interférent">     <i>interférent</i><par n="abaissant__adj"/></e>
 <e lm="interférentiel" a="revo"><i>interférentiel</i><par n="annuel__adj"/></e>
@@ -48658,6 +48660,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="visiteur">        <i>visiteu</i><par n="causeu/r__n"/></e>
 <e lm="Visitor">         <i>Visitor</i><par n="Smith__np"/></e>
 <e lm="visser" a="revo"> <i>viss</i><par n="abaiss/er__vblex"/></e>
+<e lm="visualisation">   <i>visualisation</i><par n="abeille__n"/></e>
 <e lm="visualiser">      <i>visualis</i><par n="abaiss/er__vblex"/></e>
 <e lm="visuel">          <i>visuel</i><par n="annuel__adjadv"/></e>
 <e lm="Vita">            <i>Vita</i><par n="Marie__np"/></e>
