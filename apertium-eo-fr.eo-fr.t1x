@@ -488,22 +488,21 @@
     </def-macro>
 
 
-    <def-macro n="conj_verbe" npar="2">
-    <!--  corrige si nécessaire la personne et le nombre d'un pronom -->
-    <!--  puis génère celui-ci -->
-    <!--  param1 : nom ou pronom, param2 : verbe -->
+    <def-macro n="prep_conj_verbe" npar="1">
+    <!--  corrige le type et le temps d'un verbe conjugué -->
+    <!--  param1 : verbe -->
 
       <!--  en sortie le type de verbe est vblex sauf pour le verbe être  -->
       <choose>
         <when>
           <test>
             <equal>
-              <clip pos="2" side="sl" part="type_mot"/>
+              <clip pos="1" side="sl" part="type_mot"/>
               <lit-tag v="vbser"/>
             </equal>
           </test>
           <let>
-            <clip pos="2" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="type_mot"/>
             <lit-tag v="vbser"/>
           </let>
         </when>
@@ -514,28 +513,39 @@
         <when>
           <test>
             <equal>
-              <clip pos="2" side="sl" part="temps"/>
+              <clip pos="1" side="sl" part="temps"/>
               <lit-tag v="pres"/>
             </equal>
           </test>
           <let>
-            <clip pos="2" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="temps"/>
             <lit-tag v="pri"/>
           </let>
         </when>
         <when>
           <test>
             <equal>
-              <clip pos="2" side="sl" part="temps"/>
+              <clip pos="1" side="sl" part="temps"/>
               <lit-tag v="past"/>
             </equal>
           </test>
           <let>
-            <clip pos="2" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="temps"/>
             <lit-tag v="pii"/>
           </let>
         </when>
       </choose>
+
+    </def-macro>
+
+
+    <def-macro n="conj_verbe" npar="2">
+    <!--  conjugue un verbe -->
+    <!--  param1 : nom ou pronom, param2 : verbe -->
+
+      <call-macro n="prep_conj_verbe">
+        <with-param pos="2"/>
+      </call-macro>
 
       <!--  personne par défaut -->
       <choose>
@@ -635,8 +645,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="type_mot"/>
             <clip pos="1" side="tl" part="type_np"/>
-            <clip pos="1" side="tl" part="genre"/>
-            <clip pos="1" side="tl" part="nombre"/>
+            <lit-tag v="mf.sp"/>
           </lu>
         </out>
       </action>
@@ -652,6 +661,28 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="type_mot"/>
             <lit-tag v="ciph.mf.pl"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="prep_conj_verbe">
+          <with-param pos="1"/>
+        </call-macro>
+
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="type_mot"/>
+            <clip pos="1" side="tl" part="temps"/>
+            <lit-tag v="p3.sg"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
       </action>
@@ -912,6 +943,8 @@
       </action>
     </rule>
 
+
+<!--  Règles pour : <sujet> de la <nom_commun> <adj>* <verbe_conj>  -->
 
     <rule>
       <pattern>
@@ -1313,6 +1346,128 @@
         <call-macro n="conj_verbe">
           <with-param pos="2"/>
           <with-param pos="10"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+<!--  Règles pour : <sujet> de <np> <verbe_conj>  -->
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="np"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="4" side="tl" part="lem"/>
+            <clip pos="4" side="tl" part="type_mot"/>
+            <clip pos="4" side="tl" part="type_np"/>
+            <lit-tag v="mf.sp"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="5"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="np"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom_adj">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="5" side="tl" part="lem"/>
+            <clip pos="5" side="tl" part="type_mot"/>
+            <clip pos="5" side="tl" part="type_np"/>
+            <lit-tag v="mf.sp"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="6"/>
+        </call-macro>
+      </action>
+    </rule>
+
+
+    <rule>
+      <pattern>
+        <pattern-item n="det"/>
+        <pattern-item n="nom_sujet"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="adj"/>
+        <pattern-item n="mot_de"/>
+        <pattern-item n="np"/>
+        <pattern-item n="verbe_conj"/>
+      </pattern>
+      <action>
+        <call-macro n="gen_det_nom_2adj">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+          <with-param pos="4"/>
+        </call-macro>
+
+        <out>
+          <b/>
+          <lu>
+            <lit v="de"/>
+            <lit-tag v="pr"/>
+          </lu>
+          <b/>
+          <lu>
+            <clip pos="6" side="tl" part="lem"/>
+            <clip pos="6" side="tl" part="type_mot"/>
+            <clip pos="6" side="tl" part="type_np"/>
+            <lit-tag v="mf.sp"/>
+          </lu>
+          <b/>
+        </out>
+
+        <call-macro n="conj_verbe">
+          <with-param pos="2"/>
+          <with-param pos="7"/>
         </call-macro>
       </action>
     </rule>

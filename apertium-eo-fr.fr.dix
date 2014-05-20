@@ -2266,6 +2266,8 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 
 <pardef n="bas__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>se</l>        <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
@@ -16253,6 +16255,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="comptabilité" a="webform"><i>comptabilité</i><par n="abeille__n"/></e>
 <e lm="comptable" a="eleka"><i>comptable</i><par n="artiste__n"/></e>
 <e lm="comptable">       <i>comptable</i><par n="académique__adjadv"/></e>
+<e lm="comptage">        <i>comptage</i><par n="accessoire__n"/></e>
 <e lm="compte">          <i>compte</i><par n="accessoire__n"/></e>
 <e lm="compte d'épargne"><i>compte</i><par n="accessoire__n"/><p><l><b/>d'épargne</l><r><g><b/>d'épargne</g></r></p></e>
 <e lm="compte en banque"><i>compte</i><par n="accessoire__n"/><p><l><b/>en<b/>banque</l><r><g><b/>en<b/>banque</g></r></p></e>
@@ -17570,6 +17573,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="Cruz">            <i>Cruz</i><par n="Abraham__np"/></e>
 <e lm="Cruz">            <i>Cruz</i><par n="Smith__np"/></e>
 <e lm="cruzade" a="revo"><i>cruzade</i><par n="abeille__n"/></e>
+<e lm="cryptage">        <i>cryptage</i><par n="accessoire__n"/></e>
 <e lm="crypte" a="revo"> <i>crypte</i><par n="abeille__n"/></e>
 <e lm="crypter">         <i>crypt</i><par n="abaiss/er__vblex"/></e>
 <e lm="cryptographe">    <i>cryptographe</i><par n="artiste__n"/></e>
