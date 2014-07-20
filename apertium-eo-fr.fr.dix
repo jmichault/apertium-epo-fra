@@ -44579,6 +44579,8 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="site">            <i>site</i><par n="accessoire__n"/></e>
 <e lm="site internet">   <p><l>site<b/>internet</l><r>site<b/>internet<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="site internet">   <p><l>sites<b/>internet</l><r>site<b/>internet<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="site web">        <p><l>site<b/>web</l><r>site<b/>web<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="site web">        <p><l>sites<b/>web</l><r>site<b/>web<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="sitôt" a="revo">  <i>sitôt</i><par n="hier__adv"/></e>
 <e lm="sitôt">           <i>sitôt</i><par n="attendu__pr"/></e>
 <e lm="sitôt que">       <i>sitôt<b/>que</i><par n="afin_que__cnjadv"/></e>
