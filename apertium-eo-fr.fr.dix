@@ -21022,7 +21022,6 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="élytre">          <i>élytre</i><par n="accessoire__n"/></e>
 <e lm="Elzein">          <i>Elzein</i><par n="Smith__np"/></e>
 <e lm="elzévir">         <i>elzévir</i><par n="accessoire__n"/></e>
-<e lm="email" a="bech"><i>email</i><par n="académique__adj"/></e>
 <e lm="email">           <i>email</i><par n="accessoire__n"/></e>
 <e lm="e-mail">          <i>e-mail</i><par n="accessoire__n"/></e>
 <e lm="émail">           <i>émail</i><par n="accessoire__n"/></e>
