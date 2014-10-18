@@ -4988,7 +4988,8 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="babilejo">        <i>babilej</i><par n="o__n"/></e>
 <e lm="babilema">        <i>babilem</i><par n="a__adj"/></e>
 <e lm="babili">          <i>babil</i><par n="i__vbtr_ntr"/></e>
-<e lm="babilona">        <i>babilon</i><par n="a__adj"/></e>
+<e lm="babili">          <i>babil</i><par n="i__vbtr_ntr"/></e>
+<e lm="babilo">          <i>babil</i><par n="o__n"/></e>
 <e lm="babilonano">      <i>babilonan</i><par n="ino__n"/></e>
 <e lm="Babilonio">       <i>Babiloni</i><par n="Barcelon/o__np"/></e>
 <e lm="Babilono">        <i>Babilon</i><par n="Barcelon/o__np"/></e>

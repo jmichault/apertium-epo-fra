@@ -11790,6 +11790,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="Bautista">        <i>Bautista</i><par n="Smith__np"/></e>
 <e lm="bavard">          <i>bavard</i><par n="abaissant__adj"/></e>
 <e lm="bavard">          <i>bavard</i><par n="africain__n"/></e>
+<e lm="bavardage">       <i>bavardage</i><par n="accessoire__n"/></e>
 <e lm="bavarder" a="revo"><i>bavard</i><par n="abaiss/er__vblex"/></e>
 <e lm="Bavière">         <i>Bavière</i><par n="Andorre__np"/></e>
 <e lm="Baxter">          <i>Baxter</i><par n="Smith__np"/></e>
@@ -25369,6 +25370,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e lm="formant syllabe"> <i>formant<b/>syllabe</i><par n="arrière__adj"/></e>
 <e lm="formant un bloc"> <i>formant<b/>un<b/>bloc</i><par n="arrière__adj"/></e>
 <e lm="format">          <i>format</i><par n="accessoire__n"/></e>
+<e lm="formatage">       <i>formatage</i><par n="accessoire__n"/></e>
 <e lm="formater">        <i>format</i><par n="abaiss/er__vblex"/></e>
 <e lm="formateur">       <i>format</i><par n="administrat/eur__n"/></e>
 <e lm="formateur">       <i>format</i><par n="conduct/eur__adj"/></e>
