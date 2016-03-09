@@ -171,9 +171,51 @@
 
   <section-def-macros>
 
+    <def-macro n="testmaj_genre" npar="1">
+    <!--  précise le genre d'un nom si c'est "mf" en français, mais connu en espéranto -->
+    <!--  exemple : artisto et artistino ==> artiste -->
+    <!--  param1 : nom -->
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="tl" part="genre"/>
+              <lit-tag v="mf"/>
+            </equal>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal>
+                  <clip pos="1" side="sl" part="genre"/>
+                  <lit-tag v="f"/>
+                </equal>
+              </test>
+              <let>
+                <clip pos="1" side="tl" part="genre"/>
+                <lit-tag v="f"/>
+              </let>
+            </when>
+            <otherwise>
+              <let>
+                <clip pos="1" side="tl" part="genre"/>
+                <lit-tag v="m"/>
+              </let>
+            </otherwise>
+          </choose>
+        </when>
+      </choose>
+    </def-macro>
+
+
     <def-macro n="gen_det_nom" npar="2">
     <!--  génère article + nom -->
     <!--  param1 : article, param2 : nom -->
+
+      <call-macro n="testmaj_genre">
+        <with-param pos="2"/>
+      </call-macro>
+
       <out>
         <lu>
           <clip pos="1" side="tl" part="lemh"/>
@@ -228,6 +270,10 @@
     <def-macro n="gen_nom_adj" npar="2">
     <!--  génère nom et adjectif dans le bon ordre -->
     <!--  param1 : nom, param2 : adjectif -->
+
+      <call-macro n="testmaj_genre">
+        <with-param pos="1"/>
+      </call-macro>
 
       <call-macro n="choix_pos_adj">
         <with-param pos="1"/>
@@ -286,6 +332,10 @@
     <def-macro n="gen_nom_2adj" npar="3">
     <!--  génère nom et 2 adjectifs dans le bon ordre -->
     <!--  param1 : nom, param2 : adjectif, param3 : adjectif -->
+
+      <call-macro n="testmaj_genre">
+        <with-param pos="1"/>
+      </call-macro>
 
       <call-macro n="choix_pos_adj">
         <with-param pos="1"/>
@@ -400,6 +450,11 @@
     <def-macro n="gen_det_nom_adj" npar="3">
     <!--  génère article puis nom et adjectif dans le bon ordre -->
     <!--  param1 : article, param2 : nom, param3 : adjectif -->
+
+      <call-macro n="testmaj_genre">
+        <with-param pos="2"/>
+      </call-macro>
+
       <out>
         <lu>
           <clip pos="1" side="tl" part="lemh"/>
@@ -422,6 +477,11 @@
     <def-macro n="gen_det_nom_2adj" npar="4">
     <!--  génère article puis nom et 2 adjectifs dans le bon ordre -->
     <!--  param1 : article, param2 : nom, param3 : adjectif, param4 : adjectif -->
+
+      <call-macro n="testmaj_genre">
+        <with-param pos="2"/>
+      </call-macro>
+
       <out>
         <lu>
           <clip pos="1" side="tl" part="lemh"/>
