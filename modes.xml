@@ -112,6 +112,8 @@
   </mode>
 -->
 
+<!--
+  Mode enlevé pour éviter des erreurs de compilation
   <mode name="fr-eo-bytecode" install="yes">
     <pipeline>
       <program name="lt-proc">
@@ -159,5 +161,6 @@
       </program>
     </pipeline>
   </mode>
+-->
 
 </modes>

@@ -64,8 +64,6 @@ $(PREFIX1).autogen.bin: $(BASENAME).$(LANG2).dix
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $@
-	@if [ "`which apertium-preprocess-transfer-bytecode-j`" == "" ]; then echo && echo "NOTE: lttoolbox-java (used for bytecode accelerated transfer) is missing" && echo "      Therefore the following will fail (but it's OK)" && echo; fi
-	apertium-preprocess-transfer-bytecode-j $(BASENAME).$(PREFIX2).t1x $(PREFIX2).t1x.class
 
 $(PREFIX1).t0x.bin: $(BASENAME).$(PREFIX1).t0x
 	apertium-validate-transfer $(BASENAME).$(PREFIX1).t0x
@@ -153,7 +151,7 @@ install-data-local:
 	test -d $(DESTDIR)$(apertium_eo_frmodesdir) || mkdir $(DESTDIR)$(apertium_eo_frmodesdir)
 	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_eo_frmodesdir)
 	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_eo_frmodesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(PREFIX2).t1x.class $(DESTDIR)$(apertium_eo_frdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_eo_frdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).antaux1_t2x $(BASENAME).$(PREFIX2).antaux2_t2x $(BASENAME).$(PREFIX2).antaux3_t2x $(BASENAME).$(PREFIX2).antaux4_t2x $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).post_t2x $(DESTDIR)$(apertium_eo_frdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_eo_frdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t0x $(DESTDIR)$(apertium_eo_frdir)
