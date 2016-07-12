@@ -415,6 +415,21 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   <e>       <p><l>elles</l>     <r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="prn_pers_obj">
+  <e r="LR"><p><l>me</l>        <r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>~me</l>       <r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>te</l>        <r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>~te</l>       <r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>le</l>        <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>la</l>        <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>~le</l>       <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>~la</l>       <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>nous</l>      <r>prpers<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>vous</l>      <r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>se</l>        <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>~se</l>       <r>prpers<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="S2__enc1">
   <e>       <p><l>-je</l>       <r>je<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>-tu</l>       <r>tu<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -7550,8 +7565,6 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
   </pardefs>
 
   <section id="main" type="standard">
-<!--       ****************************** -->
-    <!-- ****************************** -->
 <e lm="1er">             <i>1</i><par n="ch/er__adj"/></e>
 <e lm="2nd">             <i>2nd</i><par n="abaissant__adj"/></e>
 <e lm="4x4">             <i>4x4</i><par n="arrière__adj"/></e>
@@ -22968,6 +22981,7 @@ apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 <e r="RL" lm="Princess"> <i>Princess</i><par n="Marie__np"/></e>
 <e r="RL" lm="profiter de" a="eleka"><i>profit</i><par n="abaiss/er__vblex"/><p><l><b/><a/>de</l><r><g><b/>de</g></r></p></e>
 <e r="RL" lm="prpers">   <i></i><par n="prn_pers"/></e>
+<e r="RL" lm="prpers">   <i></i><par n="prn_pers_obj"/></e>
 <e r="RL" lm="puisque">  <p><l><a/>puisque</l><r>puisque<s n="cnjadv"/></r></p></e>
 <e r="RL" lm="que">      <p><l><a/>que</l>   <r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="que">      <p><l><a/>que</l>   <r>que<s n="prn"/><s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
