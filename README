@@ -17,15 +17,24 @@ $ make
 
 RUNNING
 
-echo "Voilà mon texte" | apertium -d . fra-epo-bytecode
+echo "Voilà mon texte" | apertium fra-epo
+echo "Jen mia teksto"  | apertium epo-fra
 
 (type "apertium" to see the different avalaible parameters)
 
 
 MODES
 
-Currently only French to Esperanto is supported.
-The modes fra-epo-bytecode and fra-epo are equivalent. The first is faster.
+Now, both French to Esperanto and Esperanto to French are supported.
+
+In the previous version (apertium-eo-fr in trunk), there was a mode
+fr-eo-bytecode which was equivalent to fr-eo mode, but faster for
+huge texts. The problem was it generated compilations errors if
+java is not installed and running correctly.
+
+Presently, this mode has been deleted. A better solution could be
+to give the choice between 2 versions of modes.xml and makefile.am
+files to allow each possibility.
 
 
 TAGGER 
