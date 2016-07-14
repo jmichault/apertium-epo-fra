@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-	Dictionary:
-	Sections: 7
-	Entries: 44691
-	Sdefs: 78
-	Paradigms: 398
-	Last processed by: apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
 
--->
 <dictionary>
-<!--
-        procezita per:
-apertium-dixtools format apertium-eo-fr.fr.dix apertium-eo-fr.fr.dix.new
-apertium-dixtools sort -ignorecase -alignMonodix -stripEmptyLines -group n,adj,adjadv,adv,np,cnjadv,pr,vblex,vblex_symbol,n_symbol,adj_symbol,adv_symbol,pr_symbol,cnjadv_symbol,preadv,ij,vbmod,cnjcoo,predet,cnjsub,vbser,vbhaver,num,num_symbol,det,det_symbol,rel,prn,prn_symbol apertium-eo-fr.fr.dix.new apertium-eo-fr.fr.dix.new2
-apertium-dixtools fix apertium-eo-fr.fr.dix.new2 apertium-eo-fr.fr.dix.new3
--->
 
   <alphabet>·ÀÁÂÄÃÇÈÉÊËÌÍÎÏÑÒÓÔÖÕŒÙÚÛÜàáâäãçèéêëìíîïñòóôöõœøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZĈĜĤĴŜŬabcdefghijklmnopqrstuvwxyzĉĝĥĵŝŭąĄčČćĆđĐęĘłŁŀĿńŃőŐřšŠśŚžŽźŹżŻÆæØøÅåăĂşșȘțȚıİğĞ</alphabet>
+
   <sdefs>
     <sdef n="acr" /> 
     <sdef n="adj" /> 

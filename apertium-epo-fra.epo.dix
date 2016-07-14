@@ -1,22 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-	Dictionary:
-	Sections: 2
-	Entries: 46281
-	Sdefs: 104
-	Paradigms: 83
-	Last processed by: apertium-dixtools fix apertium-eo-fr.eo.dix.new2 apertium-eo-fr.eo.dix.new3
 
--->
 <dictionary>
-<!--
-        Ordigita per:
-apertium-dixtools format apertium-eo-fr.eo.dix apertium-eo-fr.eo.dix.new
-apertium-dixtools sort -ignorecase -alignMonodix -stripEmptyLines -group adj,n,adv,np,vblex,vbtr,vbntr,vbtr_ntr,vbser,pr,cnjadv,cnjcoo,n_symbol,adj_symbol,np_symbol,adv_symbol,prn_symbol,det,preadv,rel,itg,det_symbol,num,ij,cnjsub apertium-eo-fr.eo.dix.new apertium-eo-fr.eo.dix.new2
-apertium-dixtools fix apertium-eo-fr.eo.dix.new2 apertium-eo-fr.eo.dix.new3
--->
 
   <alphabet>·ÀÁÂÄÃÇÈÉÊËÌÍÎÏÑÒÓÔÖÕŒÙÚÛÜàáâäãçèéêëìíîïñòóôöõœøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZĈĜĤĴŜŬabcdefghijklmnopqrstuvwxyzĉĝĥĵŝŭąĄčČćĆđĐęĘłŁŀĿńŃőŐřšŠśŚžŽźŹżŻÆæØøÅåăĂşșȘțȚıİğĞ</alphabet>
+
   <sdefs>
     <sdef n="acc" /> 
     <sdef n="nom" /> 
