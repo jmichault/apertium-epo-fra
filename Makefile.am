@@ -1,11 +1,11 @@
 VERSION=0.9.2
-LANG1=eo
-LANG2=fr
+LANG1=epo
+LANG2=fra
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
-BASENAME=apertium-eo-fr
-BILNAME=apertium-eo-fr.eo-fr.dix
+BASENAME=apertium-epo-fra
+BILNAME=apertium-epo-fra.epo-fra.dix
 
 TARGETS_COMMON = $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin $(PREFIX2).autogen.bin \
 	$(PREFIX2).t1x.bin $(PREFIX2).antaux1_t2x.bin $(PREFIX2).antaux2_t2x.bin \
@@ -104,7 +104,7 @@ EXTRA_DIST= \
 	$(LANG2)-pn.dat \
 	modes.xml
 
-apertium_eo_fr_DATA= \
+apertium_epo_fra_DATA= \
 	$(PREFIX2).automorf.bin \
 	$(PREFIX2).autobil.bin  \
 	$(PREFIX2).autogen.bin  \
@@ -132,8 +132,8 @@ apertium_eo_fr_DATA= \
 	$(PREFIX1).t1x.bin \
 	$(PREFIX1).mode
 
-apertium_eo_frdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_eo_frmodesdir=$(prefix)/share/apertium/modes/
+apertium_epo_fradir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_epo_framodesdir=$(prefix)/share/apertium/modes/
 
 $(PREFIX2).mode: modes.xml
 	apertium-gen-modes modes.xml
@@ -148,14 +148,14 @@ modes: modes.xml
 
 install-data-local:
 	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	test -d $(DESTDIR)$(apertium_eo_frmodesdir) || mkdir $(DESTDIR)$(apertium_eo_frmodesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_eo_frmodesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_eo_frmodesdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_eo_frdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).antaux1_t2x $(BASENAME).$(PREFIX2).antaux2_t2x $(BASENAME).$(PREFIX2).antaux3_t2x $(BASENAME).$(PREFIX2).antaux4_t2x $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).post_t2x $(DESTDIR)$(apertium_eo_frdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_eo_frdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t0x $(DESTDIR)$(apertium_eo_frdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_eo_frdir)
+	test -d $(DESTDIR)$(apertium_epo_framodesdir) || mkdir $(DESTDIR)$(apertium_epo_framodesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_epo_framodesdir)
+	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_epo_framodesdir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_epo_fradir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).antaux1_t2x $(BASENAME).$(PREFIX2).antaux2_t2x $(BASENAME).$(PREFIX2).antaux3_t2x $(BASENAME).$(PREFIX2).antaux4_t2x $(BASENAME).$(PREFIX2).t2x $(BASENAME).$(PREFIX2).post_t2x $(DESTDIR)$(apertium_epo_fradir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_epo_fradir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t0x $(DESTDIR)$(apertium_epo_fradir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_epo_fradir)
 
 
 CLEANFILES = -rf $(TARGETS) modes 

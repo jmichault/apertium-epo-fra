@@ -17,7 +17,7 @@ $ make
 
 RUNNING
 
-echo "Voilà mon texte" | apertium -d . fr-eo-bytecode
+echo "Voilà mon texte" | apertium -d . fra-epo-bytecode
 
 (type "apertium" to see the different avalaible parameters)
 
@@ -25,14 +25,14 @@ echo "Voilà mon texte" | apertium -d . fr-eo-bytecode
 MODES
 
 Currently only French to Esperanto is supported.
-The modes fr-eo-bytecode and fr-eo are equivalent. The first is faster.
+The modes fra-epo-bytecode and fra-epo are equivalent. The first is faster.
 
 
 TAGGER 
 
 To use this language-pair package with apertium YOU DO NOT NEED TO
 RETRAIN THE TAGGER. Probabilities and auxiliary data are provided for
-both the eo-fr and the fr-eo translation directions which should be
+both the epo-fra and the fra-epo translation directions which should be
 acceptable for most applications, and should work even if you change
 the dictionaries in a reasonable way.
 
