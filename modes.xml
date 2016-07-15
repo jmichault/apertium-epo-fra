@@ -11,14 +11,19 @@
         <file name="epo-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="epo-fra.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="epo-fra.autolex.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-epo-fra.epo-fra.t0x"/>
         <file name="epo-fra.t0x.bin"/>
       </program>
-      <program name="apertium-transfer">
+      <program name="apertium-transfer -t">
         <file name="apertium-epo-fra.epo-fra.t1x"/>
         <file name="epo-fra.t1x.bin"/>
-        <file name="epo-fra.autobil.bin"/>
       </program>
       <program name="lt-proc -g">
         <file name="epo-fra.autogen.bin"/>
@@ -38,10 +43,15 @@
         <file name="fra-epo.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
+      <program name="lt-proc -b">
+        <file name="fra-epo.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="fra-epo.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
         <file name="apertium-epo-fra.fra-epo.t1x"/>
         <file name="fra-epo.t1x.bin"/>
-        <file name="fra-epo.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-epo-fra.fra-epo.antaux1_t2x"/>
@@ -76,91 +86,4 @@
       </program>
     </pipeline>
   </mode>
-
-<!-- Tiu ĉi modo ne donas esperigajn rezultojn, sed male. Estas tro multaj memstaraj vortoj komencantaj per majusklo
-(État, Région, Tribunal, Présidant ktp.), kiuj estas tuj transprenitaj kvazaŭ propraj nomoj kaj ne tradukitaj 
-  <mode name="fra-epo-pn" install="yes">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="fra-epo.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -p -g $2">
-        <file name="fra-epo.prob"/>
-      </program>
-      <program name="apertium-pn-recogniser">
-        <file name="fra-pn.dat"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer">
-        <file name="apertium-epo-fra.fra-epo.t1x"/>
-        <file name="fra-epo.t1x.bin"/>
-        <file name="fra-epo.autobil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-epo-fra.fra-epo.t2x"/>
-        <file name="fra-epo.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-epo-fra.fra-epo.t3x"/>
-        <file name="fra-epo.t3x.bin"/>
-      </program>
-      <program name="lt-proc -g">
-        <file name="fra-epo.autogen.bin"/>
-      </program>
-      <program name="apertium-pn-recogniser-final"/>
-    </pipeline>
-  </mode>
--->
-
-<!--
-  Mode enlevé pour éviter des erreurs de compilation
-  <mode name="fra-epo-bytecode" install="yes">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="fra-epo.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fra-epo.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="apertium-transfer-j">
-        <file name="fra-epo.t1x.class"/>
-        <file name="fra-epo.t1x.bin"/>
-        <file name="fra-epo.autobil.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-epo-fra.fra-epo.antaux1_t2x"/>
-        <file name="fra-epo.antaux1_t2x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-epo-fra.fra-epo.antaux2_t2x"/>
-        <file name="fra-epo.antaux2_t2x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-epo-fra.fra-epo.antaux3_t2x"/>
-        <file name="fra-epo.antaux3_t2x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-epo-fra.fra-epo.antaux4_t2x"/>
-        <file name="fra-epo.antaux4_t2x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-epo-fra.fra-epo.t2x"/>
-        <file name="fra-epo.t2x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-epo-fra.fra-epo.post_t2x"/>
-        <file name="fra-epo.post_t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-epo-fra.fra-epo.t3x"/>
-        <file name="fra-epo.t3x.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="fra-epo.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
--->
-
 </modes>

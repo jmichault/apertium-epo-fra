@@ -7,11 +7,11 @@ PREFIX2=$(LANG2)-$(LANG1)
 BASENAME=apertium-epo-fra
 BILNAME=apertium-epo-fra.epo-fra.dix
 
-TARGETS_COMMON = $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin $(PREFIX2).autogen.bin \
+TARGETS_COMMON = $(PREFIX2).automorf.bin $(PREFIX2).autobil.bin $(PREFIX2).autogen.bin $(PREFIX2).autolex.bin \
 	$(PREFIX2).t1x.bin $(PREFIX2).antaux1_t2x.bin $(PREFIX2).antaux2_t2x.bin \
 	$(PREFIX2).antaux3_t2x.bin $(PREFIX2).antaux4_t2x.bin $(PREFIX2).t2x.bin \
 	$(PREFIX2).post_t2x.bin $(PREFIX2).t3x.bin modes $(PREFIX2).mode \
-	$(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin \
+	$(PREFIX1).automorf.bin $(PREFIX1).autobil.bin $(PREFIX1).autogen.bin $(PREFIX1).autolex.bin \
 	$(PREFIX1).t0x.bin $(PREFIX1).t1x.bin $(PREFIX1).autopgen.bin \
 	$(PREFIX1).mode
 
@@ -52,6 +52,12 @@ $(PREFIX2).autogen.bin: $(BASENAME).$(LANG1).dix
 $(PREFIX1).automorf.bin: $(BASENAME).$(LANG1).dix
 	apertium-validate-dictionary $(BASENAME).$(LANG1).dix
 	lt-comp lr $(BASENAME).$(LANG1).dix $@
+
+$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	lrx-comp $< $@
+
+$(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+	lrx-comp $< $@
 
 $(PREFIX1).autobil.bin: $(BILNAME)
 	apertium-validate-dictionary $(BILNAME)

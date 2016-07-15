@@ -6,6 +6,7 @@
 /NEWS -text
 /README -text
 /apertium-epo-fra.epo-fra.dix -text
+/apertium-epo-fra.epo-fra.lrx -text
 /apertium-epo-fra.epo-fra.t0x -text
 /apertium-epo-fra.epo-fra.t1x -text
 /apertium-epo-fra.epo.dix -text
@@ -14,6 +15,7 @@
 /apertium-epo-fra.fra-epo.antaux2_t2x -text
 /apertium-epo-fra.fra-epo.antaux3_t2x -text
 /apertium-epo-fra.fra-epo.antaux4_t2x -text
+/apertium-epo-fra.fra-epo.lrx -text
 /apertium-epo-fra.fra-epo.post_t2x -text
 /apertium-epo-fra.fra-epo.t1x -text
 /apertium-epo-fra.fra-epo.t2x -text
