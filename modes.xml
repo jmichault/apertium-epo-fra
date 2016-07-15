@@ -21,7 +21,7 @@
         <file name="apertium-epo-fra.epo-fra.t0x"/>
         <file name="epo-fra.t0x.bin"/>
       </program>
-      <program name="apertium-transfer -t">
+      <program name="apertium-transfer -b -t">
         <file name="apertium-epo-fra.epo-fra.t1x"/>
         <file name="epo-fra.t1x.bin"/>
       </program>

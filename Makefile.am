@@ -113,6 +113,7 @@ EXTRA_DIST= \
 apertium_epo_fra_DATA= \
 	$(PREFIX2).automorf.bin \
 	$(PREFIX2).autobil.bin  \
+	$(PREFIX2).autolex.bin  \
 	$(PREFIX2).autogen.bin  \
 	$(PREFIX2).prob \
 	$(PREFIX2).t1x.bin \
@@ -131,6 +132,7 @@ apertium_epo_fra_DATA= \
 	$(PREFIX2).mode \
 	$(PREFIX1).automorf.bin \
 	$(PREFIX1).autobil.bin \
+	$(PREFIX1).autolex.bin \
 	$(PREFIX1).autogen.bin \
 	$(PREFIX1).autopgen.bin \
 	$(PREFIX1).prob \
