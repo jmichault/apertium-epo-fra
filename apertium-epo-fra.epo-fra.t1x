@@ -136,6 +136,7 @@
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="mf"/>
+      <attr-item tags="nt"/>
     </def-attr>
 
     <def-attr n="nombre">
@@ -259,7 +260,7 @@
                 <lit-tag v="preadj_nh"/>
               </equal>
               <not>
-                <equal>
+                <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
                   <lit v="viro"/>
                 </equal>
@@ -546,6 +547,18 @@
             <lit-tag v="m"/>
           </let>
         </when>
+        <when>    <!--  genre neutre remplacé par masculin  -->
+          <test>
+             <equal>
+                <clip pos="1" side="sl" part="genre"/>
+                <lit-tag v="nt"/>
+              </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="genre"/>
+            <lit-tag v="m"/>
+          </let>
+        </when>
       </choose>
 
       <out>
@@ -660,7 +673,7 @@
       <choose>
         <when>
           <test>
-            <equal>
+            <equal caseless="yes">
               <clip pos="1" side="sl" part="lem"/>
               <lit v="prpers"/>
             </equal>

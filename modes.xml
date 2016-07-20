@@ -11,19 +11,14 @@
         <file name="epo-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="epo-fra.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="epo-fra.autolex.bin"/>
-      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-epo-fra.epo-fra.t0x"/>
         <file name="epo-fra.t0x.bin"/>
       </program>
-      <program name="apertium-transfer -b -t">
+      <program name="apertium-transfer">
         <file name="apertium-epo-fra.epo-fra.t1x"/>
         <file name="epo-fra.t1x.bin"/>
+        <file name="epo-fra.autobil.bin"/>
       </program>
       <program name="lt-proc -g">
         <file name="epo-fra.autogen.bin"/>
@@ -43,15 +38,10 @@
         <file name="fra-epo.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="fra-epo.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="fra-epo.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer">
         <file name="apertium-epo-fra.fra-epo.t1x"/>
         <file name="fra-epo.t1x.bin"/>
+        <file name="fra-epo.autobil.bin"/>
       </program>
       <program name="apertium-interchunk">
         <file name="apertium-epo-fra.fra-epo.antaux1_t2x"/>
@@ -86,4 +76,5 @@
       </program>
     </pipeline>
   </mode>
+
 </modes>
