@@ -22,10 +22,6 @@
       <cat-item tags="adj.*"/>
     </def-cat>
 
-    <def-cat n="prn">
-      <cat-item tags="prn.*"/>
-    </def-cat>
-
     <def-cat n="prn_sujet">
       <cat-item tags="prn.subj.*"/>
     </def-cat>
@@ -510,14 +506,14 @@
       </call-macro>
     </def-macro>
 
-      
+
     <def-macro n="maj_gen_pronom" npar="1">
     <!--  corrige si nécessaire la personne et le nombre d'un pronom -->
     <!--  puis génère celui-ci -->
     <!--  param1 : pronom -->
 
       <choose>
-        <when>    <!--  2ème personne toujours au pluriel : vin -> vous  -->
+        <when>    <!--  2ème personne toujours au pluriel : vi -> vous  -->
           <test>
              <equal>
                 <clip pos="1" side="sl" part="personne"/>
@@ -574,7 +570,7 @@
       </out>
     </def-macro>
 
-      
+
     <def-macro n="maj_gen_prn_objet" npar="1">
     <!--  corrige si nécessaire la personne et le nombre d'un pronom -->
     <!--  utilisé comme complément d'objet puis génère celui-ci -->
@@ -630,7 +626,7 @@
         </when>
       </choose>
 
-      <!--  concordance des temps  -->
+      <!--  concordance des temps pour le présent -->
       <choose>
         <when>
           <test>
@@ -644,20 +640,7 @@
             <lit-tag v="pri"/>
           </let>
         </when>
-        <when>
-          <test>
-            <equal>
-              <clip pos="1" side="sl" part="temps"/>
-              <lit-tag v="past"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="temps"/>
-            <lit-tag v="pii"/>
-          </let>
-        </when>
       </choose>
-
     </def-macro>
 
 
@@ -691,13 +674,51 @@
         </otherwise>
       </choose>
 
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="2" side="sl" part="temps"/>
+              <lit-tag v="past"/>
+            </equal>
+          </test>
+          <call-macro n="conj_verbe_passe_comp">
+            <with-param pos="1"/>
+            <with-param pos="2"/>
+          </call-macro>
+        </when>
+        <otherwise>
+          <out>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="type_mot"/>
+              <clip pos="2" side="tl" part="temps"/>
+              <var n="pers"/>
+              <clip pos="1" side="tl" part="nombre"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </out>
+        </otherwise>
+      </choose>
+    </def-macro>
+
+
+    <def-macro n="conj_verbe_passe_comp" npar="2">
+    <!--  conjugue un verbe au passé composé -->
+    <!--  param1 : nom ou pronom, param2 : verbe -->
+
       <out>
+        <lu>
+          <lit v="avoir"/>
+          <lit-tag v="vbhaver.pri"/>
+          <var n="pers"/>
+          <clip pos="1" side="tl" part="nombre"/>
+        </lu>
+        <b />
         <lu>
           <clip pos="2" side="tl" part="lemh"/>
           <clip pos="2" side="tl" part="type_mot"/>
-          <clip pos="2" side="tl" part="temps"/>
-          <var n="pers"/>
-          <clip pos="1" side="tl" part="nombre"/>
+          <lit-tag v="pp.m.sg"/>
           <clip pos="2" side="tl" part="lemq"/>
         </lu>
       </out>
@@ -762,7 +783,7 @@
         </lu>
         <b />
       </out>
-          
+
       <call-macro n="conj_verbe">
         <with-param pos="1"/>
         <with-param pos="3"/>
@@ -862,11 +883,11 @@
         </lu>
         <b />
       </out>
-          
+
       <call-macro n="maj_gen_prn_objet">
         <with-param pos="4"/>
       </call-macro>
-          
+
       <call-macro n="conj_verbe">
         <with-param pos="1"/>
         <with-param pos="3"/>
@@ -2339,7 +2360,7 @@
         <call-macro n="maj_gen_pronom">
           <with-param pos="1"/>
         </call-macro>
-        
+
         <call-macro n="maj_gen_prn_objet">
           <with-param pos="3"/>
         </call-macro>
@@ -2350,7 +2371,7 @@
         </call-macro>
       </action>
     </rule>
-    
+
     <rule>
       <pattern>
         <pattern-item n="det"/>
@@ -2367,7 +2388,7 @@
         <out>
           <b/>
         </out>
-        
+
         <call-macro n="maj_gen_prn_objet">
           <with-param pos="4"/>
         </call-macro>
@@ -2378,7 +2399,7 @@
         </call-macro>
       </action>
     </rule>
-    
+
     <rule>
       <pattern>
         <pattern-item n="det"/>
@@ -2397,7 +2418,7 @@
         <out>
           <b/>
         </out>
-        
+
         <call-macro n="maj_gen_prn_objet">
           <with-param pos="5"/>
         </call-macro>
@@ -2408,7 +2429,7 @@
         </call-macro>
       </action>
     </rule>
-    
+
     <rule>
       <pattern>
         <pattern-item n="det"/>
@@ -2429,7 +2450,7 @@
         <out>
           <b/>
         </out>
-        
+
         <call-macro n="maj_gen_prn_objet">
           <with-param pos="6"/>
         </call-macro>
@@ -2440,7 +2461,7 @@
         </call-macro>
       </action>
     </rule>
-    
+
     <!--  les mêmes règles avec une négation -->
 
     <rule>
@@ -2463,7 +2484,7 @@
         </call-macro>
       </action>
     </rule>
-    
+
     <rule>
       <pattern>
         <pattern-item n="det"/>
@@ -2490,7 +2511,7 @@
         </call-macro>
       </action>
     </rule>
-    
+
     <rule>
       <pattern>
         <pattern-item n="det"/>
@@ -2509,7 +2530,7 @@
 
         <out>
           <b/>
-        </out> 
+        </out>
 
         <call-macro n="conj_verbe_neg_prn-obj">
           <with-param pos="2"/>
@@ -2519,7 +2540,7 @@
         </call-macro>
       </action>
     </rule>
-    
+
     <rule>
       <pattern>
         <pattern-item n="det"/>
@@ -2540,7 +2561,7 @@
 
         <out>
           <b/>
-        </out> 
+        </out>
 
         <call-macro n="conj_verbe_neg_prn-obj">
           <with-param pos="2"/>
@@ -5942,7 +5963,7 @@
         </call-macro>
       </action>
     </rule>
-    
+
 
 <!--  Règles pour : <sujet> de la <nom_commun> <adj>* <etre_conj><verbe_pp> -->
 
