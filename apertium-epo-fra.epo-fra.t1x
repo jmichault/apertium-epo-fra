@@ -165,6 +165,10 @@
       <attr-item tags="preadj_nh"/>
       <attr-item tags="postadj"/>
     </def-attr>
+
+    <def-attr n="attr_ref">
+      <attr-item tags="ref"/>
+    </def-attr>
   </section-def-attrs>
 
 
@@ -596,6 +600,7 @@
           <clip pos="1" side="tl" part="lemh"/>
           <clip pos="1" side="tl" part="type_mot"/>
           <lit-tag v="pro"/>
+          <clip pos="1" side="tl" part="attr_ref"/>  <!-- ne génère rien si l'attribut <ref> est absent -->
           <clip pos="1" side="tl" part="personne"/>
           <clip pos="1" side="tl" part="genre"/>
           <clip pos="1" side="tl" part="nombre"/>
