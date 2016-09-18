@@ -9320,6 +9320,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="datumo">          <i>datum</i><par n="o__n"/></e>
 <e lm="datumportilo">    <i>datumportil</i><par n="o__n"/></e>
 <e lm="datumprilaboro">  <i>datumprilabor</i><par n="o__n"/></e>
+<e lm="datumaranøo">     <i>datumaranĝ</i><par n="o__n"/></e>
 <e lm="datumstrukturo">  <i>datumstruktur</i><par n="o__n"/></e>
 <e lm="datumtipo">       <i>datumtip</i><par n="o__n"/></e>
 <e lm="datumtraktado">   <i>datumtraktad</i><par n="o__n"/></e>
@@ -30437,6 +30438,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="modesteco">       <i>modestec</i><par n="o__n"/></e>
 <e lm="modesto">         <i>modest</i><par n="o__n"/></e>
 <e lm="Modesto">         <i>Modesto</i><par n="Mark__np"/></e>
+<e lm="modifebla" a="bech"><i>modifebl</i><par n="a__adj"/></e>
 <e lm="modifi">          <i>modif</i><par n="i__vblex"/></e>
 <e lm="modifo">          <i>modif</i><par n="o__n"/></e>
 <e lm="modistino">       <i>modistin</i><par n="o__n"/></e>

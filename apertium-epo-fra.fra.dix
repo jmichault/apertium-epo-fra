@@ -35109,6 +35109,7 @@
 <e lm="Modesto">         <i>Modesto</i><par n="Abraham__np"/></e>
 <e lm="mode subjonctif"> <p><l>mode<b/>subjonctif</l><r>mode<b/>subjonctif<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="mode subjonctif"> <p><l>modes<b/>subjonctifs</l><r>mode<b/>subjonctif<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="modifiable">      <i>modifiable</i><par n="académique__adj"/></e>
 <e lm="modification">    <i>modification</i><par n="abeille__n"/></e>
 <e lm="modifier">        <i>modifi</i><par n="abaiss/er__vblex"/></e>
 <e lm="modique">         <i>modique</i><par n="académique__adjadv"/></e>
