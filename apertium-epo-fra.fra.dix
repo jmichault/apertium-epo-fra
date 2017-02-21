@@ -6940,7 +6940,7 @@
   <e>       <p><l>ûtes</l>      <r>ouvoir<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="bas__n" c="ne autoconcord">
+<pardef n="métis__n" c="ne autoconcord">
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
   <e>       <p><l>se</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ses</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -34597,7 +34597,7 @@
 <e lm="métier à tisser"> <i>métier</i><par n="accessoire__n"/><p><l><b/>à<b/>tisser</l><r><g><b/>à<b/>tisser</g></r></p></e>
 <e lm="métier militaire"><p><l>métier<b/>militaire</l><r>métier<b/>militaire<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="métier militaire"><p><l>métiers<b/>militaires</l><r>métier<b/>militaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e lm="métis">           <i>métis</i><par n="bas__n"/></e>
+<e lm="métis">           <i>métis</i><par n="métis__n"/></e>
 <e lm="Métivier">        <i>Métivier</i><par n="Smith__np"/></e>
 <e lm="MetLife">         <i>MetLife</i><par n="Carrefour__np"/></e>
 <e lm="métope" a="revo"> <i>métope</i><par n="abeille__n"/></e>
@@ -36679,6 +36679,7 @@
 <e lm="nudisme" a="revo"><i>nudisme</i><par n="accessoire__n"/></e>
 <e lm="nudiste" a="revo"><i>nudiste</i><par n="académique__adj"/></e>
 <e lm="nudiste" a="revo"><i>nudiste</i><par n="artiste__n"/></e>
+<e lm="nudité" a="bech"> <i>nudité</i><par n="abeille__n"/></e>
 <e lm="Nudo">            <i>Nudo</i><par n="Smith__np"/></e>
 <e lm="nuée" a="revo">   <i>nuée</i><par n="abeille__n"/></e>
 <e lm="Nugent">          <i>Nugent</i><par n="Smith__np"/></e>
