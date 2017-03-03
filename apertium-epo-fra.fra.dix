@@ -9703,6 +9703,7 @@
 <e lm="aplomb">          <i>aplomb</i><par n="accessoire__n"/></e>
 <e lm="à plusieurs reprises" a="webform"><i>à<b/>plusieurs<b/>reprises</i><par n="hier__adv"/></e>
 <e lm="A.P. Møller-Mærsk Group"><i>A.P.<b/>Møller-Mærsk<b/>Group</i><par n="Carrefour__np"/></e>
+<e lm="APNEL">           <i>APNEL</i><par n="BBC__n"/></e>
 <e lm="apocalypse" a="eleka"><i>apocalypse</i><par n="abeille__n"/></e>
 <e lm="apocalyptique">   <i>apocalyptique</i><par n="académique__adjadv"/></e>
 <e lm="apocope" a="revo"><i>apocope</i><par n="abeille__n"/></e>
@@ -23772,7 +23773,7 @@
 <e lm="exhaustif">       <i>exhausti</i><par n="affirmati/f__adjadv"/></e>
 <e lm="exhiber">         <i>exhib</i><par n="abaiss/er__vblex"/></e>
 <e lm="exhibition">      <i>exhibition</i><par n="abeille__n"/></e>
-<e lm="exhibitionisme">  <i>exhibitionisme</i><par n="accessoire__n"/></e>
+<e lm="exhibitionnisme"> <i>exhibitionnisme</i><par n="accessoire__n"/></e>
 <e lm="exhortation" a="webform"><i>exhortation</i><par n="abeille__n"/></e>
 <e lm="exhorter" a="webform"><i>exhort</i><par n="abaiss/er__vblex"/></e>
 <e lm="exhumation">      <i>exhumation</i><par n="abeille__n"/></e>
