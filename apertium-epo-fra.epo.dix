@@ -11911,6 +11911,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="eksedziĝi">       <i>eksedz</i><par n="/iĝi__vbntr"/></e>
 <e lm="eksedziĝo">       <i>eksedziĝ</i><par n="o__n"/></e>
 <e lm="eksedzo">         <i>eksedz</i><par n="o__n"/></e>
+<e lm="ekshibicionismo"> <i>ekshibicionism</i><par n="o__n"/></e>
 <e lm="eksidi">          <i>eksid</i><par n="i__vbntr"/></e>
 <e lm="eksigi">          <i>eksig</i><par n="i__vbtr"/></e>
 <e lm="eksiĝi">          <i>eks</i><par n="/iĝi__vbntr"/></e>
@@ -21386,6 +21387,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="junulardomo">     <i>junulardom</i><par n="o__n"/></e>
 <e lm="junularo">        <i>junular</i><par n="o__n"/></e>
 <e lm="junulo">          <i>junul</i><par n="ino__n"/></e>
+<e lm="jupeto">          <i>jupet</i><par n="o__n"/></e>
 <e lm="Jupiter" a="eleka"><i>Jupiter</i><par n="Mark__np"/></e>
 <e lm="Júpiter">         <i>Júpiter</i><par n="Mark__np"/></e>
 <e lm="Jupitero">        <i>Jupiter</i><par n="Barcelon/o__np"/></e>
@@ -30393,6 +30395,8 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="mizerikordo">     <i>mizerikord</i><par n="o__n"/></e>
 <e lm="mizero">          <i>mizer</i><par n="o__n"/></e>
 <e lm="mizerulo">        <i>mizerul</i><par n="ino__n"/></e>
+<e lm="mizogina">        <i>mizogin</i><par n="a__adj"/></e>
+<e lm="mizogino">        <i>mizogin</i><par n="o__n"/></e>
 <e lm="Mizuho">          <i>Mizuho</i><par n="Wikipedia__np"/></e>
 <e lm="Mizuho Financial Group"><i>Mizuho<b/>Financial<b/>Group</i><par n="Wikipedia__np"/></e>
 <e lm="mjanmaa">         <i>mjanma</i><par n="a__adj"/></e>
@@ -32803,6 +32807,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="nudismo">         <i>nudism</i><par n="o__n"/></e>
 <e lm="nudisto">         <i>nudist</i><par n="ino__n"/></e>
 <e lm="Nudo">            <i>Nudo</i><par n="Smith__np"/></e>
+<e lm="nudofobio">       <i>nudofobi</i><par n="o__n"/></e>
 <e lm="nufaro">          <i>nufar</i><par n="o__n"/></e>
 <e lm="nugato">          <i>nugat</i><par n="o__n"/></e>
 <e lm="Nugent">          <i>Nugent</i><par n="Smith__np"/></e>
@@ -34106,6 +34111,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="Parente">         <i>Parente</i><par n="Smith__np"/></e>
 <e lm="Parenteau">       <i>Parenteau</i><par n="Smith__np"/></e>
 <e lm="parentezo">       <i>parentez</i><par n="o__n"/></e>
+<e lm="pareo">           <i>pare</i><par n="o__n"/></e>
 <e lm="Parfait">         <i>Parfait</i><par n="Smith__np"/></e>
 <e lm="parfumbutiko">    <i>parfumbutik</i><par n="o__n"/></e>
 <e lm="parfumi">         <i>parfum</i><par n="i__vbtr"/></e>
@@ -36917,6 +36923,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
 <e lm="psikologio">      <i>psikologi</i><par n="o__n"/></e>
 <e lm="psikologo">       <i>psikolog</i><par n="ino__n"/></e>
 <e lm="psikosomata">     <i>psikosomat</i><par n="a__adj"/></e>
+<e lm="psikoterapio">    <i>psikoterapi</i><par n="o__n"/></e>
 <e lm="psikozo">         <i>psikoz</i><par n="o__n"/></e>
 <e lm="psitako">         <i>psitak</i><par n="o__n"/></e>
 <e lm="PSM">             <i>PSM</i><par n="BBC__n"/></e>
