@@ -19434,7 +19434,7 @@
 <e lm="dilatateur">      <i>dilatateur</i><par n="accessoire__n"/></e>
 <e lm="dilatation">      <i>dilatation</i><par n="abeille__n"/></e>
 <e lm="dilater" a="revo"><i>dilat</i><par n="abaiss/er__vblex"/></e>
-<e lm="dilemme" a="revo"><i>dilemme</i><par n="abeille__n"/></e>
+<e lm="dilemme" a="revo"><i>dilemme</i><par n="accessoire__n"/></e>
 <e lm="dilettante">      <i>dilettante</i><par n="artiste__n"/></e>
 <e lm="dilettantisme" a="revo"><i>dilettantisme</i><par n="accessoire__n"/></e>
 <e lm="diligence" a="eleka"><i>diligence</i><par n="abeille__n"/></e>
@@ -31924,7 +31924,7 @@
 <!-- <e lm="le mien">         <i>l</i><par n="l/e_mien__prn"/></e> -->
 <e lm="Lemieux">         <i>Lemieux</i><par n="Smith__np"/></e>
 <e lm="Lemire">          <i>Lemire</i><par n="Smith__np"/></e>
-<e lm="lemme" a="revo">  <i>lemme</i><par n="abeille__n"/></e>
+<e lm="lemme" a="revo">  <i>lemme</i><par n="accessoire__n"/></e>
 <e lm="lemniscate" a="revo"><i>lemniscate</i><par n="abeille__n"/></e>
 <e lm="Lemoine">         <i>Lemoine</i><par n="Smith__np"/></e>
 <e lm="Lemon">           <i>Lemon</i><par n="Smith__np"/></e>
