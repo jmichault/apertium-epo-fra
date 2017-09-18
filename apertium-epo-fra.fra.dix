@@ -32132,6 +32132,7 @@
 <e lm="Lewis">           <i>Lewis</i><par n="Abraham__np"/></e>
 <e lm="Lewis">           <i>Lewis</i><par n="Smith__np"/></e>
 <e lm="Lexi">            <i>Lexi</i><par n="Marie__np"/></e>
+<e lm="lexical">         <i>lexica</i><par n="amica/l__adj"/></e>
 <e lm="lexicographe">    <i>lexicographe</i><par n="artiste__n"/></e>
 <e lm="lexicographie" a="revo"><i>lexicographie</i><par n="abeille__n"/></e>
 <e lm="lexicologie" a="revo"><i>lexicologie</i><par n="abeille__n"/></e>
