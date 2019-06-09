@@ -26857,6 +26857,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
     <e lm="logbirdo">                       <i>logbird</i><par n="o__n"/></e>
     <e lm="loĝdomo">                        <i>loĝdom</i><par n="o__n"/></e>
     <e lm="loĝebla">                        <i>loĝebl</i><par n="a__adj"/></e>
+    <e lm="loĝebleco">                      <i>loĝeblec</i><par n="o__n"/></e>
     <e lm="loĝejo">                         <i>loĝej</i><par n="o__n"/></e>
     <e lm="logfajfilo">                     <i>logfajfil</i><par n="o__n"/></e>
     <e lm="logi">                           <i>log</i><par n="i__vbtr"/></e>
@@ -40232,6 +40233,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
     <e lm="senhavigi">                      <i>senhavig</i><par n="i__vbtr"/></e>
     <e lm="senhaviĝi">                      <i>senhav</i><par n="/iĝi__vbntr"/></e>
     <e lm="senhavulo">                      <i>senhavul</i><par n="ino__n"/></e>
+    <e lm="senhejmo">                       <i>senhejm</i><par n="o__n"/></e>
     <e lm="senhejmulo">                     <i>senhejmul</i><par n="ino__n"/></e>
     <e lm="senhejmulo">                     <i>senhejmulo</i><par n="BBC__n"/></e>
     <e lm="senhelpa">                       <i>senhelp</i><par n="a__adj"/></e>
