@@ -1,0 +1,262 @@
+[-An7wSGXCQpY#0] ^Ne<adv>$ ^avoir<vbhaver><ger>$ ^pas<adv>$ ^beaucoup<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/-An7wSGXCQpY]
+[-gZjDM4emcft#0] ^Il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p3><sg>$ ^pas<adv>$ ^pouvoir<vbmod><pp><m><sg>$ ^beaucoup<adv>$ ^neiger<vblex><inf>$
+[/-gZjDM4emcft]
+[08zZb1XgOQQ0#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^y<prn><pro><adv>$ ^arriver<vblex><pri><p3><sg>$ ^pas<adv>$
+[/08zZb1XgOQQ0]
+[0xOwgELfPUQ0#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/0xOwgELfPUQ0]
+[0xa1_ZQlBW8A#0] ^Ne<adv>$ ^pas<adv>$ ^être<vbser><inf>$ ^beaucoup<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/0xa1_ZQlBW8A]
+[1EkKK_Qa2LXr#0] ^Un<det><ind><m><sg>$ ^brave<adj><mf><sg>$ ^gosse<n><mf><sg>$
+[/1EkKK_Qa2LXr]
+[1QdNoQnNAB4e#0] ^Il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^pleuvoir<vblex><pri><p3><sg>$ ^pas<adv>$
+[/1QdNoQnNAB4e]
+[1XOesHbJ8L2r#0] ^Un<det><ind><m><sg>$ ^gosse<n><mf><sg>$ ^très<preadv>$ ^haut<adj><m><sg>$
+[/1XOesHbJ8L2r]
+[1owyUKqISmmJ#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/1owyUKqISmmJ]
+[2PUY7w19Yphb#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><m><sg>$ ^deuxième<adj><mf><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^et<cnjcoo>$ ^important<adj><m><sg>$ ^succès<n><m><sp>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/2PUY7w19Yphb]
+[2kuHpMt-1RId#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/2kuHpMt-1RId]
+[3Eo6eQD3cO_N#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><f><sg>$ ^deuxième<adj><mf><sg>$ ^meilleur<adj><f><sg>$ ^collègue<n><mf><sg>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/3Eo6eQD3cO_N]
+[6FaEa-1cN0o3#0] ^Le<det><def><mf><pl>$ ^barrage<n><m><pl>$ ^ne<adv>$ ^avoir<vbhaver><pri><p3><pl>$ ^en revanche<adv>$ ^pas<adv>$ ^vocation<n><f><sg>$
+[/6FaEa-1cN0o3]
+[7em9ncsxXnOY#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><f><sg>$ ^deuxième<adj><mf><sg>$ ^meilleur<adj><f><sg>$ ^collègue<n><mf><sg>$^.<sent>$
+[/7em9ncsxXnOY]
+[7rXQPk6tlar7#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/7rXQPk6tlar7]
+[8NyPxtMnW5Ud#0] ^Ne<adv>$ ^pas<adv>$ ^être<vbser><inf>$ ^beaucoup<adv>$ ^lire<vblex><pp><m><pl>$
+[/8NyPxtMnW5Ud]
+[8OLNtUbarpc0#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$
+[/8OLNtUbarpc0]
+[AV337mII971n#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><m><sg>$ ^deuxième<adj><mf><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^et<cnjcoo>$ ^important<adj><m><sg>$ ^succès<n><m><sp>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/AV337mII971n]
+[FMflP69Ol3fz#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^un<det><ind><mf><pl>$ ^enfant<n><mf><pl>$
+[/FMflP69Ol3fz]
+[G05BpU8Sod5L#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^beaucoup<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/G05BpU8Sod5L]
+[G9IngZwhJG2b#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^beaucoup<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/G9IngZwhJG2b]
+[GJz2QH4B03Bi#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/GJz2QH4B03Bi]
+[GMlnKkzVbqV7#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^manger<vblex><pp><m><sg>$ ^de<pr>$ ^le<det><def><m><sg>$ ^pain<n><m><sg>$
+[/GMlnKkzVbqV7]
+[GNkECycITHsd#0] ^Il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p3><sg>$ ^pas<adv>$ ^beaucoup<adv>$ ^neiger<vblex><pp><m><sg>$
+[/GNkECycITHsd]
+[HUtqu8WEaGEv#0] ^Ne<adv>$ ^pas<adv>$ ^avoir<vbhaver><inf>$ ^comprendre<vblex><pp><m><sp>$
+[/HUtqu8WEaGEv]
+[IW-9KgEoABa_#0] ^Il<prn><tn><p3><m><sg>$ ^avoir<vbhaver><pri><p3><sg>$ ^pouvoir<vbmod><pp><m><sg>$ ^neiger<vblex><inf>$
+[/IW-9KgEoABa_]
+[JLjklwBDxfVT#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><m><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^succès<n><m><sp>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/JLjklwBDxfVT]
+[KyGNzzcW6RNC#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><f><sg>$ ^deuxième<adj><mf><sg>$ ^meilleur<adj><f><sg>$ ^collègue<n><mf><sg>$^.<sent>$
+[/KyGNzzcW6RNC]
+[LI2_vM9y61Ds#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^être<vbser><pri><p1><sg>$ ^pas<adv>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/LI2_vM9y61Ds]
+[LKaLAsy3MxFW#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^être<vbser><pri><p1><sg>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/LKaLAsy3MxFW]
+[Ln8j9u2Dy5eC#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^avoir<vbhaver><pri><p3><pl>$ ^pas<adv>$ ^être<vbser><pp><mf><sp>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/Ln8j9u2Dy5eC]
+[M3Qf4R0ZXIGR#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><f><sg>$ ^meilleur<adj><f><sg>$ ^collègue<n><mf><sg>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/M3Qf4R0ZXIGR]
+[M_-Np0uFkhx0#0] ^Ne<adv>$ ^pas<adv>$ ^arriver<vblex><inf>$
+[/M_-Np0uFkhx0]
+[Mk6vRE6XE0iz#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/Mk6vRE6XE0iz]
+[N08oIXikuRFD#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^beaucoup<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/N08oIXikuRFD]
+[NLdRzTM_nMqn#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^être<vbser><pii><p3><sg>$ ^pas<adv>$ ^bien<preadv>$ ^arriver<vblex><pp><m><sg>$
+[/NLdRzTM_nMqn]
+[NcxEJJ0EeP3m#0] ^Ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><ger>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/NcxEJJ0EeP3m]
+[NoIfxWXIGE0U#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^beaucoup<adv>$ ^être<vbser><pp><mf><sp>$
+[/NoIfxWXIGE0U]
+[OQAjI71MV_Ab#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/OQAjI71MV_Ab]
+[OU0x9rvkqdWh#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/OU0x9rvkqdWh]
+[OlEyee3ix4QH#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><m><sg>$ ^deuxième<adj><mf><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^et<cnjcoo>$ ^important<adj><m><sg>$ ^succès<n><m><sp>$^.<sent>$
+[/OlEyee3ix4QH]
+[OtmFSRUwln1B#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/OtmFSRUwln1B]
+[POkIGN3PGO1I#0] ^Il<prn><tn><p3><m><sg>$ ^avoir<vbhaver><pri><p3><sg>$ ^beaucoup<adv>$ ^neiger<vblex><pp><m><sg>$
+[/POkIGN3PGO1I]
+[QHj6XAiC89kQ#0] ^Celui<prn><tn><m><pl>$ ^qui<prn><itg><mf><sp>$ ^venir<vblex><pri><p3><pl>$
+[/QHj6XAiC89kQ]
+[QUvDBnqD2iay#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><m><sg>$ ^deuxième<adj><mf><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^succès<n><m><sp>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/QUvDBnqD2iay]
+[Qo-ChkRqu6ir#0] ^Il<prn><tn><p3><m><sg>$ ^avoir<vbhaver><pri><p3><sg>$ ^neiger<vblex><pp><m><sg>$
+[/Qo-ChkRqu6ir]
+[QswlJWjvb5nZ#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><f><sg>$ ^deuxième<adj><mf><sg>$ ^meilleur<adj><f><sg>$ ^collègue<n><mf><sg>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/QswlJWjvb5nZ]
+[T-8D8j4uh-z-#0] ^Jean<np><ant><m><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p3><sg>$ ^présenter<vblex><pp><m><sg>$ ^ni<cnjcoo>$ ^le<det><def><f><sg>$ ^mère<n><f><sg>$^,<cm>$ ^ni<cnjcoo>$ ^le<det><def><mf><sg>$ ^enfant<n><mf><sg>$^.<sent>$
+[/T-8D8j4uh-z-]
+[UMgVAlAcBo9n#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><f><sg>$ ^meilleur<adj><f><sg>$ ^collègue<n><mf><sg>$^.<sent>$
+[/UMgVAlAcBo9n]
+[V2ohm8Bnow48#0] ^Un<det><ind><f><sg>$ ^gosse<n><mf><sg>$ ^très<preadv>$ ^haut<adj><f><sg>$
+[/V2ohm8Bnow48]
+[VE-xbvy5iezO#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><m><sg>$ ^deuxième<adj><mf><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^succès<n><m><sp>$^.<sent>$
+[/VE-xbvy5iezO]
+[VUSWGf9caceq#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^être<vbser><pp><mf><sp>$
+[/VUSWGf9caceq]
+[VXoIuRu_0z53#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/VXoIuRu_0z53]
+[VjYSehRmEMEn#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><m><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^et<cnjcoo>$ ^important<adj><m><sg>$ ^succès<n><m><sp>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/VjYSehRmEMEn]
+[WEwABfJJ-Dh1#0] ^Il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^avoir<vbhaver><pii><p3><sg>$ ^pas<adv>$ ^pouvoir<vbmod><pp><m><sg>$ ^neiger<vblex><inf>$
+[/WEwABfJJ-Dh1]
+[WdSDc5nU4UlJ#0] ^Il<prn><tn><p3><m><sg>$ ^pouvoir<vbmod><pri><p3><sg>$ ^neiger<vblex><inf>$
+[/WdSDc5nU4UlJ]
+[WngXFHQv67H6#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^être<vbser><pp><mf><sp>$
+[/WngXFHQv67H6]
+[WwxY7nLwedyw#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><m><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^et<cnjcoo>$ ^important<adj><m><sg>$ ^succès<n><m><sp>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/WwxY7nLwedyw]
+[XHVlyQ2Z9zcm#0] ^Un<det><ind><m><sg>$ ^gosse<n><mf><sg>$ ^haut<adj><m><sg>$
+[/XHVlyQ2Z9zcm]
+[XPN0M4J780_l#0] ^Il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p3><sg>$ ^pas<adv>$ ^neiger<vblex><pp><m><sg>$
+[/XPN0M4J780_l]
+[X_PnDiE-ZCso#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^beaucoup<adv>$ ^être<vbser><pp><mf><sp>$
+[/X_PnDiE-ZCso]
+[Y9o6qez4zQf7#0] ^Ne<adv>$ ^pas<adv>$ ^avoir<vbhaver><inf>$
+[/Y9o6qez4zQf7]
+[YN0aDihB37kh#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^beaucoup<adv>$ ^être<vbser><pp><mf><sp>$
+[/YN0aDihB37kh]
+[YsC4ydMUqCgx#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^être<vbser><pri><p1><sg>$ ^pas<adv>$
+[/YsC4ydMUqCgx]
+[ZNlllLP7H9Oz#0] ^Ne<adv>$ ^pas<adv>$ ^avoir<vbhaver><inf>$ ^être<vbser><pp><mf><sp>$
+[/ZNlllLP7H9Oz]
+[ZWMztloq3ywU#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/ZWMztloq3ywU]
+[_A5HLR9TwbKP#0] ^Un<det><ind><m><sg>$ ^gosse<n><mf><sg>$
+[/_A5HLR9TwbKP]
+[_CdlUWCvy4rk#0] ^Il<prn><tn><p3><m><sg>$ ^avoir<vbhaver><pii><p3><sg>$ ^pouvoir<vbmod><pp><m><sg>$ ^neiger<vblex><inf>$
+[/_CdlUWCvy4rk]
+[_MTLUnPdX0oV#0] ^Son<det><pos><mf><pl>$ ^question<n><f><pl>$ ^ne<adv>$ ^être<vbser><pri><p3><pl>$ ^pas<adv>$ ^toujours<adv>$ ^arriver<vblex><pp><f><pl>$
+[/_MTLUnPdX0oV]
+[_aCngoGLNQwU#0] ^Il<prn><tn><p3><m><sg>$ ^avoir<vbhaver><pii><p3><sg>$ ^neiger<vblex><pp><m><sg>$
+[/_aCngoGLNQwU]
+[aAq8c4F_vmXU#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/aAq8c4F_vmXU]
+[c3AcbhKB1y3p#0] ^Ne<adv>$ ^pas<adv>$ ^être<vbser><inf>$
+[/c3AcbhKB1y3p]
+[cEEBemKoIk6W#0] ^Ne<adv>$ ^avoir<vbhaver><ger>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/cEEBemKoIk6W]
+[cKMc9lJVNpNe#0] ^Ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><ger>$ ^pas<adv>$ ^beaucoup<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/cKMc9lJVNpNe]
+[cY3lTh40NOnK#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^être<vbser><pri><p3><pl>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/cY3lTh40NOnK]
+[ceDnADphKzDD#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pii><p3><sg>$ ^pas<adv>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/ceDnADphKzDD]
+[cmxqM0EvJQZ1#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^comprendre<vblex><pri><p1><sg>$ ^pas<adv>$
+[/cmxqM0EvJQZ1]
+[czD-uC2RBGbg#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><m><sg>$ ^deuxième<adj><mf><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^succès<n><m><sp>$^.<sent>$
+[/czD-uC2RBGbg]
+[e2qp-Vqld7Z2#0] ^Ne<adv>$ ^pas<adv>$ ^être<vbser><inf>$ ^comprendre<vblex><pp><m><sp>$
+[/e2qp-Vqld7Z2]
+[e9PufR4bHUHo#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^être<vbser><pp><mf><sp>$
+[/e9PufR4bHUHo]
+[ectOcCt_IEAU#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^être<vbser><pri><p3><pl>$ ^pas<adv>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/ectOcCt_IEAU]
+[epM2SW8omLIo#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/epM2SW8omLIo]
+[f7385MypdKUY#0] ^Son<det><pos><mf><pl>$ ^question<n><f><pl>$ ^ne<adv>$ ^être<vbser><pri><p3><pl>$ ^toujours pas<adv>$ ^résoudre<vblex><pp><f><pl>$
+[/f7385MypdKUY]
+[fXN4F2MVfkaK#0] ^Ne<adv>$ ^pas<adv>$ ^être<vbser><inf>$ ^lire<vblex><pp><m><pl>$
+[/fXN4F2MVfkaK]
+[fn5OBeplVWIK#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^y<prn><pro><adv>$ ^être<vbser><pri><p1><sg>$ ^pas<adv>$ ^arriver<vblex><pp><m><sg>$
+[/fn5OBeplVWIK]
+[fxG0SCHvEG-k#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><m><sg>$ ^deuxième<adj><mf><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^et<cnjcoo>$ ^important<adj><m><sg>$ ^succès<n><m><sp>$^.<sent>$
+[/fxG0SCHvEG-k]
+[g3RwagAtRc-g#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><m><sg>$ ^deuxième<adj><mf><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^succès<n><m><sp>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/g3RwagAtRc-g]
+[gA7RthC_ap54#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><f><sg>$ ^meilleur<adj><f><sg>$ ^collègue<n><mf><sg>$^.<sent>$
+[/gA7RthC_ap54]
+[gMjXJDjaOCM-#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/gMjXJDjaOCM-]
+[h4GDBZ_Dpquf#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^y<prn><pro><adv>$ ^être<vbser><pii><p3><sg>$ ^pas<adv>$ ^arriver<vblex><pp><m><sg>$
+[/h4GDBZ_Dpquf]
+[hEO1J3oeLZbs#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^beaucoup<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/hEO1J3oeLZbs]
+[hQHHLfs3ydBB#0] ^Il<prn><tn><p3><m><sg>$ ^avoir<vbhaver><pri><p3><sg>$ ^pouvoir<vbmod><pp><m><sg>$ ^beaucoup<adv>$ ^neiger<vblex><inf>$
+[/hQHHLfs3ydBB]
+[hgQG0vkJKKlG#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^être<vbser><pri><p1><sg>$ ^pas<adv>$ ^bien<preadv>$ ^arriver<vblex><pp><m><sg>$
+[/hgQG0vkJKKlG]
+[hzwkebH1sNgU#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><f><sg>$ ^meilleur<adj><f><sg>$ ^collègue<n><mf><sg>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/hzwkebH1sNgU]
+[iNYNEiMAh9QS#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><m><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^succès<n><m><sp>$^.<sent>$
+[/iNYNEiMAh9QS]
+[ja_bCJ1sX_a0#0] ^Son<det><pos><mf><pl>$ ^question<n><f><pl>$ ^ne<adv>$ ^être<vbser><pri><p3><pl>$ ^toujours pas<adv>$ ^arriver<vblex><pp><f><pl>$
+[/ja_bCJ1sX_a0]
+[jx-wZC3cUDJx#0] ^Le<det><def><m><sg>$ ^plus<n><m><sp>$ ^puissant<adj><m><sg>$ ^possible<adj><mf><sg>$
+[/jx-wZC3cUDJx]
+[k3wE0ePxl2jM#0] ^Il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^pouvoir<vbmod><pri><p3><sg>$ ^pas<adv>$ ^neiger<vblex><inf>$
+[/k3wE0ePxl2jM]
+[koUE54H1jqcN#0] ^Un<det><ind><f><sg>$ ^gosse<n><mf><sg>$
+[/koUE54H1jqcN]
+[l6tD97deum-o#0] ^Ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^comprendre<vblex><ger>$ ^pas<adv>$
+[/l6tD97deum-o]
+[mHlyb_rywAuD#0] ^Un<det><ind><f><sg>$ ^brave<adj><mf><sg>$ ^gosse<n><mf><sg>$
+[/mHlyb_rywAuD]
+[n0mvxva_AJku#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^comprendre<vblex><pri><p1><sg>$ ^pas<adv>$
+[/n0mvxva_AJku]
+[o7lXHZKx40Pm#0] ^Il<prn><tn><p3><m><sg>$ ^neiger<vblex><prs><p3><sg>$
+[/o7lXHZKx40Pm]
+[oeueekSXYXB3#0] ^Son<det><pos><mf><pl>$ ^question<n><f><pl>$ ^ne<adv>$ ^être<vbser><pri><p3><pl>$ ^en revanche<adv>$ ^pas<adv>$ ^arriver<vblex><pp><f><pl>$
+[/oeueekSXYXB3]
+[p-CAE5GbVquu#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^y<prn><pro><adv>$ ^être<vbser><pii><p3><sg>$ ^pas<adv>$ ^bien<preadv>$ ^arriver<vblex><pp><m><sg>$
+[/p-CAE5GbVquu]
+[pGajYSFNpODU#0] ^Ne<adv>$ ^pas<adv>$ ^avoir<vbhaver><inf>$ ^beaucoup<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/pGajYSFNpODU]
+[ppL68u_drrvz#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^être<vbser><pii><p3><sg>$ ^pas<adv>$ ^arriver<vblex><pp><m><sg>$
+[/ppL68u_drrvz]
+[qNK757RwnP2e#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><m><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^succès<n><m><sp>$ ^médiatique<adj><mf><sg>$^.<sent>$
+[/qNK757RwnP2e]
+[qOrw4rvPw28P#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^son<det><pos><m><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^et<cnjcoo>$ ^important<adj><m><sg>$ ^succès<n><m><sp>$^.<sent>$
+[/qOrw4rvPw28P]
+[qkk7JSor24xa#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^beaucoup<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/qkk7JSor24xa]
+[qy_fPbs3WiJE#0] ^Il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^avoir<vbhaver><pii><p3><sg>$ ^pas<adv>$ ^neiger<vblex><pp><m><sg>$
+[/qy_fPbs3WiJE]
+[qztb3C-oxp72#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pii><p1><sg>$ ^pas<adv>$ ^beaucoup<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/qztb3C-oxp72]
+[r3alC1pKW2_g#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$
+[/r3alC1pKW2_g]
+[rEPdNOVO0u9r#0] ^Ne<adv>$ ^pas<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><inf>$ ^comprendre<vblex><pp><m><sp>$
+[/rEPdNOVO0u9r]
+[rR6E0APzGTfl#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^être<vbser><pri><p1><sg>$ ^pas<adv>$ ^arriver<vblex><pp><m><sg>$
+[/rR6E0APzGTfl]
+[rTjzzpB2jEbF#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^avoir<vbhaver><pp><mf><sp>$
+[/rTjzzpB2jEbF]
+[szeBe64_1xgQ#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^y<prn><pro><adv>$ ^être<vbser><pri><p1><sg>$ ^pas<adv>$ ^bien<preadv>$ ^arriver<vblex><pp><m><sg>$
+[/szeBe64_1xgQ]
+[ue15rtsHyPXM#0] ^Son<det><pos><mf><pl>$ ^question<n><f><pl>$ ^ne<adv>$ ^être<vbser><pri><p3><pl>$ ^pas<adv>$ ^toujours<adv>$ ^résoudre<vblex><pp><f><pl>$
+[/ue15rtsHyPXM]
+[ukJ-lxKVoDxC#0] ^Ne<adv>$ ^comprendre<vblex><ger>$ ^pas<adv>$
+[/ukJ-lxKVoDxC]
+[umd51QrLKlZk#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><m><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^succès<n><m><sp>$^.<sent>$
+[/umd51QrLKlZk]
+[v-jC9xaieOoX#0] ^Il<prn><tn><p3><m><pl>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pii><p3><pl>$ ^pas<adv>$ ^comprendre<vblex><pp><m><sp>$
+[/v-jC9xaieOoX]
+[vVk7LF0W_2vN#0] ^Un<det><ind><f><sg>$ ^gosse<n><mf><sg>$ ^haut<adj><f><sg>$
+[/vVk7LF0W_2vN]
+[va9HZjm-eqRk#0] ^Il<prn><tn><p3><m><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p3><sg>$ ^pas<adv>$ ^pouvoir<vbmod><pp><m><sg>$ ^neiger<vblex><inf>$
+[/va9HZjm-eqRk]
+[w4PfhQvsEFhg#0] ^Ne<adv>$ ^pas<adv>$ ^avoir<vbhaver><inf>$ ^avoir<vbhaver><pp><mf><sp>$
+[/w4PfhQvsEFhg]
+[wrR2HydMMhWm#0] ^Ne<adv>$ ^pas<adv>$ ^être<vbser><inf>$ ^arriver<vblex><pp><m><sg>$
+[/wrR2HydMMhWm]
+[xEmoZHUYSK6q#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^être<vbser><pp><mf><sp>$ ^comprendre<vblex><pp><m><sp>$
+[/xEmoZHUYSK6q]
+[xSon12xkaZ0J#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^arriver<vblex><pri><p3><sg>$ ^pas<adv>$
+[/xSon12xkaZ0J]
+[x_xto68qDjVf#0] ^Je<prn><tn><p1><mf><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^voir<vblex><pp><m><sg>$ ^le<det><def><m><sg>$ ^plus<n><m><sp>$ ^grand<adj><m><sg>$ ^et<cnjcoo>$ ^important<adj><m><sg>$ ^succès<n><m><sp>$^.<sent>$
+[/x_xto68qDjVf]
+[yJRWH8ont2Jr#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^être<vbser><pp><mf><sp>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/yJRWH8ont2Jr]
+[yorhvNpCkE4M#0] ^Je<prn><tn><p1><mf><sg>$ ^ne<adv>$ ^le<prn><pro><p3><m><sg>$ ^avoir<vbhaver><pri><p1><sg>$ ^pas<adv>$ ^bien<preadv>$ ^comprendre<vblex><pp><m><sp>$
+[/yorhvNpCkE4M]
+[zYCyXm-maqBu#0] ^Ne<adv>$ ^pas<adv>$ ^comprendre<vblex><inf>$
+[/zYCyXm-maqBu]

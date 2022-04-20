@@ -1,0 +1,6 @@
+{
+    "fra-epo-regression": {
+        "input": "fra-epo-regression-input.txt",
+        "mode": "fra-epo"
+    }
+}

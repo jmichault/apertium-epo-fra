@@ -148,3 +148,6 @@ install-data-local: install-modes
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_epo_fradir)
 
 CLEANFILES = -rf $(TARGETS)
+
+test: all
+	apertium-regtest test

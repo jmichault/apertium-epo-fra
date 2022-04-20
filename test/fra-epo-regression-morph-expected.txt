@@ -1,0 +1,262 @@
+[-An7wSGXCQpY#0] ^N'/Ne<adv>$ ^ayant/avoir<vbhaver><ger>/avoir<vblex><ger>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/-An7wSGXCQpY]
+[-gZjDM4emcft#0] ^Il/Il<prn><tn><p3><m><sg>$ ^n'/ne<adv>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^pu/paître<vblex><pp><m><sg>/pouvoir<vbmod><pp><m><sg>/pouvoir<vbmod><pp><m><pl>/pouvoir<vbmod><pp><f><sg>/pouvoir<vbmod><pp><f><pl>$ ^beaucoup/beaucoup<adv>$ ^neiger/neiger<vblex><inf>$
+[/-gZjDM4emcft]
+[08zZb1XgOQQ0#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^y/y<prn><pro><adv>$ ^arrive/arriver<vblex><pri><p3><sg>/arriver<vblex><pri><p1><sg>/arriver<vblex><prs><p3><sg>/arriver<vblex><prs><p1><sg>/arriver<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/08zZb1XgOQQ0]
+[0xOwgELfPUQ0#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/0xOwgELfPUQ0]
+[0xa1_ZQlBW8A#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^être/être<vbser><inf>/être<n><m><sg>$ ^beaucoup/beaucoup<adv>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/0xa1_ZQlBW8A]
+[1EkKK_Qa2LXr#0] ^Un/Un<num><m><sg>/Un<prn><tn><m><sg>/Un<det><ind><m><sg>$ ^brave/brave<adj><mf><sg>/braver<vblex><pri><p3><sg>/braver<vblex><pri><p1><sg>/braver<vblex><prs><p3><sg>/braver<vblex><prs><p1><sg>/braver<vblex><imp><p2><sg>$ ^gosse/gosse<n><mf><sg>$
+[/1EkKK_Qa2LXr]
+[1QdNoQnNAB4e#0] ^Il/Il<prn><tn><p3><m><sg>$ ^ne/ne<adv>$ ^pleut/pleuvoir<vblex><pri><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/1QdNoQnNAB4e]
+[1XOesHbJ8L2r#0] ^Un/Un<num><m><sg>/Un<prn><tn><m><sg>/Un<det><ind><m><sg>$ ^gosse/gosse<n><mf><sg>$ ^très/très<preadv>$ ^haut/haut<n><m><sg>/haut<adj><m><sg>$
+[/1XOesHbJ8L2r]
+[1owyUKqISmmJ#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^n'/ne<adv>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/1owyUKqISmmJ]
+[2PUY7w19Yphb#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^son/son<n><m><sg>/son<det><pos><m><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^et/et<cnjcoo>$ ^important/importer<vblex><ger>/important<adj><m><sg>$ ^succès/succès<n><m><sp>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/2PUY7w19Yphb]
+[2kuHpMt-1RId#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^n'/ne<adv>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/2kuHpMt-1RId]
+[3Eo6eQD3cO_N#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^sa/son<det><pos><f><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^meilleure/meilleur<adj><f><sg>$ ^collègue/collègue<n><mf><sg>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/3Eo6eQD3cO_N]
+[6FaEa-1cN0o3#0] ^Les/Le<det><def><mf><pl>/Le<prn><pro><p3><mf><pl>$ ^barrages/barrage<n><m><pl>$ ^n'/ne<adv>$ ^ont/avoir<vbhaver><pri><p3><pl>/avoir<vblex><pri><p3><pl>$ ^en revanche/en revanche<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^vocation/vocation<n><f><sg>$
+[/6FaEa-1cN0o3]
+[7em9ncsxXnOY#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^la/le<det><def><f><sg>/le<prn><pro><p3><f><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^meilleure/meilleur<adj><f><sg>$ ^collègue/collègue<n><mf><sg>$^./.<sent>$
+[/7em9ncsxXnOY]
+[7rXQPk6tlar7#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/7rXQPk6tlar7]
+[8NyPxtMnW5Ud#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^être/être<vbser><inf>/être<n><m><sg>$ ^beaucoup/beaucoup<adv>$ ^lus/lire<vblex><pp><m><pl>/lire<vblex><ifi><p1><sg>/lire<vblex><ifi><p2><sg>$
+[/8NyPxtMnW5Ud]
+[8OLNtUbarpc0#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/8OLNtUbarpc0]
+[AV337mII971n#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^et/et<cnjcoo>$ ^important/importer<vblex><ger>/important<adj><m><sg>$ ^succès/succès<n><m><sp>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/AV337mII971n]
+[FMflP69Ol3fz#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^des/un<det><ind><mf><pl>/un<det><ind><m><pl>/un<det><ind><f><pl>/de<pr>+le<det><def><mf><pl>$ ^enfants/enfant<n><mf><pl>$
+[/FMflP69Ol3fz]
+[G05BpU8Sod5L#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^n'/ne<adv>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/G05BpU8Sod5L]
+[G9IngZwhJG2b#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/G9IngZwhJG2b]
+[GJz2QH4B03Bi#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/GJz2QH4B03Bi]
+[GMlnKkzVbqV7#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^mangé/manger<vblex><pp><m><sg>$ ^du/de<pr>+le<det><def><m><sg>$ ^pain/pain<n><m><sg>$
+[/GMlnKkzVbqV7]
+[GNkECycITHsd#0] ^Il/Il<prn><tn><p3><m><sg>$ ^n'/ne<adv>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^neigé/neiger<vblex><pp><m><sg>$
+[/GNkECycITHsd]
+[HUtqu8WEaGEv#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^avoir/avoir<vbhaver><inf>/avoir<vblex><inf>/avoir<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/HUtqu8WEaGEv]
+[IW-9KgEoABa_#0] ^Il/Il<prn><tn><p3><m><sg>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^pu/paître<vblex><pp><m><sg>/pouvoir<vbmod><pp><m><sg>/pouvoir<vbmod><pp><m><pl>/pouvoir<vbmod><pp><f><sg>/pouvoir<vbmod><pp><f><pl>$ ^neiger/neiger<vblex><inf>$
+[/IW-9KgEoABa_]
+[JLjklwBDxfVT#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^succès/succès<n><m><sp>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/JLjklwBDxfVT]
+[KyGNzzcW6RNC#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^sa/son<det><pos><f><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^meilleure/meilleur<adj><f><sg>$ ^collègue/collègue<n><mf><sg>$^./.<sent>$
+[/KyGNzzcW6RNC]
+[LI2_vM9y61Ds#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^suis/être<vbser><pri><p1><sg>/suivre<vblex><pri><p1><sg>/suivre<vblex><pri><p2><sg>/suivre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/LI2_vM9y61Ds]
+[LKaLAsy3MxFW#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^suis/être<vbser><pri><p1><sg>/suivre<vblex><pri><p1><sg>/suivre<vblex><pri><p2><sg>/suivre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/LKaLAsy3MxFW]
+[Ln8j9u2Dy5eC#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^n'/ne<adv>$ ^ont/avoir<vbhaver><pri><p3><pl>/avoir<vblex><pri><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/Ln8j9u2Dy5eC]
+[M3Qf4R0ZXIGR#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^sa/son<det><pos><f><sg>$ ^meilleure/meilleur<adj><f><sg>$ ^collègue/collègue<n><mf><sg>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/M3Qf4R0ZXIGR]
+[M_-Np0uFkhx0#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^arriver/arriver<vblex><inf>$
+[/M_-Np0uFkhx0]
+[Mk6vRE6XE0iz#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/Mk6vRE6XE0iz]
+[N08oIXikuRFD#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/N08oIXikuRFD]
+[NLdRzTM_nMqn#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^était/être<vbser><pii><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/NLdRzTM_nMqn]
+[NcxEJJ0EeP3m#0] ^Ne/Ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^ayant/avoir<vbhaver><ger>/avoir<vblex><ger>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/NcxEJJ0EeP3m]
+[NoIfxWXIGE0U#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^n'/ne<adv>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$
+[/NoIfxWXIGE0U]
+[OQAjI71MV_Ab#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/OQAjI71MV_Ab]
+[OU0x9rvkqdWh#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/OU0x9rvkqdWh]
+[OlEyee3ix4QH#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^son/son<n><m><sg>/son<det><pos><m><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^et/et<cnjcoo>$ ^important/importer<vblex><ger>/important<adj><m><sg>$ ^succès/succès<n><m><sp>$^./.<sent>$
+[/OlEyee3ix4QH]
+[OtmFSRUwln1B#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/OtmFSRUwln1B]
+[POkIGN3PGO1I#0] ^Il/Il<prn><tn><p3><m><sg>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^beaucoup/beaucoup<adv>$ ^neigé/neiger<vblex><pp><m><sg>$
+[/POkIGN3PGO1I]
+[QHj6XAiC89kQ#0] ^Ceux/Celui<prn><tn><m><pl>$ ^qui/qui<prn><rel><mf><sp>/qui<prn><itg><mf><sp>$ ^viennent/venir<vblex><prs><p3><pl>/venir<vblex><pri><p3><pl>$
+[/QHj6XAiC89kQ]
+[QUvDBnqD2iay#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^son/son<n><m><sg>/son<det><pos><m><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^succès/succès<n><m><sp>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/QUvDBnqD2iay]
+[Qo-ChkRqu6ir#0] ^Il/Il<prn><tn><p3><m><sg>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^neigé/neiger<vblex><pp><m><sg>$
+[/Qo-ChkRqu6ir]
+[QswlJWjvb5nZ#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^la/le<det><def><f><sg>/le<prn><pro><p3><f><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^meilleure/meilleur<adj><f><sg>$ ^collègue/collègue<n><mf><sg>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/QswlJWjvb5nZ]
+[T-8D8j4uh-z-#0] ^Jean/Jean<n><m><sg>/Jean<np><ant><m><sg>$ ^n'/ne<adv>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^présenté/présenter<vblex><pp><m><sg>$ ^ni/ni<cnjcoo>$ ^la/le<det><def><f><sg>/le<prn><pro><p3><f><sg>$ ^mère/mère<n><f><sg>$^,/,<cm>$ ^ni/ni<cnjcoo>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^enfant/enfant<n><mf><sg>$^./.<sent>$
+[/T-8D8j4uh-z-]
+[UMgVAlAcBo9n#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^la/le<det><def><f><sg>/le<prn><pro><p3><f><sg>$ ^meilleure/meilleur<adj><f><sg>$ ^collègue/collègue<n><mf><sg>$^./.<sent>$
+[/UMgVAlAcBo9n]
+[V2ohm8Bnow48#0] ^Une/Un<prn><tn><f><sg>/Un<det><ind><f><sg>$ ^gosse/gosse<n><mf><sg>$ ^très/très<preadv>$ ^haute/haut<adj><f><sg>$
+[/V2ohm8Bnow48]
+[VE-xbvy5iezO#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^son/son<n><m><sg>/son<det><pos><m><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^succès/succès<n><m><sp>$^./.<sent>$
+[/VE-xbvy5iezO]
+[VUSWGf9caceq#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$
+[/VUSWGf9caceq]
+[VXoIuRu_0z53#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/VXoIuRu_0z53]
+[VjYSehRmEMEn#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^son/son<n><m><sg>/son<det><pos><m><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^et/et<cnjcoo>$ ^important/importer<vblex><ger>/important<adj><m><sg>$ ^succès/succès<n><m><sp>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/VjYSehRmEMEn]
+[WEwABfJJ-Dh1#0] ^Il/Il<prn><tn><p3><m><sg>$ ^n'/ne<adv>$ ^avait/avoir<vbhaver><pii><p3><sg>/avoir<vblex><pii><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^pu/paître<vblex><pp><m><sg>/pouvoir<vbmod><pp><m><sg>/pouvoir<vbmod><pp><m><pl>/pouvoir<vbmod><pp><f><sg>/pouvoir<vbmod><pp><f><pl>$ ^neiger/neiger<vblex><inf>$
+[/WEwABfJJ-Dh1]
+[WdSDc5nU4UlJ#0] ^Il/Il<prn><tn><p3><m><sg>$ ^peut/pouvoir<vbmod><pri><p3><sg>$ ^neiger/neiger<vblex><inf>$
+[/WdSDc5nU4UlJ]
+[WngXFHQv67H6#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^n'/ne<adv>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$
+[/WngXFHQv67H6]
+[WwxY7nLwedyw#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^et/et<cnjcoo>$ ^important/importer<vblex><ger>/important<adj><m><sg>$ ^succès/succès<n><m><sp>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/WwxY7nLwedyw]
+[XHVlyQ2Z9zcm#0] ^Un/Un<num><m><sg>/Un<prn><tn><m><sg>/Un<det><ind><m><sg>$ ^gosse/gosse<n><mf><sg>$ ^haut/haut<n><m><sg>/haut<adj><m><sg>$
+[/XHVlyQ2Z9zcm]
+[XPN0M4J780_l#0] ^Il/Il<prn><tn><p3><m><sg>$ ^n'/ne<adv>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^neigé/neiger<vblex><pp><m><sg>$
+[/XPN0M4J780_l]
+[X_PnDiE-ZCso#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$
+[/X_PnDiE-ZCso]
+[Y9o6qez4zQf7#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^avoir/avoir<vbhaver><inf>/avoir<vblex><inf>/avoir<n><m><sg>$
+[/Y9o6qez4zQf7]
+[YN0aDihB37kh#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$
+[/YN0aDihB37kh]
+[YsC4ydMUqCgx#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^suis/être<vbser><pri><p1><sg>/suivre<vblex><pri><p1><sg>/suivre<vblex><pri><p2><sg>/suivre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/YsC4ydMUqCgx]
+[ZNlllLP7H9Oz#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^avoir/avoir<vbhaver><inf>/avoir<vblex><inf>/avoir<n><m><sg>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$
+[/ZNlllLP7H9Oz]
+[ZWMztloq3ywU#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/ZWMztloq3ywU]
+[_A5HLR9TwbKP#0] ^Un/Un<num><m><sg>/Un<prn><tn><m><sg>/Un<det><ind><m><sg>$ ^gosse/gosse<n><mf><sg>$
+[/_A5HLR9TwbKP]
+[_CdlUWCvy4rk#0] ^Il/Il<prn><tn><p3><m><sg>$ ^avait/avoir<vbhaver><pii><p3><sg>/avoir<vblex><pii><p3><sg>$ ^pu/paître<vblex><pp><m><sg>/pouvoir<vbmod><pp><m><sg>/pouvoir<vbmod><pp><m><pl>/pouvoir<vbmod><pp><f><sg>/pouvoir<vbmod><pp><f><pl>$ ^neiger/neiger<vblex><inf>$
+[/_CdlUWCvy4rk]
+[_MTLUnPdX0oV#0] ^Ses/Son<det><pos><mf><pl>$ ^questions/question<n><f><pl>$ ^ne/ne<adv>$ ^sont/être<vbser><pri><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^toujours/toujours<adv>$ ^arrivées/arrivée<n><f><pl>/arriver<vblex><pp><f><pl>$
+[/_MTLUnPdX0oV]
+[_aCngoGLNQwU#0] ^Il/Il<prn><tn><p3><m><sg>$ ^avait/avoir<vbhaver><pii><p3><sg>/avoir<vblex><pii><p3><sg>$ ^neigé/neiger<vblex><pp><m><sg>$
+[/_aCngoGLNQwU]
+[aAq8c4F_vmXU#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/aAq8c4F_vmXU]
+[c3AcbhKB1y3p#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^être/être<vbser><inf>/être<n><m><sg>$
+[/c3AcbhKB1y3p]
+[cEEBemKoIk6W#0] ^N'/Ne<adv>$ ^ayant/avoir<vbhaver><ger>/avoir<vblex><ger>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/cEEBemKoIk6W]
+[cKMc9lJVNpNe#0] ^Ne/Ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^ayant/avoir<vbhaver><ger>/avoir<vblex><ger>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/cKMc9lJVNpNe]
+[cY3lTh40NOnK#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^ne/ne<adv>$ ^sont/être<vbser><pri><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/cY3lTh40NOnK]
+[ceDnADphKzDD#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avait/avoir<vbhaver><pii><p3><sg>/avoir<vblex><pii><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/ceDnADphKzDD]
+[cmxqM0EvJQZ1#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^comprends/comprendre<vblex><pri><p1><sg>/comprendre<vblex><pri><p2><sg>/comprendre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/cmxqM0EvJQZ1]
+[czD-uC2RBGbg#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^succès/succès<n><m><sp>$^./.<sent>$
+[/czD-uC2RBGbg]
+[e2qp-Vqld7Z2#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^être/être<vbser><inf>/être<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/e2qp-Vqld7Z2]
+[e9PufR4bHUHo#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$
+[/e9PufR4bHUHo]
+[ectOcCt_IEAU#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^ne/ne<adv>$ ^sont/être<vbser><pri><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/ectOcCt_IEAU]
+[epM2SW8omLIo#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/epM2SW8omLIo]
+[f7385MypdKUY#0] ^Ses/Son<det><pos><mf><pl>$ ^questions/question<n><f><pl>$ ^ne/ne<adv>$ ^sont/être<vbser><pri><p3><pl>$ ^toujours pas/toujours pas<adv>$ ^résolues/résolu<adj><f><pl>/résoudre<vblex><pp><f><pl>$
+[/f7385MypdKUY]
+[fXN4F2MVfkaK#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^être/être<vbser><inf>/être<n><m><sg>$ ^lus/lire<vblex><pp><m><pl>/lire<vblex><ifi><p1><sg>/lire<vblex><ifi><p2><sg>$
+[/fXN4F2MVfkaK]
+[fn5OBeplVWIK#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^y/y<prn><pro><adv>$ ^suis/être<vbser><pri><p1><sg>/suivre<vblex><pri><p1><sg>/suivre<vblex><pri><p2><sg>/suivre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/fn5OBeplVWIK]
+[fxG0SCHvEG-k#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^et/et<cnjcoo>$ ^important/importer<vblex><ger>/important<adj><m><sg>$ ^succès/succès<n><m><sp>$^./.<sent>$
+[/fxG0SCHvEG-k]
+[g3RwagAtRc-g#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^deuxième/deuxième<adj><mf><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^succès/succès<n><m><sp>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/g3RwagAtRc-g]
+[gA7RthC_ap54#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^sa/son<det><pos><f><sg>$ ^meilleure/meilleur<adj><f><sg>$ ^collègue/collègue<n><mf><sg>$^./.<sent>$
+[/gA7RthC_ap54]
+[gMjXJDjaOCM-#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/gMjXJDjaOCM-]
+[h4GDBZ_Dpquf#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^y/y<prn><pro><adv>$ ^était/être<vbser><pii><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/h4GDBZ_Dpquf]
+[hEO1J3oeLZbs#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/hEO1J3oeLZbs]
+[hQHHLfs3ydBB#0] ^Il/Il<prn><tn><p3><m><sg>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^pu/paître<vblex><pp><m><sg>/pouvoir<vbmod><pp><m><sg>/pouvoir<vbmod><pp><m><pl>/pouvoir<vbmod><pp><f><sg>/pouvoir<vbmod><pp><f><pl>$ ^beaucoup/beaucoup<adv>$ ^neiger/neiger<vblex><inf>$
+[/hQHHLfs3ydBB]
+[hgQG0vkJKKlG#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^suis/être<vbser><pri><p1><sg>/suivre<vblex><pri><p1><sg>/suivre<vblex><pri><p2><sg>/suivre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/hgQG0vkJKKlG]
+[hzwkebH1sNgU#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^la/le<det><def><f><sg>/le<prn><pro><p3><f><sg>$ ^meilleure/meilleur<adj><f><sg>$ ^collègue/collègue<n><mf><sg>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/hzwkebH1sNgU]
+[iNYNEiMAh9QS#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^son/son<n><m><sg>/son<det><pos><m><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^succès/succès<n><m><sp>$^./.<sent>$
+[/iNYNEiMAh9QS]
+[ja_bCJ1sX_a0#0] ^Ses/Son<det><pos><mf><pl>$ ^questions/question<n><f><pl>$ ^ne/ne<adv>$ ^sont/être<vbser><pri><p3><pl>$ ^toujours pas/toujours pas<adv>$ ^arrivées/arrivée<n><f><pl>/arriver<vblex><pp><f><pl>$
+[/ja_bCJ1sX_a0]
+[jx-wZC3cUDJx#0] ^Le/Le<det><def><m><sg>/Lème<adj><mf><sp>/Le<prn><pro><p3><m><sg>/Le<prn><pro><p3><nt><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^puissant/puissant<adj><m><sg>$ ^possible/possible<adj><mf><sg>$
+[/jx-wZC3cUDJx]
+[k3wE0ePxl2jM#0] ^Il/Il<prn><tn><p3><m><sg>$ ^ne/ne<adv>$ ^peut/pouvoir<vbmod><pri><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^neiger/neiger<vblex><inf>$
+[/k3wE0ePxl2jM]
+[koUE54H1jqcN#0] ^Une/Un<prn><tn><f><sg>/Un<det><ind><f><sg>$ ^gosse/gosse<n><mf><sg>$
+[/koUE54H1jqcN]
+[l6tD97deum-o#0] ^Ne/Ne<adv>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^comprenant/comprendre<vblex><ger>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/l6tD97deum-o]
+[mHlyb_rywAuD#0] ^Une/Un<prn><tn><f><sg>/Un<det><ind><f><sg>$ ^brave/brave<adj><mf><sg>/braver<vblex><pri><p3><sg>/braver<vblex><pri><p1><sg>/braver<vblex><prs><p3><sg>/braver<vblex><prs><p1><sg>/braver<vblex><imp><p2><sg>$ ^gosse/gosse<n><mf><sg>$
+[/mHlyb_rywAuD]
+[n0mvxva_AJku#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^comprends/comprendre<vblex><pri><p1><sg>/comprendre<vblex><pri><p2><sg>/comprendre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/n0mvxva_AJku]
+[o7lXHZKx40Pm#0] ^Il/Il<prn><tn><p3><m><sg>$ ^neige/neige<n><f><sg>/neiger<vblex><pri><p3><sg>/neiger<vblex><prs><p3><sg>$
+[/o7lXHZKx40Pm]
+[oeueekSXYXB3#0] ^Ses/Son<det><pos><mf><pl>$ ^questions/question<n><f><pl>$ ^ne/ne<adv>$ ^sont/être<vbser><pri><p3><pl>$ ^en revanche/en revanche<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^arrivées/arrivée<n><f><pl>/arriver<vblex><pp><f><pl>$
+[/oeueekSXYXB3]
+[p-CAE5GbVquu#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^y/y<prn><pro><adv>$ ^était/être<vbser><pii><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/p-CAE5GbVquu]
+[pGajYSFNpODU#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^avoir/avoir<vbhaver><inf>/avoir<vblex><inf>/avoir<n><m><sg>$ ^beaucoup/beaucoup<adv>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/pGajYSFNpODU]
+[ppL68u_drrvz#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^était/être<vbser><pii><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/ppL68u_drrvz]
+[qNK757RwnP2e#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^son/son<n><m><sg>/son<det><pos><m><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^succès/succès<n><m><sp>$ ^médiatique/médiatique<adj><mf><sg>$^./.<sent>$
+[/qNK757RwnP2e]
+[qOrw4rvPw28P#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^son/son<n><m><sg>/son<det><pos><m><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^et/et<cnjcoo>$ ^important/importer<vblex><ger>/important<adj><m><sg>$ ^succès/succès<n><m><sp>$^./.<sent>$
+[/qOrw4rvPw28P]
+[qkk7JSor24xa#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/qkk7JSor24xa]
+[qy_fPbs3WiJE#0] ^Il/Il<prn><tn><p3><m><sg>$ ^n'/ne<adv>$ ^avait/avoir<vbhaver><pii><p3><sg>/avoir<vblex><pii><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^neigé/neiger<vblex><pp><m><sg>$
+[/qy_fPbs3WiJE]
+[qztb3C-oxp72#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avais/avoir<vbhaver><pii><p1><sg>/avoir<vbhaver><pii><p2><sg>/avoir<vblex><pii><p1><sg>/avoir<vblex><pii><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^beaucoup/beaucoup<adv>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/qztb3C-oxp72]
+[r3alC1pKW2_g#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/r3alC1pKW2_g]
+[rEPdNOVO0u9r#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avoir/avoir<vbhaver><inf>/avoir<vblex><inf>/avoir<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/rEPdNOVO0u9r]
+[rR6E0APzGTfl#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^suis/être<vbser><pri><p1><sg>/suivre<vblex><pri><p1><sg>/suivre<vblex><pri><p2><sg>/suivre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/rR6E0APzGTfl]
+[rTjzzpB2jEbF#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^n'/ne<adv>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/rTjzzpB2jEbF]
+[szeBe64_1xgQ#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^y/y<prn><pro><adv>$ ^suis/être<vbser><pri><p1><sg>/suivre<vblex><pri><p1><sg>/suivre<vblex><pri><p2><sg>/suivre<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/szeBe64_1xgQ]
+[ue15rtsHyPXM#0] ^Ses/Son<det><pos><mf><pl>$ ^questions/question<n><f><pl>$ ^ne/ne<adv>$ ^sont/être<vbser><pri><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^toujours/toujours<adv>$ ^résolues/résolu<adj><f><pl>/résoudre<vblex><pp><f><pl>$
+[/ue15rtsHyPXM]
+[ukJ-lxKVoDxC#0] ^Ne/Ne<adv>$ ^comprenant/comprendre<vblex><ger>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/ukJ-lxKVoDxC]
+[umd51QrLKlZk#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^succès/succès<n><m><sp>$^./.<sent>$
+[/umd51QrLKlZk]
+[v-jC9xaieOoX#0] ^Ils/Il<prn><tn><p3><m><pl>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^avaient/avoir<vbhaver><pii><p3><pl>/avoir<vblex><pii><p3><pl>$ ^pas/pas<adv>/pas<n><m><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/v-jC9xaieOoX]
+[vVk7LF0W_2vN#0] ^Une/Un<prn><tn><f><sg>/Un<det><ind><f><sg>$ ^gosse/gosse<n><mf><sg>$ ^haute/haut<adj><f><sg>$
+[/vVk7LF0W_2vN]
+[va9HZjm-eqRk#0] ^Il/Il<prn><tn><p3><m><sg>$ ^n'/ne<adv>$ ^a/avoir<vbhaver><pri><p3><sg>/avoir<vblex><pri><p3><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^pu/paître<vblex><pp><m><sg>/pouvoir<vbmod><pp><m><sg>/pouvoir<vbmod><pp><m><pl>/pouvoir<vbmod><pp><f><sg>/pouvoir<vbmod><pp><f><pl>$ ^neiger/neiger<vblex><inf>$
+[/va9HZjm-eqRk]
+[w4PfhQvsEFhg#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^avoir/avoir<vbhaver><inf>/avoir<vblex><inf>/avoir<n><m><sg>$ ^eu/avoir<vbhaver><pp><mf><sp>/avoir<vblex><pp><m><sg>$
+[/w4PfhQvsEFhg]
+[wrR2HydMMhWm#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^être/être<vbser><inf>/être<n><m><sg>$ ^arrivé/arriver<vblex><pp><m><sg>$
+[/wrR2HydMMhWm]
+[xEmoZHUYSK6q#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/xEmoZHUYSK6q]
+[xSon12xkaZ0J#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^arrive/arriver<vblex><pri><p3><sg>/arriver<vblex><pri><p1><sg>/arriver<vblex><prs><p3><sg>/arriver<vblex><prs><p1><sg>/arriver<vblex><imp><p2><sg>$ ^pas/pas<adv>/pas<n><m><sp>$
+[/xSon12xkaZ0J]
+[x_xto68qDjVf#0] ^J'/Je<prn><tn><p1><mf><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^vu/voir<vblex><pp><m><sg>$ ^le/le<det><def><m><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><nt><sg>$ ^plus/plus<adv>/plus<n><m><sp>$ ^grand/grand<n><m><sg>/grand<adj><m><sg>$ ^et/et<cnjcoo>$ ^important/importer<vblex><ger>/important<adj><m><sg>$ ^succès/succès<n><m><sp>$^./.<sent>$
+[/x_xto68qDjVf]
+[yJRWH8ont2Jr#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^n'/ne<adv>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^été/été<n><m><sg>/être<vbser><pp><mf><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/yJRWH8ont2Jr]
+[yorhvNpCkE4M#0] ^Je/Je<prn><tn><p1><mf><sg>$ ^ne/ne<adv>$ ^l'/le<det><def><mf><sg>/le<prn><pro><p3><m><sg>/le<prn><pro><p3><f><sg>$ ^ai/avoir<vbhaver><pri><p1><sg>/avoir<vblex><pri><p1><sg>$ ^pas/pas<adv>/pas<n><m><sp>$ ^bien/bien<adv>/bien<preadv>/bien<n><m><sg>$ ^compris/comprendre<vblex><pp><m><sp>/comprendre<vblex><ifi><p1><sg>/comprendre<vblex><ifi><p2><sg>$
+[/yorhvNpCkE4M]
+[zYCyXm-maqBu#0] ^Ne/Ne<adv>$ ^pas/pas<adv>/pas<n><m><sp>$ ^comprendre/comprendre<vblex><inf>$
+[/zYCyXm-maqBu]

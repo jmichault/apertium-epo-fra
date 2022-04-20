@@ -1,0 +1,262 @@
+[-An7wSGXCQpY#0] ^ne<adv>{^Ne<adv>$ ^multe<adv>$}$ ^verbger<SV><vbtr><gerpast><res>{^kompreni<vbtr><3>$}$
+[/-An7wSGXCQpY]
+[-gZjDM4emcft#0] ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj<SV><vbtr><past><p3><sg><res>{^povi<vbtr><3>$ ^neĝi<vbntr><inf>$}$
+[/-gZjDM4emcft]
+[08zZb1XgOQQ0#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbntr><pres><p3><sg><moviment>{^alveni<vbntr><3>$}$ ^adv<adv>{^tie<adv>$}$
+[/08zZb1XgOQQ0]
+[0xOwgELfPUQ0#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^kompreni<vbtr><past>$}$
+[/0xOwgELfPUQ0]
+[0xa1_ZQlBW8A#0] ^ne<adv>{^Ne<adv>$}$ ^inf<SV><vbser><inf>{^esti<vbser><3>$}$ ^multe<adv>{^multe<adv>$}$ ^pp<SA><m><sp><nom><nom>{^kompreni<vbtr><pp><3><4>$}$
+[/0xa1_ZQlBW8A]
+[1EkKK_Qa2LXr#0] ^Un<det><m><sg><nom><nom>{^Un<det><ind><3><4>$}$ ^nom_adj<SN><mf><sg><nom><nom>{^kuraĝa<adj><3><4>$ ^bubo<n><2><3><4>$}$
+[/1EkKK_Qa2LXr]
+[1QdNoQnNAB4e#0] ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbntr><pres><p3><sg><res>{^pluvi<vbntr><3>$}$
+[/1QdNoQnNAB4e]
+[1XOesHbJ8L2r#0] ^Un<det><m><sg><nom><nom>{^Un<det><ind><3><4>$}$ ^nom_adj<SN><m><sg><nom><nom>{^tre<preadv>$ ^alta<adj><3><4>$ ^bubo<n><2><3><4>$}$
+[/1XOesHbJ8L2r]
+[1owyUKqISmmJ#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj_perif<SV><vbtr><past><p3><pl><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3><pl>$}$
+[/1owyUKqISmmJ]
+[2PUY7w19Yphb#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><m><sg><nom><nom>{^lia<det><pos><3><4>$ ^dua<adj><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^kaj<cnjcoo>$ ^grava<adj><3><4>$ ^amaskomunikila<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/2PUY7w19Yphb]
+[2kuHpMt-1RId#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p3><pl><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3><pl>$}$
+[/2kuHpMt-1RId]
+[3Eo6eQD3cO_N#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><f><sg><nom><nom>{^lia<det><pos><3><4>$ ^dua<adj><3><4>$ ^plej bona<adj><3><4>$}$ ^nom_adj<SN><mf><sg><nom><nom>{^amaskomunikila<adj><3><4>$ ^kolego<n><2><3><4>$}$^.<sent>{^.<sent>$}$
+[/3Eo6eQD3cO_N]
+[6FaEa-1cN0o3#0] ^Le<det><mf><pl><nom><nom>{^La<det><def><3><4>$}$ ^nom<SN><m><pl><nom><nom>{^baraĵo<n><3><4>$}$ ^ne<adv>{^kompense<adv>$ ^ne<adv>$}$ ^verbcj<SV><vbtr><pres><p3><pl><res>{^havi<vbtr><3>$}$ ^nom<SN><f><sg><nom><nom>{^alvokiĝo<n><3><4>$}$
+[/6FaEa-1cN0o3]
+[7em9ncsxXnOY#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><f><sg><nom><nom>{^la<det><def><3><4>$ ^dua<adj><3><4>$ ^plej bona<adj><3><4>$}$ ^nom<SN><mf><sg><nom><nom>{^kolego<n><2><3><4>$}$^.<sent>{^.<sent>$}$
+[/7em9ncsxXnOY]
+[7rXQPk6tlar7#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^havi<vbtr><past>$}$
+[/7rXQPk6tlar7]
+[8NyPxtMnW5Ud#0] ^ne<adv>{^Ne<adv>$}$ ^inf<SV><vbser><inf>{^esti<vbser><3>$}$ ^multe<adv>{^multe<adv>$}$ ^pp<SA><m><pl><nom><nom>{^legi<vbtr><pp><3><4>$}$
+[/8NyPxtMnW5Ud]
+[8OLNtUbarpc0#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pres><p1><sg><res>{^havi<vbtr><3>$}$
+[/8OLNtUbarpc0]
+[AV337mII971n#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><m><sg><nom><nom>{^la<det><def><3><4>$ ^dua<adj><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^kaj<cnjcoo>$ ^grava<adj><3><4>$ ^amaskomunikila<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/AV337mII971n]
+[FMflP69Ol3fz#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^un<det><mf><pl><nom><nom>{^un<det><ind><3><4>$}$ ^nom<SN><mf><pl><nom><nom>{^infano<n><3><4>$}$
+[/FMflP69Ol3fz]
+[G05BpU8Sod5L#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj_perif<SV><vbtr><past><p3><pl><res>{^esti<vbser><3>$ ^havi<vbtr><pp3><pl>$}$
+[/G05BpU8Sod5L]
+[G9IngZwhJG2b#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^havi<vbtr><past>$}$
+[/G9IngZwhJG2b]
+[GJz2QH4B03Bi#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p1><sg><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3><sg>$}$
+[/GJz2QH4B03Bi]
+[GMlnKkzVbqV7#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^manĝi<vbtr><past>$}$ ^de<pr>{^de<pr>$}$ ^le<det><m><sg><nom><nom>{^la<det><def><3><4>$}$ ^nom<SN><m><sg><nom><nom>{^pano<n><3><4>$}$
+[/GMlnKkzVbqV7]
+[GNkECycITHsd#0] ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj<SV><vbntr><past><p3><sg><res>{^neĝi<vbntr><3>$}$
+[/GNkECycITHsd]
+[HUtqu8WEaGEv#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj_perif<SV><vbtr><inf><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3>$}$
+[/HUtqu8WEaGEv]
+[IW-9KgEoABa_#0] ^verbcj<SV><vbtr><past><p3><sg><res>{^povi<vbtr><3>$ ^neĝi<vbntr><inf>$}$
+[/IW-9KgEoABa_]
+[JLjklwBDxfVT#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^le<det><m><sg><nom><nom>{^la<det><def><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^amaskomunikila<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/JLjklwBDxfVT]
+[KyGNzzcW6RNC#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><f><sg><nom><nom>{^lia<det><pos><3><4>$ ^dua<adj><3><4>$ ^plej bona<adj><3><4>$}$ ^nom<SN><mf><sg><nom><nom>{^kolego<n><2><3><4>$}$^.<sent>{^.<sent>$}$
+[/KyGNzzcW6RNC]
+[LI2_vM9y61Ds#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><pres><p1><sg><res>{^esti<vbser><3>$}$ ^bone<preadv>{^bone<preadv>$}$ ^pp<SA><m><sp><nom><nom>{^kompreni<vbtr><pp><3><4>$}$
+[/LI2_vM9y61Ds]
+[LKaLAsy3MxFW#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><pres><p1><sg><res>{^esti<vbser><3>$}$ ^pp<SA><m><sp><nom><nom>{^kompreni<vbtr><pp><3><4>$}$
+[/LKaLAsy3MxFW]
+[Ln8j9u2Dy5eC#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><past><p3><pl><res>{^esti<vbser><past>$}$ ^bone<preadv>{^bone<preadv>$}$ ^pp<SA><m><sp><nom><nom>{^kompreni<vbtr><pp><3><4>$}$
+[/Ln8j9u2Dy5eC]
+[M3Qf4R0ZXIGR#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><f><sg><nom><nom>{^lia<det><pos><3><4>$ ^plej bona<adj><3><4>$}$ ^nom_adj<SN><mf><sg><nom><nom>{^amaskomunikila<adj><3><4>$ ^kolego<n><2><3><4>$}$^.<sent>{^.<sent>$}$
+[/M3Qf4R0ZXIGR]
+[M_-Np0uFkhx0#0] ^ne<adv>{^Ne<adv>$}$ ^inf<SV><vbntr><inf>{^alveni<vbntr><3>$}$
+[/M_-Np0uFkhx0]
+[Mk6vRE6XE0iz#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^havi<vbtr><past>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/Mk6vRE6XE0iz]
+[N08oIXikuRFD#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj_perif<SV><vbtr><past><p3><pl><res>{^esti<vbser><3>$ ^havi<vbtr><pp3><pl>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/N08oIXikuRFD]
+[NLdRzTM_nMqn#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj_perif<SV><vbntr><past><p3><sg><moviment>{^esti<vbser><3>$ ^alveni<vbntr><pp3><sg>$}$
+[/NLdRzTM_nMqn]
+[NcxEJJ0EeP3m#0] ^ne<adv>{^Ne<adv>$}$ ^verbger<SV><vbtr><gerpast><res>{^kompreni<vbtr><3>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/NcxEJJ0EeP3m]
+[NoIfxWXIGE0U#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj_perif<SV><vbser><past><p3><pl><res>{^esti<vbser><3>$ ^esti<vbser><pp3><pl>$}$
+[/NoIfxWXIGE0U]
+[OQAjI71MV_Ab#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p3><pl><res>{^esti<vbser><3>$ ^havi<vbtr><pp3><pl>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/OQAjI71MV_Ab]
+[OU0x9rvkqdWh#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p1><sg><res>{^esti<vbser><3>$ ^havi<vbtr><pp3><sg>$}$
+[/OU0x9rvkqdWh]
+[OlEyee3ix4QH#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><m><sg><nom><nom>{^lia<det><pos><3><4>$ ^dua<adj><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^kaj<cnjcoo>$ ^grava<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/OlEyee3ix4QH]
+[OtmFSRUwln1B#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^kompreni<vbtr><past>$}$
+[/OtmFSRUwln1B]
+[POkIGN3PGO1I#0] ^adv<adv>{^multe<adv>$}$ ^verbcj<SV><vbntr><past><p3><sg><res>{^neĝi<vbntr><3>$}$
+[/POkIGN3PGO1I]
+[QHj6XAiC89kQ#0] ^prn_nosubj<SN><tn><pl><nom><nom>{^Tiu<prn><2><3><4>$}$ ^qui<SN><itg><sp><nom><sense>{^kiu<prn><itg><3><4>$}$ ^verbcj<SV><vbntr><pres><p3><pl><moviment>{^veni<vbntr><3>$}$
+[/QHj6XAiC89kQ]
+[QUvDBnqD2iay#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><m><sg><nom><nom>{^lia<det><pos><3><4>$ ^dua<adj><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^amaskomunikila<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/QUvDBnqD2iay]
+[Qo-ChkRqu6ir#0] ^verbcj<SV><vbntr><past><p3><sg><res>{^neĝi<vbntr><3>$}$
+[/Qo-ChkRqu6ir]
+[QswlJWjvb5nZ#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><f><sg><nom><nom>{^la<det><def><3><4>$ ^dua<adj><3><4>$ ^plej bona<adj><3><4>$}$ ^nom_adj<SN><mf><sg><nom><nom>{^amaskomunikila<adj><3><4>$ ^kolego<n><2><3><4>$}$^.<sent>{^.<sent>$}$
+[/QswlJWjvb5nZ]
+[T-8D8j4uh-z-#0] ^ant1<SN><m><sg><nom><nom>{^Jean<np><ant><m><sg><4>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pri><p3><sg><res>{^prezenti<vbtr><past>$}$ ^nek<cnjcoo>{^nek<cnjcoo>$}$ ^le<det><f><sg><nom><nom>{^la<det><def><3><4>$}$ ^nom<SN><f><sg><nom><nom>{^patro<n><f><3><4>$}$^cm<sent>{^,<cm>$}$ ^nek<cnjcoo>{^nek<cnjcoo>$}$ ^le<det><mf><sg><nom><nom>{^la<det><def><3><4>$}$ ^nom<SN><mf><sg><nom><nom>{^infano<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/T-8D8j4uh-z-]
+[UMgVAlAcBo9n#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><f><sg><nom><nom>{^la<det><def><3><4>$ ^plej bona<adj><3><4>$}$ ^nom<SN><mf><sg><nom><nom>{^kolego<n><2><3><4>$}$^.<sent>{^.<sent>$}$
+[/UMgVAlAcBo9n]
+[V2ohm8Bnow48#0] ^Un<det><f><sg><nom><nom>{^Un<det><ind><3><4>$}$ ^nom_adj<SN><f><sg><nom><nom>{^tre<preadv>$ ^alta<adj><3><4>$ ^bubo<n><2><3><4>$}$
+[/V2ohm8Bnow48]
+[VE-xbvy5iezO#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><m><sg><nom><nom>{^lia<det><pos><3><4>$ ^dua<adj><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/VE-xbvy5iezO]
+[VUSWGf9caceq#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><past><p1><sg><res>{^esti<vbser><past>$}$
+[/VUSWGf9caceq]
+[VXoIuRu_0z53#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p1><sg><res>{^esti<vbser><3>$ ^havi<vbtr><pp3><sg>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/VXoIuRu_0z53]
+[VjYSehRmEMEn#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^son<det><m><sg><nom><nom>{^lia<det><pos><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^kaj<cnjcoo>$ ^grava<adj><3><4>$ ^amaskomunikila<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/VjYSehRmEMEn]
+[WEwABfJJ-Dh1#0] ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p3><sg><res>{^esti<vbser><3>$ ^povi<vbtr><pp3><sg>$ ^neĝi<vbntr><inf>$}$
+[/WEwABfJJ-Dh1]
+[WdSDc5nU4UlJ#0] ^verbcj<SV><vbtr><pres><p3><sg><res>{^povi<vbtr><3>$ ^neĝi<vbntr><inf>$}$
+[/WdSDc5nU4UlJ]
+[WngXFHQv67H6#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><past><p3><pl><res>{^esti<vbser><past>$}$
+[/WngXFHQv67H6]
+[WwxY7nLwedyw#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^le<det><m><sg><nom><nom>{^la<det><def><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^kaj<cnjcoo>$ ^grava<adj><3><4>$ ^amaskomunikila<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/WwxY7nLwedyw]
+[XHVlyQ2Z9zcm#0] ^Un<det><m><sg><nom><nom>{^Un<det><ind><3><4>$}$ ^nom_adj<SN><m><sg><nom><nom>{^alta<adj><3><4>$ ^bubo<n><2><3><4>$}$
+[/XHVlyQ2Z9zcm]
+[XPN0M4J780_l#0] ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbntr><past><p3><sg><res>{^neĝi<vbntr><3>$}$
+[/XPN0M4J780_l]
+[X_PnDiE-ZCso#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj<SV><vbser><pri><p1><sg><res>{^esti<vbser><past>$}$
+[/X_PnDiE-ZCso]
+[Y9o6qez4zQf7#0] ^ne<adv>{^Ne<adv>$}$ ^inf<SV><vbtr><inf>{^havi<vbtr><3>$}$
+[/Y9o6qez4zQf7]
+[YN0aDihB37kh#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj_perif<SV><vbser><past><p1><sg><res>{^esti<vbser><3>$ ^esti<vbser><pp3><sg>$}$
+[/YN0aDihB37kh]
+[YsC4ydMUqCgx#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><pres><p1><sg><res>{^esti<vbser><3>$}$
+[/YsC4ydMUqCgx]
+[ZNlllLP7H9Oz#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj<SV><vbser><inf><res>{^esti<vbser><inf>$}$
+[/ZNlllLP7H9Oz]
+[ZWMztloq3ywU#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p1><sg><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3><sg>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/ZWMztloq3ywU]
+[_A5HLR9TwbKP#0] ^Un<det><m><sg><nom><nom>{^Un<det><ind><3><4>$}$ ^nom<SN><mf><sg><nom><nom>{^bubo<n><2><3><4>$}$
+[/_A5HLR9TwbKP]
+[_CdlUWCvy4rk#0] ^verbcj_perif<SV><vbtr><past><p3><sg><res>{^esti<vbser><3>$ ^povi<vbtr><pp3><sg>$ ^neĝi<vbntr><inf>$}$
+[/_CdlUWCvy4rk]
+[_MTLUnPdX0oV#0] ^Son<det><mf><pl><nom><nom>{^Lia<det><pos><3><4>$}$ ^nom<SN><f><pl><nom><nom>{^demando<n><3><4>$}$ ^ne<adv>{^ne<adv>$ ^ĉiam<adv>$}$ ^verbcj<SV><vbntr><pri><p3><pl><moviment>{^alveni<vbntr><past>$}$
+[/_MTLUnPdX0oV]
+[_aCngoGLNQwU#0] ^verbcj_perif<SV><vbntr><past><p3><sg><res>{^esti<vbser><3>$ ^neĝi<vbntr><pp3><sg>$}$
+[/_aCngoGLNQwU]
+[aAq8c4F_vmXU#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj_perif<SV><vbtr><past><p1><sg><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3><sg>$}$
+[/aAq8c4F_vmXU]
+[c3AcbhKB1y3p#0] ^ne<adv>{^Ne<adv>$}$ ^inf<SV><vbser><inf>{^esti<vbser><3>$}$
+[/c3AcbhKB1y3p]
+[cEEBemKoIk6W#0] ^ne<adv>{^Ne<adv>$}$ ^verbger<SV><vbtr><gerpast><res>{^kompreni<vbtr><3>$}$
+[/cEEBemKoIk6W]
+[cKMc9lJVNpNe#0] ^ne<adv>{^Ne<adv>$ ^multe<adv>$}$ ^verbger<SV><vbtr><gerpast><res>{^kompreni<vbtr><3>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/cKMc9lJVNpNe]
+[cY3lTh40NOnK#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><pres><p3><pl><res>{^esti<vbser><3>$}$ ^pp<SA><m><sp><nom><nom>{^kompreni<vbtr><pp><3><4>$}$
+[/cY3lTh40NOnK]
+[ceDnADphKzDD#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj_perif<SV><vbtr><past><p3><sg><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3><sg>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/ceDnADphKzDD]
+[cmxqM0EvJQZ1#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pres><p1><sg><res>{^kompreni<vbtr><3>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/cmxqM0EvJQZ1]
+[czD-uC2RBGbg#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><m><sg><nom><nom>{^la<det><def><3><4>$ ^dua<adj><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/czD-uC2RBGbg]
+[e2qp-Vqld7Z2#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj_perifpp<SV><vbser><inf><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp><sp>$}$
+[/e2qp-Vqld7Z2]
+[e9PufR4bHUHo#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><past><p1><sg><res>{^esti<vbser><past>$}$
+[/e9PufR4bHUHo]
+[ectOcCt_IEAU#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><pres><p3><pl><res>{^esti<vbser><3>$}$ ^bone<preadv>{^bone<preadv>$}$ ^pp<SA><m><sp><nom><nom>{^kompreni<vbtr><pp><3><4>$}$
+[/ectOcCt_IEAU]
+[epM2SW8omLIo#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj_perif<SV><vbtr><past><p3><pl><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3><pl>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/epM2SW8omLIo]
+[f7385MypdKUY#0] ^Son<det><mf><pl><nom><nom>{^Lia<det><pos><3><4>$}$ ^nom<SN><f><pl><nom><nom>{^demando<n><3><4>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><pres><p3><pl><res>{^esti<vbser><3>$}$ ^ankoraŭ<adv>{^ankoraŭ<adv>$}$ ^pp<SA><f><pl><nom><nom>{^solvi<vbtr><pp><3><4>$}$
+[/f7385MypdKUY]
+[fXN4F2MVfkaK#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj_perifpp<SV><vbser><inf><res>{^esti<vbser><3>$ ^legi<vbtr><pp><pl>$}$
+[/fXN4F2MVfkaK]
+[fn5OBeplVWIK#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbntr><pri><p1><sg><moviment>{^alveni<vbntr><past>$}$ ^adv<adv>{^tie<adv>$}$
+[/fn5OBeplVWIK]
+[fxG0SCHvEG-k#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><m><sg><nom><nom>{^la<det><def><3><4>$ ^dua<adj><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^kaj<cnjcoo>$ ^grava<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/fxG0SCHvEG-k]
+[g3RwagAtRc-g#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><m><sg><nom><nom>{^la<det><def><3><4>$ ^dua<adj><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^amaskomunikila<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/g3RwagAtRc-g]
+[gA7RthC_ap54#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><f><sg><nom><nom>{^lia<det><pos><3><4>$ ^plej bona<adj><3><4>$}$ ^nom<SN><mf><sg><nom><nom>{^kolego<n><2><3><4>$}$^.<sent>{^.<sent>$}$
+[/gA7RthC_ap54]
+[gMjXJDjaOCM-#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^kompreni<vbtr><past>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/gMjXJDjaOCM-]
+[h4GDBZ_Dpquf#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbntr><past><p3><sg><moviment>{^esti<vbser><3>$ ^alveni<vbntr><pp3><sg>$}$ ^adv<adv>{^tie<adv>$}$
+[/h4GDBZ_Dpquf]
+[hEO1J3oeLZbs#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^havi<vbtr><past>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/hEO1J3oeLZbs]
+[hQHHLfs3ydBB#0] ^adv<adv>{^multe<adv>$}$ ^verbcj<SV><vbtr><past><p3><sg><res>{^povi<vbtr><3>$ ^neĝi<vbntr><inf>$}$
+[/hQHHLfs3ydBB]
+[hgQG0vkJKKlG#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj<SV><vbntr><pri><p1><sg><moviment>{^alveni<vbntr><past>$}$
+[/hgQG0vkJKKlG]
+[hzwkebH1sNgU#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^det_adj<SA><f><sg><nom><nom>{^la<det><def><3><4>$ ^plej bona<adj><3><4>$}$ ^nom_adj<SN><mf><sg><nom><nom>{^amaskomunikila<adj><3><4>$ ^kolego<n><2><3><4>$}$^.<sent>{^.<sent>$}$
+[/hzwkebH1sNgU]
+[iNYNEiMAh9QS#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^son<det><m><sg><nom><nom>{^lia<det><pos><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/iNYNEiMAh9QS]
+[ja_bCJ1sX_a0#0] ^Son<det><mf><pl><nom><nom>{^Lia<det><pos><3><4>$}$ ^nom<SN><f><pl><nom><nom>{^demando<n><3><4>$}$ ^ne<adv>{^ne<adv>$}$ ^adv<adv>{^ankoraŭ<adv>$}$ ^verbcj<SV><vbntr><pri><p3><pl><moviment>{^alveni<vbntr><past>$}$
+[/ja_bCJ1sX_a0]
+[jx-wZC3cUDJx#0] ^adj<SA><sg><nom><nom>{^kiel<adv>$ ^eble<adv>$ ^plej<adv>$ ^potenca<adj><3><4>$}$
+[/jx-wZC3cUDJx]
+[k3wE0ePxl2jM#0] ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pres><p3><sg><res>{^povi<vbtr><3>$ ^neĝi<vbntr><inf>$}$
+[/k3wE0ePxl2jM]
+[koUE54H1jqcN#0] ^Un<det><f><sg><nom><nom>{^Un<det><ind><3><4>$}$ ^nom<SN><mf><sg><nom><nom>{^bubo<n><2><3><4>$}$
+[/koUE54H1jqcN]
+[l6tD97deum-o#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj<SV><vbtr><ger><res>{^kompreni<vbtr><3>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/l6tD97deum-o]
+[mHlyb_rywAuD#0] ^Un<det><f><sg><nom><nom>{^Un<det><ind><3><4>$}$ ^nom_adj<SN><mf><sg><nom><nom>{^kuraĝa<adj><3><4>$ ^bubo<n><2><3><4>$}$
+[/mHlyb_rywAuD]
+[n0mvxva_AJku#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pres><p1><sg><res>{^kompreni<vbtr><3>$}$
+[/n0mvxva_AJku]
+[o7lXHZKx40Pm#0] ^verbcj<SV><vbntr><pres><p3><sg><res>{^neĝi<vbntr><3>$}$
+[/o7lXHZKx40Pm]
+[oeueekSXYXB3#0] ^Son<det><mf><pl><nom><nom>{^Lia<det><pos><3><4>$}$ ^nom<SN><f><pl><nom><nom>{^demando<n><3><4>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbntr><pri><p3><pl><moviment>{^alveni<vbntr><past>$ ^kompense<adv>$}$
+[/oeueekSXYXB3]
+[p-CAE5GbVquu#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj_perif<SV><vbntr><past><p3><sg><moviment>{^esti<vbser><3>$ ^alveni<vbntr><pp3><sg>$}$ ^adv<adv>{^tie<adv>$}$
+[/p-CAE5GbVquu]
+[pGajYSFNpODU#0] ^ne<adv>{^Ne<adv>$}$ ^adv<adv>{^multe<adv>$}$ ^verbcj_perif<SV><vbtr><inf><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3>$}$
+[/pGajYSFNpODU]
+[ppL68u_drrvz#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbntr><past><p3><sg><moviment>{^esti<vbser><3>$ ^alveni<vbntr><pp3><sg>$}$
+[/ppL68u_drrvz]
+[qNK757RwnP2e#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^son<det><m><sg><nom><nom>{^lia<det><pos><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^amaskomunikila<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/qNK757RwnP2e]
+[qOrw4rvPw28P#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^son<det><m><sg><nom><nom>{^lia<det><pos><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^kaj<cnjcoo>$ ^grava<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/qOrw4rvPw28P]
+[qkk7JSor24xa#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj_perif<SV><vbtr><past><p1><sg><res>{^esti<vbser><3>$ ^havi<vbtr><pp3><sg>$}$
+[/qkk7JSor24xa]
+[qy_fPbs3WiJE#0] ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbntr><past><p3><sg><res>{^esti<vbser><3>$ ^neĝi<vbntr><pp3><sg>$}$
+[/qy_fPbs3WiJE]
+[qztb3C-oxp72#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^multe<adv>$}$ ^verbcj_perif<SV><vbtr><past><p1><sg><res>{^esti<vbser><3>$ ^havi<vbtr><pp3><sg>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/qztb3C-oxp72]
+[r3alC1pKW2_g#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><pres><p1><sg><res>{^havi<vbtr><3>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/r3alC1pKW2_g]
+[rEPdNOVO0u9r#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj_perif<SV><vbtr><inf><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/rEPdNOVO0u9r]
+[rR6E0APzGTfl#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbntr><pri><p1><sg><moviment>{^alveni<vbntr><past>$}$
+[/rR6E0APzGTfl]
+[rTjzzpB2jEbF#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p3><pl><res>{^esti<vbser><3>$ ^havi<vbtr><pp3><pl>$}$
+[/rTjzzpB2jEbF]
+[szeBe64_1xgQ#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj<SV><vbntr><pri><p1><sg><moviment>{^alveni<vbntr><past>$}$ ^adv<adv>{^tie<adv>$}$
+[/szeBe64_1xgQ]
+[ue15rtsHyPXM#0] ^Son<det><mf><pl><nom><nom>{^Lia<det><pos><3><4>$}$ ^nom<SN><f><pl><nom><nom>{^demando<n><3><4>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><pres><p3><pl><res>{^esti<vbser><3>$}$ ^ĉiam<adv>{^ĉiam<adv>$}$ ^pp<SA><f><pl><nom><nom>{^solvi<vbtr><pp><3><4>$}$
+[/ue15rtsHyPXM]
+[ukJ-lxKVoDxC#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj<SV><vbtr><ger><res>{^kompreni<vbtr><3>$}$
+[/ukJ-lxKVoDxC]
+[umd51QrLKlZk#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^le<det><m><sg><nom><nom>{^la<det><def><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/umd51QrLKlZk]
+[v-jC9xaieOoX#0] ^prpers<SN><subj><p3><m><pl>{^Prpers<prn><2><p3><m><pl>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj_perif<SV><vbtr><past><p3><pl><res>{^esti<vbser><3>$ ^kompreni<vbtr><pp3><pl>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/v-jC9xaieOoX]
+[vVk7LF0W_2vN#0] ^Un<det><f><sg><nom><nom>{^Un<det><ind><3><4>$}$ ^nom_adj<SN><f><sg><nom><nom>{^alta<adj><3><4>$ ^bubo<n><2><3><4>$}$
+[/vVk7LF0W_2vN]
+[va9HZjm-eqRk#0] ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbtr><past><p3><sg><res>{^povi<vbtr><3>$ ^neĝi<vbntr><inf>$}$
+[/va9HZjm-eqRk]
+[w4PfhQvsEFhg#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj_perif<SV><vbtr><inf><res>{^esti<vbser><3>$ ^havi<vbtr><pp3>$}$
+[/w4PfhQvsEFhg]
+[wrR2HydMMhWm#0] ^ne<adv>{^Ne<adv>$}$ ^verbcj_perif<SV><vbntr><inf><moviment>{^esti<vbser><3>$ ^alveni<vbntr><pp3>$}$
+[/wrR2HydMMhWm]
+[xEmoZHUYSK6q#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><past><p1><sg><res>{^esti<vbser><past>$}$ ^pp<SA><m><sp><nom><nom>{^kompreni<vbtr><pp><3><4>$}$
+[/xEmoZHUYSK6q]
+[xSon12xkaZ0J#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbntr><pres><p3><sg><moviment>{^alveni<vbntr><3>$}$
+[/xSon12xkaZ0J]
+[x_xto68qDjVf#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^vidi<vbtr><past>$}$ ^le<det><m><sg><nom><nom>{^la<det><def><3><4>$ ^plej<adv>$}$ ^nom_adj<SN><m><sg><nom><nom>{^granda<adj><3><4>$ ^kaj<cnjcoo>$ ^grava<adj><3><4>$ ^sukceso<n><3><4>$}$^.<sent>{^.<sent>$}$
+[/x_xto68qDjVf]
+[yJRWH8ont2Jr#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$}$ ^verbcj<SV><vbser><past><p1><sg><res>{^esti<vbser><past>$}$ ^bone<preadv>{^bone<preadv>$}$ ^pp<SA><m><sp><nom><nom>{^kompreni<vbtr><pp><3><4>$}$
+[/yJRWH8ont2Jr]
+[yorhvNpCkE4M#0] ^prpers<SN><subj><p1><mf><sg>{^Prpers<prn><2><p1><mf><sg>$}$ ^ne<adv>{^ne<adv>$ ^bone<preadv>$}$ ^verbcj<SV><vbtr><pri><p1><sg><res>{^kompreni<vbtr><past>$}$ ^prn_nosubj<SN><obj><sg><nom><nom>{^prpers<prn><2><p3><m><3>$}$
+[/yorhvNpCkE4M]
+[zYCyXm-maqBu#0] ^ne<adv>{^Ne<adv>$}$ ^inf<SV><vbtr><inf>{^kompreni<vbtr><3>$}$
+[/zYCyXm-maqBu]
