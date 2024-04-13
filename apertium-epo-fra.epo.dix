@@ -21447,6 +21447,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
     <e lm="kabla televido">                 <p><l>kablajn<b/>televidojn</l><r>kabla<b/>televido<s n="n"/><s n="pl"/><s n="acc"/></r></p></e>
     <e lm="kabla televido">                 <p><l>kablan<b/>televidon</l><r>kabla<b/>televido<s n="n"/><s n="sg"/><s n="acc"/></r></p></e>
     <e lm="kabla televido">                 <p><l>kablan<b/>televidon</l><r>kabla<b/>televido<s n="n"/><s n="sp"/><s n="acc"/></r></p></e>
+    <e lm="kablita">                        <i>kablit</i><par n="a__adj"/></e>
     <e lm="kablo">                          <i>kabl</i><par n="o__n"/></e>
     <e lm="kablogramo">                     <i>kablogram</i><par n="o__n"/></e>
     <e lm="kablotramo">                     <i>kablotram</i><par n="o__n"/></e>
@@ -38158,6 +38159,7 @@ la traduko povas atribui al ili eraran pluralon (temas esence pri propraj nomoj,
     <e lm="retteroristo">                   <i>retterorist</i><par n="ino__n"/></e>
     <e lm="retumejo">                       <i>retumej</i><par n="o__n"/></e>
     <e lm="retumi">                         <i>retum</i><par n="i__vblex"/></e>
+    <e lm="retumilo">                       <i>retumil</i><par n="o__n"/></e>
     <e lm="returne">                        <i>return</i><par n="e__adv"/></e>
     <e lm="retuŝi">                         <i>retuŝ</i><par n="i__vbtr"/></e>
     <e lm="retuŝo">                         <i>retuŝ</i><par n="o__n"/></e>
